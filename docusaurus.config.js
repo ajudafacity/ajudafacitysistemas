@@ -23,7 +23,7 @@ const config = {
   organizationName: 'ajudafacity', // Usually your GitHub org/user name.
   projectName: 'ajudafacitysistemas', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,                 // Remove a barra no final das URLs
   deploymentBranch: 'gh-pages',         // Branch usada para deploy
@@ -94,7 +94,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          { to: '/admin/', label: 'Admin', position: 'right' },
+          { href: '/ajudafacitysistemas/admin/index.html', label: 'Admin', position: 'right' }, 
         ],
       },
       footer: {
