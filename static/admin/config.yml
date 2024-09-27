@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: ajudafacity/ajudafacitysistemas
+  branch: main
+  auth_type: implicit
+  app_id: Ov23liVx7DEbai6Og3mE
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "docs"
+    label: "Documentação"
+    label_singular: "Documento"
+    description: "Seção de documentação do site"
+    folder: "docs"
+    create: true
+    slug: "{{slug}}"
+    extension: "mdx"
+    format: "frontmatter"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }

@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facitysistemas', // Usually your GitHub org/user name.
+  organizationName: 'ajudafacity', // Usually your GitHub org/user name.
   projectName: 'ajudafacitysistemas', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -94,6 +94,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          { to: '/admin/', label: 'Admin', position: 'right' },
         ],
       },
       footer: {
