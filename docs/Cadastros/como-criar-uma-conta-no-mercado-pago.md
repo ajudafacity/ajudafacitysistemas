@@ -18,7 +18,7 @@ Temos o prazer de anunciar uma **novidade incrível** para facilitar ainda mais 
 
 **Além disso, oferecemos:**
 
-- **Taxa competitiva:** para cada transação PIX realizada pelo Mercado Pago, você paga apenas **1,5%**, uma das taxas mais baixas do mercado.
+- **Taxa competitiva:** Para cada transação PIX realizada pelo Mercado Pago, você paga apenas **1,5%**, uma das taxas mais baixas do mercado.
 - **Suporte dedicado:** nossa equipe de especialistas está à disposição para te auxiliar na ativação da integração e te orientar em qualquer dúvida que você tenha.
 
 **Para habilitar essa funcionalidade em sua conta, basta entrar em contato conosco!**
@@ -31,7 +31,7 @@ Como criar uma conta no **Mercado Pago** como Pessoa Física:
 
 **iOS:** App Store: [Clique aqui](https://apps.apple.com/br/app/mercado-pago-cuenta-digital/id925436649?l=en-GB) 👈
 
-![](images/2edit.png)
+![](images/2EDIT.png)
 
 Após baixar o **app** comece a criar sua conta seguindo esses passos abaixo 👇
 
@@ -50,7 +50,7 @@ Após baixar o **app** comece a criar sua conta seguindo esses passos abaixo �
 
 ## Criando uma conta no Mercado Pago como Pessoa Jurídica:
 
-![](images/2edit.png)
+![](images/02edit.png)
 
 **Criar sua conta é rápido e fácil:**
 
