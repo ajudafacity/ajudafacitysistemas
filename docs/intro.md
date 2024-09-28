@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Tutorial Intro Teste!
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
@@ -10,7 +10,7 @@ Let's discover **Docusaurus in less than 5 minutes**.
 
 Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Or **try Docusaurus immediately** with [**docusaurus.new**](https://docusaurus.new).
 
 ### What you'll need
 
