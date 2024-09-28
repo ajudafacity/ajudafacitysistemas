@@ -94,8 +94,7 @@ const config = {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
-          { href: '/ajudafacitysistemas/admin/index.html', label: 'Admin', position: 'right' }, 
+          },         
         ],
       },
       footer: {
