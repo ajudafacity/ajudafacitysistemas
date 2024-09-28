@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Congratulations!
+# Parabéns!
 
 You have justiiiiiiiiiiiiiiii learned the **basics of Docusaurus** and made some changes to the **initial template**.
 
