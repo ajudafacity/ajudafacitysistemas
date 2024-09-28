@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Ajuda Facity Sistemas',
+  tagline: 'Ajuda Facity Sistemas',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -75,11 +75,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/facity-social-card.jpg',
       navbar: {
         //title: 'Ajuda Facity Sistemas',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Ajuda Facity Sistemas',
           src: 'img/logo.svg',
           srcDark: 'img/logowhite.svg', // Logo para o modo escuro
         },
@@ -111,19 +111,19 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Redes',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Nosso site',
+                href: 'https://www.facity.com.br',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/facitysistemas',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/facitysistemas/',
               },
             ],
           },
@@ -132,12 +132,12 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                href: 'https://blog.facity.com.br',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              // {
+              //   label: 'GitHub',
+              //   href: 'https://github.com/facebook/docusaurus',
+              // },
             ],
           },
         ],
