@@ -16,6 +16,7 @@ Or **try Docusaurus immediately** with [**docusaurus.new**](https://docusaurus.n
 
 - [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+  - [**https://www.facity.com.br**](https://www.facity.com.br)
 
 ## Generate a new site
 
