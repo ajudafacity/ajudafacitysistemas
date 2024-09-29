@@ -1,0 +1,38 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Redes": {
+    "message": "Redes",
+    "description": "The title of the footer links column with title=Redes in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  },
+  "link.item.label.Nosso site": {
+    "message": "Nosso site",
+    "description": "The label of footer link with label=Nosso site linking to https://www.facity.com.br"
+  },
+  "link.item.label.Facebook": {
+    "message": "Facebook",
+    "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/facitysistemas"
+  },
+  "link.item.label.Instagram": {
+    "message": "Instagram",
+    "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/facitysistemas/"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to https://blog.facity.com.br"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 My Project, Inc. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Cadastros": {
+    "message": "Cadastros",
+    "description": "The label for category Cadastros in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Facity POS": {
+    "message": "Facity POS",
+    "description": "The label for category Facity POS in sidebar tutorialSidebar"
+  }
+}
