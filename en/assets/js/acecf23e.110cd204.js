@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkajudafacitysistemas=self.webpackChunkajudafacitysistemas||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/ajudafacitysistemas/en/blog","blogTitle":"Blog","authorsListPath":"/ajudafacitysistemas/en/blog/authors"}')}}]);
