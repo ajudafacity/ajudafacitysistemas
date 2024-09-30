@@ -8,6 +8,8 @@ Let's discover **Docusaurus in less than 5 minutes**. [https://facity.com.br](ht
 
 <https://facity.com.br>
 
+[https://facity.com.br/](https://facity.com.br)
+
 ## Getting Started
 
 Get started by **creating a new site**.
