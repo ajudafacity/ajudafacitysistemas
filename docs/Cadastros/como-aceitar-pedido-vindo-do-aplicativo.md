@@ -21,10 +21,10 @@ coverImage: "Copia-de-Data-Analytics-For-Your-Business-Capa-para-Facebook-1640-�
 
 - Imprime automaticamente (você pode mudar essa configuração se quiser no sistema **Facity Controle** indo em configurações de impressão)
 - Clicando nesses **ícones em azu**l você pode:
-    - **Imprimir uma segunda via**
-    - **Editar produtos**
-    - **Mudar a forma de pagamento**
-    - **Mudar o Motoboy** (Entregador)
+  - **Imprimir uma segunda via**
+  - **Editar produtos**
+  - **Mudar a forma de pagamento**
+  - **Mudar o Motoboy** (Entregador)
 
 ![](images/Captura-de-tela-2022-10-31-164258.png)
 
@@ -43,3 +43,4 @@ coverImage: "Copia-de-Data-Analytics-For-Your-Business-Capa-para-Facebook-1640-�
 - Após o pagamento clique em **FINALIZAR** o pedido
 
 ![](images/31_10_2022-17_52_21-1024x484.png)
+
