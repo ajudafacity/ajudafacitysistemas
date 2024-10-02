@@ -58,9 +58,6 @@ Clique em **"Sim"** para adicionar.
 
 <figcaption>
 
-  
-
-
 </figcaption>
 
 </figure>
