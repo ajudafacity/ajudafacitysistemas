@@ -3,8 +3,8 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches: [main]
-    paths:
-      - 'docs/version.md'  # Apenas quando o arquivo de versão for alterado
+    # paths:
+    #   - 'docs/version.md'  # Apenas quando o arquivo de versão for alterado
 
 permissions:
   contents: write
