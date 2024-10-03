@@ -13,6 +13,11 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
+   - name: Teste enviorments
+    env:
+      SUPER_SECRET: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
+    run: 
+      echo "$env:SUPER_SECRET"
 
       - name: Checkout code
         uses: actions/checkout@v3
