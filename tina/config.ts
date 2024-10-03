@@ -17,21 +17,24 @@ export default defineConfig({
 
   build: {
     outputFolder: "admin",
-    publicFolder: "public",
+    publicFolder: "static",
   },
   media: {
     tina: {
       mediaRoot: "",
-      publicFolder: "public",
+      publicFolder: "static",
     },
   },
-  // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "docs",
+        label: "Docs",
+        path: "docs",
+        format: "md", // Aceita arquivos markdown
+        match: {
+          include: "**/*", // Inclui todos os arquivos e subpastas
+        },
         fields: [
           {
             type: "string",
