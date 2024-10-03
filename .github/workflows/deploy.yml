@@ -13,7 +13,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-     - name: Debug secrets
+      - name: Debug secrets
         env:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
         run: |
