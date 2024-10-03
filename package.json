@@ -30,10 +30,7 @@
     "@docusaurus/module-type-aliases": "3.5.2",
     "@docusaurus/types": "3.5.2",
     "@tinacms/cli": "^1.6.8",
-<<<<<<< HEAD
     "@types/node": "^22.7.4",
-=======
->>>>>>> ee3446c3c4c11a552049cf17eccd05c9fee0c9d9
     "gh-pages": "^6.1.1"
   },
   "browserslist": {
