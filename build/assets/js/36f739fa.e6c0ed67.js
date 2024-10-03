@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkajudafacitysistemas=self.webpackChunkajudafacitysistemas||[]).push([[2558],{27995:a=>{a.exports=JSON.parse('{"tags":[{"label":"editar","permalink":"/ajudafacitysistemas/docs/tags/editar","count":1},{"label":"usuario","permalink":"/ajudafacitysistemas/docs/tags/usuario","count":1}]}')}}]);
