@@ -25,6 +25,9 @@ jobs:
         run: npm ci || npm install
 
       - name: Build site
+        env:
+           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
+           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
         run: npm run build
 
       - name: Deploy to GitHub Pages

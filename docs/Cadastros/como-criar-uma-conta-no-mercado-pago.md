@@ -33,7 +33,7 @@ Como criar uma conta no **Mercado Pago** como Pessoa Física:
 
 ![](images/2EDIT.png)
 
-Após baixar o **app** comece a criar sua conta seguindo esses passos abaixo 👇
+Após baixar o **app** comece a criar sua conta seguindo esses passos abaixo 
 
 1. **Abra o app e toque em "Criar uma conta".**
 2. **Selecione "Brasil" e "Criar conta pessoal".**
