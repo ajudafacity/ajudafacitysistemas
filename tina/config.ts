@@ -30,11 +30,7 @@ export default defineConfig({
       {
         name: "docs",
         label: "Docs",
-        path: "docs",
-        format: "md", // Aceita arquivos markdown
-        match: {
-          include: "**/*", // Inclui todos os arquivos e subpastas
-        },
+        path: "docs", // Caminho para a pasta "docs"
         fields: [
           {
             type: "string",
