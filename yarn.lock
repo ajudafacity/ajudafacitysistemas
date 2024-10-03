@@ -3674,7 +3674,11 @@
   dependencies:
     "@types/node" "*"
 
+<<<<<<< HEAD
 "@types/node@*", "@types/node@^22.7.4", "@types/node@>= 14", "@types/node@>=13":
+=======
+"@types/node@*", "@types/node@>= 14", "@types/node@>=13":
+>>>>>>> ee3446c3c4c11a552049cf17eccd05c9fee0c9d9
   version "22.7.4"
   resolved "https://registry.npmjs.org/@types/node/-/node-22.7.4.tgz"
   integrity sha512-y+NPi1rFzDs1NdQHHToqeiX2TIS79SWEAw9GYhkkx8bD0ChpfqC+n2j5OXOCpzfojBEBt6DnEnnG9MY0zk1XLg==
