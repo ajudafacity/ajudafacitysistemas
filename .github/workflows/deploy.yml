@@ -13,6 +13,8 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Verificar Variáveis de Ambiente
+        run: echo ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
       - name: Checkout code
         uses: actions/checkout@v3
 
@@ -27,7 +29,7 @@ jobs:
       - name: Build site
         env:
            NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
-           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+           NEXT_PUBLIC_TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
         run: npm run build && npx tinacms build
 
       - name: Deploy to GitHub Pages
