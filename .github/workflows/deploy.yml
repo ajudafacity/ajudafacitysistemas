@@ -13,12 +13,14 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-   - name: Teste enviorments
-    env:
-      SUPER_SECRET: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
-    run: 
-      echo "$env:SUPER_SECRET"
-
+     - name: Debug secrets
+        env:
+          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
+          NEXT_PUBLIC_TINA_TOKEN: ${{ secrets.NEXT_PUBLIC_TINA_TOKEN }}
+        run: |
+          echo "Client ID: $NEXT_PUBLIC_TINA_CLIENT_ID"
+          echo "Token: $NEXT_PUBLIC_TINA_TOKEN"
+          
       - name: Checkout code
         uses: actions/checkout@v3
 
@@ -30,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: npm ci || npm install
 
-      - name: Build site       
+      - name: Build site
         run: npm run build
 
       - name: Deploy to GitHub Pages
