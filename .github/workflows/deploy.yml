@@ -28,7 +28,7 @@ jobs:
         env:
            NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
            TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-        run: npm run build
+        run: npm run build && npx tinacms build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
