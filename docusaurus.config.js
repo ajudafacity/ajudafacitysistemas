@@ -70,14 +70,14 @@ const config = {
       }),
     ],
   ],
-  plugins: [
+  plugins: [   
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         hashed: true,
         language: "pt",
       },
-    ],
+    ]
   ],
   // themes: [
   //   ['@docusaurus/theme-classic', {customCss: [require.resolve('./src/css/custom.css')]}],

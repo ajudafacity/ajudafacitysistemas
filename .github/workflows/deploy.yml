@@ -13,12 +13,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Debug secrets
-        env:
-          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
-        run: |
-          echo "Client ID: $NEXT_PUBLIC_TINA_CLIENT_ID"
-
+     
       - name: Checkout code
         uses: actions/checkout@v3
 
