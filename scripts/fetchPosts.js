@@ -60,13 +60,13 @@ async function fetchPosts() {
 title: "${post.title}"
 ---
 
-
 <>
   <div dangerouslySetInnerHTML={{ __html: \`
-    ${post.content}
+    ${post.content
+      .replace(/<img /g, '<img style="max-width: 100%; height: auto;" ')
+      .replace(/<iframe /g, '<iframe style="width: 100%; height: auto; aspect-ratio: 16/9;" ')}
   \` }} />
-</>
-`;
+</>`;
 
         fs.writeFileSync(filePath, content);
         console.log(`Post salvo: ${filePath}`);
