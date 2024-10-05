@@ -30,7 +30,7 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  return <Redirect to="/docs/intro" />;
+  return <Redirect to="/ajudafacitysistemas/docs/intro" />;
 }
 
 // export default function Home() {
