@@ -1,0 +1,7 @@
+{
+  "title": "Como editar um usuário?",
+  "content": "Passo a passo para editar um usuário no Facity Controle:\n\nPasso 1: Abra o Facity Controle em seu computador\n\n * Abra o aplicativo Facity Controle no seu computador\n * Insira o nome da empresa, login e senha (lembrando que tudo deve ser inserido em letras minúsculas)\n\nPasso 2: Acesse a opção de usuários\n\n * No menu lateral à esquerda, clique na opção “Usuários”\n\nPasso 3: Selecione o usuário que deseja editar\n\n * Na lista de usuários, clique no ícone verde localizado ao lado do nome do usuário que deseja editar\n\n * Clique em PRÓXIMA\n\nPasso 4: Insira uma nova senha (opcional)\n\n * Caso deseje alterar a senha do usuário, insira a nova senha nos dois campos onde está escrito “Senha” e “Repita a senha”\n\nPasso 5: Clique em “Próxima”\n\n * Depois de inserir as informações necessárias, clique em “Próxima”\n\nPasso 6: Edite as permissões do usuário (opcional)\n\n * Se desejar editar as permissões do usuário, clique em “Detalhes”\n * Altere as permissões conforme necessário e clique em “Salvar” quando terminar\n\nPasso 7: Clique em “Concluir”\n\n * Depois de editar as informações necessárias, clique em “Concluir”\n\nPronto! O usuário foi editado com sucesso. Com esses simples passos, você pode editar um usuário no Facity Controle de forma fácil\ne rápida, garantindo que as informações estejam sempre atualizadas.",
+  "categories": [
+    "Cadastros"
+  ]
+}

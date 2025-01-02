@@ -1,0 +1,7 @@
+{
+  "title": "Como sortear um pedido?",
+  "content": "Passo 1: Acesse o Facity Controle\n\nAbra o Facity Controle em seu computador e insira o nome da empresa, login e senha. Certifique-se de que tudo esteja em letras\nminúsculas.\n\nPasso 2: Acesse o menu de marketing\n\nUma vez logado no Facity Controle, clique em marketing no menu lateral esquerdo.\n\n\n\nPasso 3: Acesse a página de pedidos\n\nNo menu lateral esquerdo, clique em “PEDIDOS” para acessar a página de pedidos.\n\n * Selecione a data de início e a data final\n * Para quais métodos de pagamentos o sorteio vai valer\n * Origem (App, POS ou todos)\n * Você pode filtrar quais clientes vão poder estar no sorteio marcando e desmarcando as opções (mesas, delivery, retirada, venda\n   direta)\n\n\n\nPasso 4: Acesse a opção de sorteio\n\nNa página de detalhes do pedido, clique na opção “SORTEAR” localizada no canto inferior direito.\n\nPasso 5: Realize o sorteio\n\nAo clicar em “SORTEAR”, o sistema irá sortear automaticamente um número entre 1 e o número de itens no pedido. O item\ncorrespondente ao número sorteado será o vencedor do sorteio.\n\nPasso 6: Informe o cliente sobre o resultado\n\nDepois de realizar o sorteio, informe o cliente vencedor sobre o resultado. Você pode fazer isso entrando em contato diretamente\ncom ele ou enviando uma mensagem pelo aplicativo Facity.",
+  "categories": [
+    "Cadastros"
+  ]
+}

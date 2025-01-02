@@ -1,0 +1,7 @@
+{
+  "title": "Como cadastrar seu Estoque no Facity Controle?",
+  "content": "Passo 1: Acesse o Facity Controle\n\n * Abra o Facity Controle no seu computador.\n * Faça login com seu usuário e senha, ambos em letras minúsculas.\n\nPasso 2: Acesse o menu de Estoque\n\n * Clique em “Estoque”.\n * Selecione “Matérias-Primas”.\n\nPasso 3: Adicione uma nova matéria-prima\n\n * Clique em “Novo”.\n\nPasso 4: Cadastre cada produto\n\n * Preencha as informações: Nome do produto, quantidade e unidade.\n * Clique em “Ok” para salvar.\n * Repita para todos os produtos.\n\nFaça esse processo de cadastramento com todos os produtos do seu estoque primeiro para depois vincular ele ao produto já\ncadastrado no sistema.\n\nExemplo de como colocar a “Quantidade”:\n\nPasso 5: Vincule o estoque aos produtos\n\n * Clique em “Produtos”.\n\n * Encontre o produto desejado e clique em “Editar”.\n\nPasso 6: Edite a entre em Ficha Técnica\n\n * Clique em “Ficha Técnica”.\n\n * Clique em “Novo”.\n\nPasso 7: Adicione a matéria-prima\n\n * Selecione a matéria-prima correspondente.\n * Insira a quantidade a ser diminuída (1.000 é igual a 1).\n * O produto está agora vinculado ao seu estoque.\n\n\n\nPasso 8: Adicione entradas de estoque\n\n * Vá para “Estoque” > “Entradas” > “Novo” > “Matérias-Primas”.\n\n * Clique em “Inserir” e preencha as informações.\n\nPronto! Agora você sabe como cadastrar seu estoque no Facity Controle.",
+  "categories": [
+    "Cadastros"
+  ]
+}

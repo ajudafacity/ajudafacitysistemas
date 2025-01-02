@@ -1,0 +1,7 @@
+{
+  "title": "Como limitar permissões dos usuários?",
+  "content": "Passo a passo sobre como limitar permissões dos usuários no sistema:\n\nPasso 1: Abra o Facity Controle em seu computador\n\nDigite o nome da empresa, login e senha, lembrando que tudo deve ser em letras minúsculas.\n\nPasso 2: Abra o menu\n\nNo menu, clique em “cardápio” e, em seguida, clique em “usuários”.\n\nPasso 3: Escolha o usuário que deseja alterar as permissões e clique no ícone verde para editar\n\nPasso 4: Depois que clicar em “Editar”, clique em “Próxima” até chegar na ultima opção.\n\nSegue um exemplo nas imagens abaixo:\n\nPasso 5: Escolha a função e clique em “detalhes”.\n\nSelecione a função que deseja limitar as permissões.\n\nPasso 6: Desmarque as permissões que deseja limitar.\n\nVisualize as permissões atuais do usuário e desmarque as que deseja limitar. Por exemplo, se não quiser que o usuário acesse uma\nfunção do sistema específica, desmarque a opção correspondente.\n\nPasso 6: Salve as alterações. Clique em “OK” para salvar as alterações e limitar as permissões do usuário.\n\nPronto! Agora você sabe como limitar as permissões dos usuários em um sistema usando o Facity Controle. Seguindo esses passos, é\npossível garantir a segurança das informações da sua empresa.",
+  "categories": [
+    "Cadastros"
+  ]
+}

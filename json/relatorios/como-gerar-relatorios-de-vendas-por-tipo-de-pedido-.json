@@ -1,0 +1,7 @@
+{
+  "title": "Como gerar relatórios de vendas por tipo de pedido?",
+  "content": "Neste post, vamos mostrar como você pode gerar esses relatórios usando o Facity Controle.\n\nPasso 1: Abra o Facity Controle em seu computador\n\nO primeiro passo é abrir o Facity Controle em seu computador. Certifique-se de ter o programa instalado e que você tenha o nome da\nempresa, login e senha para acessar. Lembrando que é tudo em letras minúsculas.\n\nPasso 2: Clique em RELATÓRIOS no menu lateral a esquerda\n\nApós fazer login, você será direcionado para a página inicial do Facity Controle. No menu lateral à esquerda, clique em\n“Relatórios”.\n\nPasso 3: Clique em VENDAS POR TIPO DE PEDIDO\n\nDepois de clicar em “Relatórios”, você verá uma lista de opções. Selecione “Vendas por Tipo de Pedido”.\n\nPasso 4: Escolha uma data inicial e uma data final\n\nNa página de “Vendas por Tipo de Pedido”, escolha uma data inicial e uma data final. Lembre-se de que essas datas só podem ser\nfiltradas em um período de 30 dias entre cada uma.\n\nPasso 5: Escolha o tipo de pedido Escolha o tipo de pedido que você deseja analisar. Você pode escolher entre “Delivery”, “Mesa”,\n“Venda Direta” ou “Retirada”.\n\nPasso 6: Clique em FILTRAR para gerar o relatório de vendas por tipo de pedido\n\nCom esses passos simples, você pode gerar relatórios de vendas por tipo de pedido no Facity Controle.",
+  "categories": [
+    "Relatórios"
+  ]
+}

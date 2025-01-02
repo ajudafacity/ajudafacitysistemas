@@ -1,0 +1,7 @@
+{
+  "title": "Como criar chave do Google Maps e configurar taxa de entrega (Km)?",
+  "content": "Neste post, vou explicar de forma simples e objetiva como criar uma chave do Google Maps e configurar a taxa de entrega (Km) no\nFacity Controle. Com essas configurações, você poderá utilizar o Google Maps para calcular a distância das entregas e definir a\ntaxa correspondente. Vamos começar?\n\n\n 1. Criação da chave do Google Maps:\n\nPara criar a chave do Google Maps, assista ao vídeo explicativo acima ou peça ajuda a um atendente da Facity Sistemas. Com a chave\ncriada, siga os passos abaixo para adicioná-la no Facity Controle:\n\n * Acesse o Menu do Facity Controle\n * Clique em Configurações\n * Busque por “Maps” no campo de pesquisa\n * Clique em Editar no ícone verde e cole a chave gerada nas duas configurações que estão com o nome “googlemapsapkey”\n\n 2. Configuração da taxa de entrega (Km):\n\n * Abra o Facity Controle em seu computador\n * Faça login com o nome da empresa, login e senha (tudo em letras minúsculas)\n\n\n\n * Abra o Menu Administrativo e clique em Configurações\n * Busque por “Taxas de entrega (Km)”\n\n * Selecione NOVO\n\n * Coloque apenas valores numéricos no campo onde pede DISTÂNCIA (Km)\n * Coloque o valor e clique em OK para salvar.\n\nExemplo de Taxa de entrega (Km) na imagem abaixo:\n\nAgora que você já sabe como criar a chave do Google Maps e configurar a taxa de entrega (Km), poderá utilizar essas\nfuncionalidades para otimizar o seu serviço de delivery.",
+  "categories": [
+    "Cadastros"
+  ]
+}

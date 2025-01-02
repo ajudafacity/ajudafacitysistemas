@@ -1,0 +1,7 @@
+{
+  "title": "Como aceitar pedido do aplicativo?",
+  "content": " * Abra o Facity POS em seu computador\n * Coloque o nome da empresa, login e senha. Não esqueça que tudo tem que ser em letras minúsculas.\n\n * Quando chegar pedidos do aplicativo logo o Facity POS vai notificar avisando\n * Em pedidos onde a seta está indicando vai ficar todos aqueles que chegarem\n * Clique em ACEITAR e o seu pedido vai para produção\n\n * Imprime automaticamente (você pode mudar essa configuração se quiser no sistema Facity Controle indo em configurações de\n   impressão)\n * Clicando nesses ícones em azul você pode:\n   * Imprimir uma segunda via\n   * Editar produtos\n   * Mudar a forma de pagamento\n   * Mudar o Motoboy (Entregador)\n\n * Após clicar em DESPACHAR confirme essa ação\n\n * Selecione SIM ou NÃO para informar um entregador\n\n * Selecione um entregador clicando no + em azul\n\n * Após o pagamento clique em FINALIZAR o pedido\n\n",
+  "categories": [
+    "Cadastros"
+  ]
+}

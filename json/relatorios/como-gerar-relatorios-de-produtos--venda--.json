@@ -1,0 +1,7 @@
+{
+  "title": "Como gerar relatórios de produtos (venda)?",
+  "content": "Passo a passo para gerar relatórios de venda de produtos:\n\nPasso 1: Abra o Facity Controle no seu computador.\n\nPasso 2: Insira o nome da empresa, login e senha. Verifique se as informações estão em letras minúsculas.\n\nPasso 3: Clique em “Relatórios” no menu lateral à esquerda.\n\nPasso 4: Selecione a opção “Produtos”.\n\nPasso 5: Escolha uma data inicial e uma data final para o período de vendas que você deseja analisar. Lembre-se que só é possível\nfiltrar um período de 30 dias entre cada data.\n\nPasso 6: Você pode selecionar o nome do garçom responsável pelas vendas ou deixar como “todos”.\n\nPasso 7: Clique em “Filtrar” para gerar o relatório de vendas de produtos.\n\nPronto! Agora você pode analisar as informações e dados de vendas de produtos da sua empresa.",
+  "categories": [
+    "Relatórios"
+  ]
+}
