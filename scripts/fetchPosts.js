@@ -54,6 +54,14 @@ async function fetchPosts() {
         fs.ensureDirSync(categoryPath);
 
         const postTitle = sanitizeFileName(post.title);
+
+         // Proteção para não sobrescrever intro.md
+         if (postTitle === 'intro') {
+          console.log(`Arquivo intro.md protegido. Ignorando.`);
+          return;
+        }
+
+        
         const filePath = path.join(categoryPath, `${postTitle}.mdx`);
 
         const content = `---

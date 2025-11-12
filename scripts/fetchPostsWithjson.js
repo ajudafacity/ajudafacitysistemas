@@ -78,6 +78,14 @@ async function fetchPosts() {
 
         // Criar arquivo MDX com HTML formatado
         const postTitle = sanitizeFileName(post.title);
+
+          // Proteção para não sobrescrever intro.md
+          if (postTitle === 'intro') {
+            console.log(`Arquivo intro.md protegido. Ignorando.`);
+            return;
+          }
+
+          
         const filePathMdx = path.join(docsPath, `${postTitle}.mdx`);
 
         const mdxContent = `---

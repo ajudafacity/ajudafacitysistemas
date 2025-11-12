@@ -8,6 +8,46 @@
   ],
   "posts": [
     {
+      "title": "Como adicionar o App do Garçom no IOS?",
+      "content": "Para adicionar o App do Garçom à tela inicial do seu iPhone, siga esses passos rápidos:\n\nPasso 1: Abra a página no Safari:\nAbra o Safari e acesse a página do App do Garçom que você quer adicionar.\n\n\n\n\nPasso 2: Toque no ícone de compartilhamento:\nNo menu que aparece, toque no ícone de compartilhamento (um quadrado com uma seta para cima) e depois em “Adicionar à Tela de\nInício”. \n\n\nPasso 3: Dê um nome ao atalho:\nEscolha um nome para o atalho e toque em “Adicionar”.\n\nPronto! Agora o App do Garçom estará disponível na tela inicial do seu iPhone.\n\n",
+      "link": "https://blog.facity.com.br/como-adicionar-o-app-do-garcom-no-ios/",
+      "categories": [
+        "Configurações"
+      ]
+    },
+    {
+      "title": "Novos atalhos do teclado no Sistema Facity",
+      "content": "A nova atualização do sistema Facity traz atalhos de teclado que tornam o uso da plataforma mais ágil e prático. Confira como\nusá-los:\n\nAbrir o Facity POS:\nPrimeiro, entre no sistema Facity POS.\n\nImprimir uma Comanda:\nPara imprimir rapidamente, pressione as teclas ALT + P no seu teclado.\n\nTransferir uma Mesa:\nQuando precisar transferir uma mesa, basta pressionar ALT + T.\n\nBloquear uma Mesa:\nPara bloquear uma mesa , pressione ALT + B.\n\n\n\n\n\nEsses atalhos são simples, mas vão ajudar a otimizar seu tempo enquanto usa o sistema!",
+      "link": "https://blog.facity.com.br/novos-atalhos-do-teclado-no-sistema-facity/",
+      "categories": [
+        "Configurações"
+      ]
+    },
+    {
+      "title": "Como adicionar vários sabores de refrigerante ao seu combo?",
+      "content": "Este tutorial te guiará passo a passo para incluir opções de refrigerantes em seus combos no Facity Controle.\n\nPasso a Passo:\n\n 1. Faça login com seu nome de usuário e senha. Certifique-se de digitar tudo em letras minúsculas.\n\n * Abra o programa Facity Controle em seu computador.\n\n2. Criação do Produto “Refrigerantes”:\n\n * Acesse a seção de produtos: Clique em “Produtos”.\n * Crie um novo produto: Clique em “Novo produto“.\n\n * Preencha as informações:\n * Nome: “Refrigerantes”\n * Descrição: Uma breve descrição do produto (opcional).\n * Status: Mantenha como “Inativo”\n * Salve: Clique em “OK” para salvar as informações.\n   \n\n3. Criação das Opções de Sabores:\n\n * Edite o produto: Encontre o produto “Refrigerantes” na lista e clique em “Editar”.\n\nCrie um grupo de opções:\n\n * Clique em “Novo”.\n * Clique em “Grupos de Opc”.\n\n * Nomeie o grupo: Por exemplo: “Escolha seu refrigerante”.\n * Defina quantidade mínima e máxima: Escolha a quantidade mínima e máxima de opções que o cliente poderá selecionar.\n\nAdicione as opções:\n\n * Clique em “Opções”.\n * Clique em “Novo Opcional”.\n\n * Digite cada sabor de refrigerante disponível.\n * Lembrando sempre de clicar em “Ok” para salvar.\n\n4. Adição dos Refrigerantes ao Combo:\n\n * Selecione o combo: Vá para a seção “Combos” e escolha o combo que deseja editar ou crie um novo.\n\nAdicione um novo produto ao combo:\n\n * Clique em “Produtos”.\n * Clique em “Novo”.\n\n\n\n * Escolha o produto “Refrigerantes”: Busque pelo produto “Refrigerantes” que você criou e selecione-o.\n * Defina o valor.\n\nParabéns! Você acabou de adicionar opções de refrigerantes ao seu combo no Facity Controle. Agora seus clientes poderão escolher o\nsabor de refrigerante que preferem ao fazer seus pedidos.",
+      "link": "https://blog.facity.com.br/como-adicionar-varios-sabores-de-refrigerante-ao-seu-combo/",
+      "categories": [
+        "Cadastros"
+      ]
+    },
+    {
+      "title": "Como adicionar um novo sabor à sua pizza no Facity Controle?",
+      "content": "Passo a passo simplificado para deixar seu cardápio ainda mais completo:\n\nPasso 1: Abra o Facity Controle em seu computador e faça login com o nome da empresa, login e senha, lembrando que tudo tem que\nser em letras minúsculas.\n\nPasso 2: Clique em “Cardápio” no menu lateral esquerdo e selecione “Produtos” como indicado pela seta na imagem.\n\nPasso 3: Busque o produto “Pizza” na lista e clique em “Editar” no ícone verde.\n\nPasso 4: Adicione o novo sabor:\n\nDentro da edição da pizza, procure a seção “Classes/Sabores”. Selecione a classe onde o novo sabor se encaixa e clique em\n“Sabores”\n\nPasso 5: Crie um novo sabor:\n\nClique em “Novo sabor” e preencha as informações solicitadas, como nome do sabor e ingredientes\n\nSalve as alterações: Após inserir todas as informações, clique em “OK” para salvar o novo sabor e as modificações na pizza.\n\nProntinho! Agora você pode oferecer mais uma deliciosa opção aos seus clientes.\n\n",
+      "link": "https://blog.facity.com.br/como-adicionar-um-novo-sabor-a-sua-pizza-no-facity-controle/",
+      "categories": [
+        "Cadastros"
+      ]
+    },
+    {
+      "title": "Como Alterar os Preços das Pizzas no Facity Controle?",
+      "content": "Quer ajustar os preços das suas pizzas no Facity Controle? É mais simples do que parece! Siga este passo a passo:\n\n\n\n1. Abra o Facity Controle em seu computador\n\n * Digite o nome da empresa, login e senha, lembrando que tudo deve ser em letras minúsculas.\n\n\n\n2. Encontre o Cardápio:\n\n * No menu à esquerda, clique em “Cardápio”.\n * Em seguida, selecione a opção “Produtos“.\n\n3. Localize a Pizza:\n\n * Procure pela pizza que você quer alterar o preço na lista de produtos.\n * Clique no botão “Editar”\n\n4. Edite o Preço:\n\n * Uma nova página irá abrir.\n * Procure a seção de “Preços”.\n * Digite o novo valor que você deseja para a pizza.\n * Clique em “Salvar”.\n\nE pronto! Você acabou de atualizar o preço da sua pizza. Repita esses passos para qualquer outra pizza que você queira ajustar.\n\n",
+      "link": "https://blog.facity.com.br/como-alterar-os-precos-das-pizzas-no-facity-controle/",
+      "categories": [
+        "Cadastros"
+      ]
+    },
+    {
       "title": "Guide with pos.facity.com.br",
       "content": "----------------------------------------------------------------------------------------------------------------------------------\n\n * Created by Suporte Facity Sistemas on 12/10/2024\n * Edit original on dubble [https://dubble.so/guides/guide-with-posfacitycombr-py3ntv3ftwjlbttkgtfb]\n\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n1. GO TO FACITY POS [https://pos.facity.com.br/facitycontrole/login]\n\n\n2. TYPE IN HIGHLIGHT [https://pos.facity.com.br/facitycontrole/login]\n\n\n3. CLICK ON ENTRAR [https://pos.facity.com.br/facitycontrole/login]\n\n\n4. CLICK ON NÃO SELECIONADO [https://pos.facity.com.br/facitycontrole/config]\n\n\n5. CLICK ON 1 [https://pos.facity.com.br/facitycontrole/config]\n\n\n6. CLICK ON HIGHLIGHT [https://pos.facity.com.br/facitycontrole/config]\n\n\n7. CLICK ON CONFIRMAR [https://pos.facity.com.br/facitycontrole/config]\n\n\n8. CLICK ON HIGHLIGHT [https://pos.facity.com.br/facitycontrole/tablescontainer]\n\n\n9. CLICK ON HIGHLIGHT [https://pos.facity.com.br/facitycontrole/tablescontainer]\n\n",
       "link": "https://blog.facity.com.br/guide-with-pos-facity-com-br/",
