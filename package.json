@@ -16,7 +16,8 @@
     "fetch-posts-json": "node scripts/fetchPostsWithjson.js",
     "fetch-unified-json": "node scripts/fetchPostUnifiedJson.js",
     "fetch-unified-txt": "node scripts/fetchPostUnifiedTXT.js",
-    "update-manual": "node scripts/fetchPostsWithjson.js"
+    "update-manual": "node scripts/fetchPostsWithjson.js",
+    "check-deploy": "node scripts/verificar-deploy.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",

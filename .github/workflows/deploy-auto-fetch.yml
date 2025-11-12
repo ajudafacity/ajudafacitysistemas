@@ -37,26 +37,15 @@ jobs:
 
       - name: Commit mudanças (se houver novos posts)
         run: |
-          # Verifica se o último commit foi feito pelo bot para evitar loop infinito
-          LAST_COMMIT_AUTHOR=$(git log -1 --pretty=format:'%an')
-          LAST_COMMIT_MSG=$(git log -1 --pretty=%B)
-          
-          if [[ "$LAST_COMMIT_AUTHOR" == "GitHub Action" ]] || [[ "$LAST_COMMIT_MSG" == *"[skip ci]"* ]]; then
-            echo "⚠️ Último commit foi feito pelo bot. Pulando commit automático para evitar loop."
-            echo "ℹ️ Os posts já estão atualizados no último commit do bot."
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/ json/ output/ || true
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update: sincronização com blog WordPress [skip ci]"
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git push origin main || echo "Erro ao fazer push, mas continuando..."
           else
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
-            git add docs/ json/ output/ || true
-            if ! git diff --staged --quiet; then
-              # Usa [skip ci] como proteção adicional
-              git commit -m "Auto-update: sincronização com blog WordPress [skip ci]"
-              git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-              git push origin main || echo "Erro ao fazer push, mas continuando..."
-              echo "✅ Novos posts commitados e enviados"
-            else
-              echo "ℹ️ Nenhuma mudança detectada para commitar"
-            fi
+            echo "Nenhuma mudança detectada para commitar"
           fi
         continue-on-error: true
 
