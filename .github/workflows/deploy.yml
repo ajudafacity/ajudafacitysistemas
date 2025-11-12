@@ -21,25 +21,31 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
+          fetch-depth: 1  # Apenas último commit (mais rápido)
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version:  20.9.0
+          cache: 'npm'  # Cache de dependências para acelerar
 
       - name: Install dependencies
-        run: npm ci || npm install
+        run: npm ci --prefer-offline --no-audit || npm install --prefer-offline --no-audit
+        timeout-minutes: 5  # Timeout de 5 minutos
 
       - name: Buscar posts do blog WordPress
         run: npm run update-manual
         continue-on-error: true # Continua mesmo se houver erro ao buscar posts
+        timeout-minutes: 10  # Timeout de 10 minutos para busca de posts
 
       - name: Commit mudanças (se houver novos posts)
         run: |
+          # Busca histórico completo para verificar último commit
+          git fetch --depth=10 origin main || true
+          
           # Verifica se o último commit foi feito pelo bot para evitar loop infinito
-          LAST_COMMIT_AUTHOR=$(git log -1 --pretty=format:'%an')
-          LAST_COMMIT_MSG=$(git log -1 --pretty=%B)
+          LAST_COMMIT_AUTHOR=$(git log -1 --pretty=format:'%an' 2>/dev/null || echo "")
+          LAST_COMMIT_MSG=$(git log -1 --pretty=%B 2>/dev/null || echo "")
           
           if [[ "$LAST_COMMIT_AUTHOR" == "GitHub Action" ]] || [[ "$LAST_COMMIT_MSG" == *"[skip ci]"* ]]; then
             echo "⚠️ Último commit foi feito pelo bot. Pulando commit automático para evitar loop."
@@ -59,9 +65,11 @@ jobs:
             fi
           fi
         continue-on-error: true
+        timeout-minutes: 3  # Timeout de 3 minutos para commit/push
 
       - name: Build site
         run: npm run build
+        timeout-minutes: 15  # Timeout de 15 minutos para build
 
       - name: Create CNAME file
         run: echo 'manual.facitydelivery.com' > ./build/CNAME  
