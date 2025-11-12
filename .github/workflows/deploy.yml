@@ -4,10 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch: # Permite acionar manualmente
-  # schedule:
-  #   # Executa automaticamente todos os dias às 2h da manhã (UTC)
-  #   # Descomente após testar para ativar execução automática diária
-  #   - cron: '0 2 * * *' # 2h da manhã UTC = 23h (horário de Brasília no horário padrão)
+  schedule:
+    # Executa automaticamente todos os dias às 2h da manhã (UTC)
+    # 2h UTC = 23h (horário de Brasília no horário padrão) ou 22h (horário de verão)
+    - cron: '0 2 * * *'
 
 permissions:
   contents: write

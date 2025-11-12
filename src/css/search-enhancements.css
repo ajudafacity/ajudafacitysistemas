@@ -1,0 +1,46 @@
+/**
+ * Estilos para melhorar a busca com indicação de matches fuzzy
+ */
+
+/* Indica resultados que são matches aproximados */
+.fuzzy-match {
+  border-left: 3px solid var(--ifm-color-warning);
+  padding-left: 12px;
+}
+
+/* Melhora a visualização dos resultados de busca */
+[class*="searchResult"] {
+  transition: all 0.2s ease;
+}
+
+[class*="searchResult"]:hover {
+  background: var(--ifm-color-emphasis-100);
+  transform: translateX(2px);
+}
+
+/* Destaque para termos encontrados (se o plugin suportar) */
+mark {
+  background: var(--ifm-color-warning);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* Melhora o input de busca */
+input[type="search"] {
+  font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+}
+
+input[type="search"]::placeholder {
+  opacity: 0.6;
+}
+
+/* Tooltip informativo sobre busca melhorada */
+.search-hint {
+  font-size: 11px;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 4px;
+  font-style: italic;
+}
+

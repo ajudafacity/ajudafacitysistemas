@@ -70,14 +70,31 @@ const config = {
       }),
     ],
   ],
-  plugins: [   
+  plugins: [
+    // Plugin de busca local melhorado
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         hashed: true,
-        language: "pt",
+        language: ["pt", "en"],
+        // Configurações avançadas para busca melhorada
+        indexBlog: false, // Não indexar blog se não estiver usando
+        indexPages: false, // Não indexar páginas se não necessário
+        // Configurações do FlexSearch para busca fuzzy e tolerante a erros
+        searchResultLimits: 20, // Limite de resultados
+        searchResultContextMaxLength: 50, // Contexto máximo nos resultados
+        explicitSearchResultPath: true,
       },
-    ]
+    ],
+    // Plugin customizado para melhorar busca (normalização de acentos)
+    function(context, options) {
+      return {
+        name: 'search-enhancer-plugin',
+        getClientModules() {
+          return [require.resolve('./src/client-modules/search-enhancer.js')];
+        },
+      };
+    },
   ],
   // themes: [
   //   ['@docusaurus/theme-classic', {customCss: [require.resolve('./src/css/custom.css')]}],

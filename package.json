@@ -17,7 +17,8 @@
     "fetch-unified-json": "node scripts/fetchPostUnifiedJson.js",
     "fetch-unified-txt": "node scripts/fetchPostUnifiedTXT.js",
     "update-manual": "node scripts/fetchPostsWithjson.js",
-    "check-deploy": "node scripts/verificar-deploy.js"
+    "check-deploy": "node scripts/verificar-deploy.js",
+    "normalize-search": "node scripts/normalizeSearchIndex.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",
