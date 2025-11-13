@@ -18,15 +18,17 @@
     "fetch-unified-txt": "node scripts/fetchPostUnifiedTXT.js",
     "update-manual": "node scripts/fetchPostsWithjson.js",
     "check-deploy": "node scripts/verificar-deploy.js",
-    "normalize-search": "node scripts/normalizeSearchIndex.js"
+    "normalize-search": "node scripts/normalizeSearchIndex.js",
+    "test-search": "npm run build && npm run serve",
+    "test-normalization": "node scripts/test-search-normalization.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",
     "@docusaurus/preset-classic": "3.5.2",
-    "@easyops-cn/docusaurus-search-local": "^0.44.5",
     "@mdx-js/react": "^3.0.0",
     "axios": "^1.7.7",
     "clsx": "^2.0.0",
+    "flexsearch": "^0.8.212",
     "fs-extra": "^11.2.0",
     "graphql-request": "^3.7.0",
     "html-to-text": "^9.0.5",

@@ -71,37 +71,19 @@ const config = {
     ],
   ],
   plugins: [
-    // Plugin de busca local melhorado
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        hashed: true,
-        language: ["pt", "en"],
-        // Configurações avançadas para busca melhorada
-        indexBlog: false, // Não indexar blog se não estiver usando
-        indexPages: false, // Não indexar páginas se não necessário
-        // Configurações do FlexSearch para busca fuzzy e tolerante a erros
-        searchResultLimits: 20, // Limite de resultados
-        searchResultContextMaxLength: 50, // Contexto máximo nos resultados
-        explicitSearchResultPath: true,
-        // Configurações do FlexSearch para melhor suporte a busca
-        // Nota: O plugin pode não expor todas essas opções diretamente,
-        // mas nosso módulo client-side normaliza as queries automaticamente
-      },
-    ],
-    // Plugin customizado para melhorar busca (normalização de acentos)
+    // Plugin FlexSearch customizado - Normalização nativa + Fuzzy Search
+    require.resolve('./src/plugins/flexsearch-plugin/index.js'),
+    // Client-side para busca FlexSearch
     function(context, options) {
       return {
-        name: 'search-enhancer-plugin',
+        name: 'flexsearch-client',
         getClientModules() {
           return [
-            require.resolve('./src/client-modules/search-accent-normalizer.js'),
+            require.resolve('./src/client-modules/flexsearch-client.js'),
           ];
         },
       };
     },
-    // Plugin para normalizar índice durante build (opcional)
-    // require.resolve('./src/plugins/search-normalizer-plugin.js'),
   ],
   // themes: [
   //   ['@docusaurus/theme-classic', {customCss: [require.resolve('./src/css/custom.css')]}],
@@ -132,7 +114,11 @@ const config = {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
           //   position: 'right',
-          // },         
+          // },
+          {
+            type: 'search',
+            position: 'right',
+          },
         ],
       },
       footer: {
