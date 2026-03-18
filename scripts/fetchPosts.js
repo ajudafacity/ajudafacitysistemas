@@ -1,6 +1,7 @@
 const { GraphQLClient, gql } = require('graphql-request');
 const fs = require('fs-extra');
 const path = require('path');
+const { convert } = require('html-to-text');
 
 const endpoint = 'https://blog.facity.com.br/graphql';
 const client = new GraphQLClient(endpoint);
@@ -61,11 +62,17 @@ async function fetchPosts() {
           return;
         }
 
-        
+        // O WhatsApp monta prévia usando `meta name="description"` / `og:description`.
+        // Como os MDX começam com `dangerouslySetInnerHTML`, precisamos garantir um resumo em TEXTO PURO.
+        const descriptionRaw = removeHtmlAndNormalize(post.content);
+        const description = descriptionRaw.length > 160 ? `${descriptionRaw.slice(0, 157)}...` : descriptionRaw;
+        const descriptionEscaped = escapeYamlDoubleQuotes(description);
+
         const filePath = path.join(categoryPath, `${postTitle}.mdx`);
 
         const content = `---
-title: "${post.title}"
+title: "${escapeYamlDoubleQuotes(post.title)}"
+description: "${descriptionEscaped}"
 ---
 
 <>
@@ -92,6 +99,22 @@ title: "${post.title}"
 
 function sanitizeFileName(name) {
   return name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-zA-Z0-9-_]/g, '-').toLowerCase();
+}
+
+function removeHtmlAndNormalize(html) {
+  return convert(html || '', {
+    wordwrap: false,
+    selectors: [{ selector: 'img', format: 'skip' }],
+  })
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function escapeYamlDoubleQuotes(value) {
+  return String(value || '')
+    .replace(/\r?\n/g, ' ')
+    .replace(/\\/g, '\\\\')
+    .replace(/"/g, '\\"');
 }
 
 fetchPosts();

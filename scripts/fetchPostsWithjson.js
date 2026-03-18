@@ -48,6 +48,21 @@ function removeHtml(content) {
   });
 }
 
+function getDescriptionEscaped(html) {
+  const text = removeHtml(html)
+    .replace(/\s+/g, ' ')
+    .trim();
+  const description = text.length > 160 ? `${text.slice(0, 157)}...` : text;
+  return escapeYamlDoubleQuotes(description);
+}
+
+function escapeYamlDoubleQuotes(value) {
+  return String(value || '')
+    .replace(/\r?\n/g, ' ')
+    .replace(/\\/g, '\\\\')
+    .replace(/"/g, '\\"');
+}
+
 async function fetchPosts() {
   try {
     const data = await client.request(query, { first: 100 });
@@ -89,7 +104,8 @@ async function fetchPosts() {
         const filePathMdx = path.join(docsPath, `${postTitle}.mdx`);
 
         const mdxContent = `---
-title: "${post.title}"
+title: "${escapeYamlDoubleQuotes(post.title)}"
+description: "${getDescriptionEscaped(post.content)}"
 ---
 
 <>
