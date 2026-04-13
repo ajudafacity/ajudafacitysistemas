@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const { convert } = require('html-to-text');
 
-const endpoint = 'https://blog.facity.com.br/graphql';
+const endpoint = 'https://manual.facity.com.br/graphql';
 const client = new GraphQLClient(endpoint);
 
 const query = gql`
@@ -65,7 +65,7 @@ async function fetchPosts() {
         consolidatedData.posts.push({
           title: post.title,
           content: removeHtml(post.content), // Remove tags HTML
-          link: `https://blog.facity.com.br${post.uri}`, // Gera o link completo do post
+          link: `https://manual.facity.com.br${post.uri}`, // Gera o link completo do post
           categories: post.categories.nodes.map((cat) => cat.name),
         });
       });

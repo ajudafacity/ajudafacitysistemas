@@ -10,7 +10,7 @@ Categorias:
 Posts:
 
 Título: Como adicionar vários sabores de refrigerante ao seu combo?
-Link: https://blog.facity.com.br/como-adicionar-varios-sabores-de-refrigerante-ao-seu-combo/
+Link: https://manual.facity.com.br/como-adicionar-varios-sabores-de-refrigerante-ao-seu-combo/
 Categorias: Cadastros
 Conteúdo:
 Este tutorial te guiará passo a passo para incluir opções de refrigerantes em seus combos no Facity Controle.
@@ -72,7 +72,7 @@ sabor de refrigerante que preferem ao fazer seus pedidos.
 --------------------------------------------------
 
 Título: Como adicionar um novo sabor à sua pizza no Facity Controle?
-Link: https://blog.facity.com.br/como-adicionar-um-novo-sabor-a-sua-pizza-no-facity-controle/
+Link: https://manual.facity.com.br/como-adicionar-um-novo-sabor-a-sua-pizza-no-facity-controle/
 Categorias: Cadastros
 Conteúdo:
 Passo a passo simplificado para deixar seu cardápio ainda mais completo:
@@ -101,7 +101,7 @@ Prontinho! Agora você pode oferecer mais uma deliciosa opção aos seus cliente
 --------------------------------------------------
 
 Título: Como Alterar os Preços das Pizzas no Facity Controle?
-Link: https://blog.facity.com.br/como-alterar-os-precos-das-pizzas-no-facity-controle/
+Link: https://manual.facity.com.br/como-alterar-os-precos-das-pizzas-no-facity-controle/
 Categorias: Cadastros
 Conteúdo:
 Quer ajustar os preços das suas pizzas no Facity Controle? É mais simples do que parece! Siga este passo a passo:
@@ -137,7 +137,7 @@ E pronto! Você acabou de atualizar o preço da sua pizza. Repita esses passos p
 --------------------------------------------------
 
 Título: Guide with pos.facity.com.br
-Link: https://blog.facity.com.br/guide-with-pos-facity-com-br/
+Link: https://manual.facity.com.br/guide-with-pos-facity-com-br/
 Categorias: Cadastros
 Conteúdo:
 ----------------------------------------------------------------------------------------------------------------------------------
@@ -178,7 +178,7 @@ Conteúdo:
 --------------------------------------------------
 
 Título: Como as mensagens vão para o motoboy com as taxas configuradas?
-Link: https://blog.facity.com.br/como-as-mensagens-vao-para-o-motoboy-com-as-taxas-configuradas/
+Link: https://manual.facity.com.br/como-as-mensagens-vao-para-o-motoboy-com-as-taxas-configuradas/
 Categorias: Configurações
 Conteúdo:
 Passo 1: Acesse o Facity Controle
@@ -240,7 +240,7 @@ passos, fica mais simples gerenciar os entregadores e melhorar a experiência do
 --------------------------------------------------
 
 Título: Como criar conta e usar o Google Analytics no sistema?
-Link: https://blog.facity.com.br/como-criar-conta-e-usar-o-google-analytics-no-sistema/
+Link: https://manual.facity.com.br/como-criar-conta-e-usar-o-google-analytics-no-sistema/
 Categorias: Cadastros
 Conteúdo:
 TUTORIAL SIMPLES PARA CRIAR UMA CONTA NO GOOGLE ANALYTICS E CONFIGURAR GA4
@@ -313,7 +313,7 @@ dos usuários para obter insights valiosos sobre o desempenho do seu site.
 --------------------------------------------------
 
 Título: Como cadastrar seu Estoque no Facity Controle?
-Link: https://blog.facity.com.br/como-cadastrar-seu-estoque-no-facity-controle/
+Link: https://manual.facity.com.br/como-cadastrar-seu-estoque-no-facity-controle/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Acesse o Facity Controle
@@ -371,15 +371,15 @@ Pronto! Agora você sabe como cadastrar seu estoque no Facity Controle.
 --------------------------------------------------
 
 Título: Como configurar o Facity Impressor?
-Link: https://blog.facity.com.br/como-configurar-o-facity-impressor/
+Link: https://manual.facity.com.br/como-configurar-o-facity-impressor/
 Categorias: Cadastros
 Conteúdo:
 Após baixar e instalar o Sistema Facity, siga estas etapas para configurar o Impressor:
 
 Se precisar de ajuda com a instalação, consulte o tutorial completo:
 
-Link: https://blog.facity.com.br/como-baixar-e-instalar-o-sistema-facity/
-[https://blog.facity.com.br/como-baixar-e-instalar-o-sistema-facity/]
+Link: https://manual.facity.com.br/como-baixar-e-instalar-o-sistema-facity/
+[https://manual.facity.com.br/como-baixar-e-instalar-o-sistema-facity/]
 
 
 
@@ -446,7 +446,7 @@ Com esses passos, seu Facity Impressor estará configurado e pronto para uso, ga
 --------------------------------------------------
 
 Título: Como integrar o Mercado Pago no Sistema Facity?
-Link: https://blog.facity.com.br/como-integrar-o-mercado-pago-no-sistema-facity/
+Link: https://manual.facity.com.br/como-integrar-o-mercado-pago-no-sistema-facity/
 Categorias: Cadastros
 Conteúdo:
 LEMBRETE IMPORTANTE: CRIAÇÃO DE CHAVE ALEATÓRIA NO MERCADO PAGO
@@ -477,8 +477,8 @@ integração de forma tranquila.
 Passo 4: Se você já possui uma conta no Mercado Pago, insira o email da sua conta e clique em “Ok” para prosseguir. Se não possui
 uma conta, siga o link fornecido para criar uma conta no Mercado Pago.
 
-👉 https://blog.facity.com.br/como-criar-uma-conta-no-mercado-pago/ [http://👉
-https://blog.facity.com.br/como-criar-uma-conta-no-mercado-pago/]
+👉 https://manual.facity.com.br/como-criar-uma-conta-no-mercado-pago/ [http://👉
+https://manual.facity.com.br/como-criar-uma-conta-no-mercado-pago/]
 
 Passo 5: Clique em “Autorizar” para prosseguir com a integração.
 
@@ -516,7 +516,7 @@ Com este simples e objetivo passo a passo, você pode integrar facilmente o Merc
 --------------------------------------------------
 
 Título: Como criar uma conta no mercado pago?
-Link: https://blog.facity.com.br/como-criar-uma-conta-no-mercado-pago/
+Link: https://manual.facity.com.br/como-criar-uma-conta-no-mercado-pago/
 Categorias: Cadastros
 Conteúdo:
 RECEBA PAGAMENTOS PIX COM MAIS SEGURANÇA E PRATICIDADE PELO MERCADO PAGO!
@@ -625,7 +625,7 @@ Pronto! Sua conta PJ está pronta para usar!
 --------------------------------------------------
 
 Título: Como baixar e instalar o sistema Facity?
-Link: https://blog.facity.com.br/como-baixar-e-instalar-o-sistema-facity/
+Link: https://manual.facity.com.br/como-baixar-e-instalar-o-sistema-facity/
 Categorias: Cadastros
 Conteúdo:
 Para começar, você precisará realizar a instalação do programa, onde ocorre a configuração do sistema. O processo é bastante
@@ -704,7 +704,7 @@ Web em sua empresa!
 --------------------------------------------------
 
 Título: como cadastrar um produto tipo pizza promocional sendo um produto simples?
-Link: https://blog.facity.com.br/como-cadastrar-um-produto-tipo-pizza-promocional-sendo-um-produto-simples/
+Link: https://manual.facity.com.br/como-cadastrar-um-produto-tipo-pizza-promocional-sendo-um-produto-simples/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Abra o Facity Controle no seu computador e insira o nome da empresa, login e senha. Lembre-se de que tudo deve ser
@@ -749,7 +749,7 @@ comentário ou entrar em contato com o suporte.
 --------------------------------------------------
 
 Título: Como alterar tempo estimado?
-Link: https://blog.facity.com.br/como-alterar-tempo-estimado/
+Link: https://manual.facity.com.br/como-alterar-tempo-estimado/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Abra o Facity Controle em seu computador
@@ -779,7 +779,7 @@ Controle ou deixe um comentário abaixo.
 --------------------------------------------------
 
 Título: Como configurar senhas de retirada?
-Link: https://blog.facity.com.br/como-configurar-senhas-de-retirada/
+Link: https://manual.facity.com.br/como-configurar-senhas-de-retirada/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Acesse o Facity Controle no seu computador e faça o login na sua conta.
@@ -814,7 +814,7 @@ Esperamos que este guia tenha sido útil! Se tiver alguma dúvida, não hesite e
 --------------------------------------------------
 
 Título: Como adicionar ou alterar os valores em combos?
-Link: https://blog.facity.com.br/como-adicionar-ou-alterar-os-valores-no-combo/
+Link: https://manual.facity.com.br/como-adicionar-ou-alterar-os-valores-no-combo/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Acesse o Facity Controle no seu computador e faça o login na sua conta.
@@ -841,7 +841,7 @@ melhor experiência possível.
 --------------------------------------------------
 
 Título: Como permitir quantidade fracionada em um produto?
-Link: https://blog.facity.com.br/como-permitir-quantidade-fracionada-em-um-produto/
+Link: https://manual.facity.com.br/como-permitir-quantidade-fracionada-em-um-produto/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Abra o Facity Controle no seu computador e faça login.
@@ -859,7 +859,7 @@ processo.
 --------------------------------------------------
 
 Título: Novas variáveis disponíveis no Bot para fornecer informações atualizadas do sistema
-Link: https://blog.facity.com.br/novas-variaveis-disponiveis-no-bot-para-fornecer-informacoes-atualizadas-do-sistema/
+Link: https://manual.facity.com.br/novas-variaveis-disponiveis-no-bot-para-fornecer-informacoes-atualizadas-do-sistema/
 Categorias: Cadastros
 Conteúdo:
 Entendendo as variáveis disponíveis, as variáveis disponíveis são as seguintes:
@@ -922,7 +922,7 @@ um comentário abaixo. Até a próxima!
 --------------------------------------------------
 
 Título: Como criar Taxas de Serviço no Facity Controle?
-Link: https://blog.facity.com.br/como-criar-taxas-de-servico-no-facity-controle/
+Link: https://manual.facity.com.br/como-criar-taxas-de-servico-no-facity-controle/
 Categorias: Cadastros
 Conteúdo:
 Hoje, iremos aprender como criar Taxas de Serviço no Facity Controle, uma funcionalidade essencial para o gerenciamento eficiente
@@ -981,7 +981,7 @@ hesite em deixar seu comentário abaixo. Boa gestão e até a próxima!
 --------------------------------------------------
 
 Título: Como adicionar um produto tipo Hambúrguer?
-Link: https://blog.facity.com.br/como-adicionar-um-produto-tipo-hamburguer/
+Link: https://manual.facity.com.br/como-adicionar-um-produto-tipo-hamburguer/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Abra o Facity Controle em seu computador
@@ -1065,7 +1065,7 @@ aproveite!
 --------------------------------------------------
 
 Título: Como adicionar um link no stories do Instagram para acessar o cardápio digital?
-Link: https://blog.facity.com.br/como-adicionar-um-link-no-stories-do-instagram-para-acessar-o-cardapio-digital/
+Link: https://manual.facity.com.br/como-adicionar-um-link-no-stories-do-instagram-para-acessar-o-cardapio-digital/
 Categorias: Cadastros
 Conteúdo:
 Hoje eu vou ensinar como adicionar um link ao seu cardápio digital no seu stories do Instagram. É muito fácil, siga os passos
@@ -1096,7 +1096,7 @@ interativa e completa com seu conteúdo.
 --------------------------------------------------
 
 Título: Como adicionar bordas em um produto tipo pizza?
-Link: https://blog.facity.com.br/como-adicionar-bordas-em-um-produto-tipo-pizza/
+Link: https://manual.facity.com.br/como-adicionar-bordas-em-um-produto-tipo-pizza/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Abra o Facity Controle em seu computador
@@ -1151,7 +1151,7 @@ Com esses passos simples, você pode adicionar bordas recheadas em suas pizzas e
 --------------------------------------------------
 
 Título: Como limitar permissões dos usuários?
-Link: https://blog.facity.com.br/como-limitar-permissoes-dos-usuarios/
+Link: https://manual.facity.com.br/como-limitar-permissoes-dos-usuarios/
 Categorias: Cadastros
 Conteúdo:
 Passo a passo sobre como limitar permissões dos usuários no sistema:
@@ -1186,7 +1186,7 @@ possível garantir a segurança das informações da sua empresa.
 --------------------------------------------------
 
 Título: Como adicionar opcionais ao sabor em produto tipo pizza?
-Link: https://blog.facity.com.br/como-adicionar-opcionais-ao-sabor-em-produto-tipo-pizza-2/
+Link: https://manual.facity.com.br/como-adicionar-opcionais-ao-sabor-em-produto-tipo-pizza-2/
 Categorias: Cadastros
 Conteúdo:
 Adicionar opcionais ao sabor em uma pizza é uma ótima maneira de oferecer mais opções aos seus clientes. Aqui está um passo a
@@ -1228,7 +1228,7 @@ Agora, seus clientes terão mais opções de adicionar ingredientes extras em su
 --------------------------------------------------
 
 Título: Como adicionar o PIXEL no Sistema Facity?
-Link: https://blog.facity.com.br/como-adicionar-o-pixel-no-sistema-facity/
+Link: https://manual.facity.com.br/como-adicionar-o-pixel-no-sistema-facity/
 Categorias: Cadastros
 Conteúdo:
 Integrando o Facebook ao sistema Facity: Como fazer a verificação de domínio via DNS e vincular o código Pixel ao sistema
@@ -1290,9 +1290,9 @@ Para vincular o código Pixel ao sistema do Facity Controle, siga estes passos:
 2.6. Clique em “Salvar” para concluir a configuração.
 
 
-Apos tudo configurado você também pode conferir o mapa de URLS [https://blog.facity.com.br/mapa-de-urls-para-facebook-pixel/] para
+Apos tudo configurado você também pode conferir o mapa de URLS [https://manual.facity.com.br/mapa-de-urls-para-facebook-pixel/] para
 o sistema dessa forma sabendo rastrear a jornada do cliente pelo Cardápio Digital clicando no link: mapa de URLS
-[https://blog.facity.com.br/mapa-de-urls-para-facebook-pixel/].
+[https://manual.facity.com.br/mapa-de-urls-para-facebook-pixel/].
 
 
 
@@ -1330,7 +1330,7 @@ passos que mencionamos neste artigo e comece a aproveitar todos os recursos que 
 --------------------------------------------------
 
 Título: Como alterar foto de uma seção?
-Link: https://blog.facity.com.br/como-alterar-foto-de-uma-secao/
+Link: https://manual.facity.com.br/como-alterar-foto-de-uma-secao/
 Categorias: Cadastros
 Conteúdo:
 Neste post, vamos ensinar como alterar a foto de uma seção em sua página do Facity Controle. Siga o passo a passo abaixo:
@@ -1357,7 +1357,7 @@ este tutorial tenha sido útil e fácil de seguir. Se tiver alguma dúvida, deix
 --------------------------------------------------
 
 Título: Como alterar foto de um produto?
-Link: https://blog.facity.com.br/como-alterar-foto-de-um-produto/
+Link: https://manual.facity.com.br/como-alterar-foto-de-um-produto/
 Categorias: Cadastros
 Conteúdo:
 Se você precisa alterar a foto de um produto no Facity Controle, siga esses passos simples:
@@ -1390,7 +1390,7 @@ Pronto! A foto do produto foi adicionada ou alterada com sucesso. Para mudá-la 
 --------------------------------------------------
 
 Título: Mapa de URLS para Facebook Pixel
-Link: https://blog.facity.com.br/mapa-de-urls-para-facebook-pixel/
+Link: https://manual.facity.com.br/mapa-de-urls-para-facebook-pixel/
 Categorias: Cadastros
 Conteúdo:
 Início:
@@ -1447,7 +1447,7 @@ Pós finalização de compra e acompanhamento do pedido:
 --------------------------------------------------
 
 Título: Como resolver problemas no WhatsApp de sincronismo entre mensagem do celular e navegador?
-Link: https://blog.facity.com.br/como-resolver-problemas-no-whatsapp-de-sincronismo-entre-mensagem-do-celular-e-navegador/
+Link: https://manual.facity.com.br/como-resolver-problemas-no-whatsapp-de-sincronismo-entre-mensagem-do-celular-e-navegador/
 Categorias: Cadastros
 Conteúdo:
 Se você utiliza o WhatsApp Web para conversar com seus contatos pelo computador, provavelmente já se deparou com o problema de
@@ -1471,7 +1471,7 @@ que precisar, siga esses passos simples para resolver o problema de sincronismo.
 --------------------------------------------------
 
 Título: Como baixar e instalar app dos garçons da versão online?
-Link: https://blog.facity.com.br/como-baixar-e-instalar-app-dos-garcons-da-versao-online/
+Link: https://manual.facity.com.br/como-baixar-e-instalar-app-dos-garcons-da-versao-online/
 Categorias: Cadastros
 Conteúdo:
 Neste post, vou te ensinar como baixar e instalar o aplicativo Facity Garçom, que é a versão online para os garçons das empresas
@@ -1498,13 +1498,13 @@ Passo 4: Insira o nome da empresa, login e senha. Lembre-se de digitar tudo em l
 Pronto! Agora você já pode usar o aplicativo Facity Garçom.
 
 Caso você queira saber como usar o aplicativo, confira o post com todas as explicações detalhadas neste link:
-https://blog.facity.com.br/como-usar-o-app-dos-garcons/ [https://blog.facity.com.br/como-usar-o-app-dos-garcons/].
+https://manual.facity.com.br/como-usar-o-app-dos-garcons/ [https://manual.facity.com.br/como-usar-o-app-dos-garcons/].
 
 Espero que tenha ajudado! Se tiver alguma dúvida, deixe um comentário abaixo que eu te ajudo.
 --------------------------------------------------
 
 Título: Como excluir seções/categorias e produtos?
-Link: https://blog.facity.com.br/como-excluir-secoes-categorias-e-produtos/
+Link: https://manual.facity.com.br/como-excluir-secoes-categorias-e-produtos/
 Categorias: Cadastros
 Conteúdo:
 Passo a passo para excluir seções/categorias e produtos no Facity Controle:
@@ -1543,7 +1543,7 @@ Imediatamente! Seguindo esses passos você pode excluir seções/categorias e pr
 --------------------------------------------------
 
 Título: Como gerar relatórios de últimas entradas por matéria prima?
-Link: https://blog.facity.com.br/como-gerar-relatorios-de-ultimas-entradas-por-materia-prima/
+Link: https://manual.facity.com.br/como-gerar-relatorios-de-ultimas-entradas-por-materia-prima/
 Categorias: Relatórios
 Conteúdo:
 Segue abaixo um passo a passo sobre como gerar relatórios de últimas entradas por matéria prima no Facity Controle:
@@ -1577,7 +1577,7 @@ deixe um comentário abaixo que eu te ajudo.
 --------------------------------------------------
 
 Título: Como gerar relatórios de entradas por matéria prima?
-Link: https://blog.facity.com.br/como-gerar-relatorios-de-entradas-por-materia-prima/
+Link: https://manual.facity.com.br/como-gerar-relatorios-de-entradas-por-materia-prima/
 Categorias: Relatórios
 Conteúdo:
 Passo a passo para gerar relatórios de entradas por matéria prima no Facity Controle:
@@ -1603,7 +1603,7 @@ Espero que esse passo a passo tenha sido útil e que você consiga gerar seus re
 --------------------------------------------------
 
 Título: Como gerar relatórios de fechamentos de caixa?
-Link: https://blog.facity.com.br/como-gerar-relatorios-de-fechamentos-de-caixa/
+Link: https://manual.facity.com.br/como-gerar-relatorios-de-fechamentos-de-caixa/
 Categorias: Relatórios
 Conteúdo:
 Gerar relatórios de fechamento de caixa é uma tarefa essencial para o controle financeiro da sua empresa. Com esses relatórios,
@@ -1640,7 +1640,7 @@ controle financeiro da sua empresa em dia.
 --------------------------------------------------
 
 Título: Como gerar relatórios de vendas por tipo de pedido?
-Link: https://blog.facity.com.br/como-gerar-relatorios-de-vendas-por-tipo-de-pedido/
+Link: https://manual.facity.com.br/como-gerar-relatorios-de-vendas-por-tipo-de-pedido/
 Categorias: Relatórios
 Conteúdo:
 Neste post, vamos mostrar como você pode gerar esses relatórios usando o Facity Controle.
@@ -1673,7 +1673,7 @@ Com esses passos simples, você pode gerar relatórios de vendas por tipo de ped
 --------------------------------------------------
 
 Título: Como gerar relatórios de formas de pagamento?
-Link: https://blog.facity.com.br/como-gerar-relatorios-de-formas-de-pagamento/
+Link: https://manual.facity.com.br/como-gerar-relatorios-de-formas-de-pagamento/
 Categorias: Relatórios
 Conteúdo:
 Como gerar relatórios de formas de pagamento no Facity Controle
@@ -1710,7 +1710,7 @@ e descubra como essa ferramenta pode ajudar a melhorar a gestão do seu negócio
 --------------------------------------------------
 
 Título: Como gerar relatórios de produtos (venda)?
-Link: https://blog.facity.com.br/como-gerar-relatorios-de-produtos-venda/
+Link: https://manual.facity.com.br/como-gerar-relatorios-de-produtos-venda/
 Categorias: Relatórios
 Conteúdo:
 Passo a passo para gerar relatórios de venda de produtos:
@@ -1734,7 +1734,7 @@ Pronto! Agora você pode analisar as informações e dados de vendas de produtos
 --------------------------------------------------
 
 Título: Como gerar relatórios de taxas de serviço?
-Link: https://blog.facity.com.br/como-gerar-relatorios-de-taxas-de-servico/
+Link: https://manual.facity.com.br/como-gerar-relatorios-de-taxas-de-servico/
 Categorias: Relatórios
 Conteúdo:
 passo a passo sobre como gerar relatórios de taxas de serviço no Facity Controle:
@@ -1757,7 +1757,7 @@ Pronto! Agora você pode visualizar o relatório de taxas de serviço da sua emp
 --------------------------------------------------
 
 Título: Como gerar relatório de comissão de Entregador/ motoboy?
-Link: https://blog.facity.com.br/como-gerar-relatorio-de-comissao-motoboy/
+Link: https://manual.facity.com.br/como-gerar-relatorio-de-comissao-motoboy/
 Categorias: Relatórios
 Conteúdo:
 Passo a passo para gerar um relatório de comissão/motoboy no Facity Controle:
@@ -2003,7 +2003,7 @@ eficiente.
 --------------------------------------------------
 
 Título: Como editar um usuário?
-Link: https://blog.facity.com.br/como-editar-um-usuario/
+Link: https://manual.facity.com.br/como-editar-um-usuario/
 Categorias: Cadastros
 Conteúdo:
 Passo a passo para editar um usuário no Facity Controle:
@@ -2045,7 +2045,7 @@ e rápida, garantindo que as informações estejam sempre atualizadas.
 --------------------------------------------------
 
 Título: Como gerar relatórios de comissão/garçom?
-Link: https://blog.facity.com.br/como-gerar-relatorios-de-comissao-garcom/
+Link: https://manual.facity.com.br/como-gerar-relatorios-de-comissao-garcom/
 Categorias: Relatórios
 Conteúdo:
 Neste post, vamos te ensinar a gerar relatórios de comissão/garçom utilizando o Facity Controle. Confira abaixo o passo a passo:
@@ -2081,7 +2081,7 @@ ter um controle mais eficiente sobre as comissões dos seus funcionários.
 --------------------------------------------------
 
 Título: Como gerar relatórios de delivery?
-Link: https://blog.facity.com.br/como-gerar-relatorios-de-delivery/
+Link: https://manual.facity.com.br/como-gerar-relatorios-de-delivery/
 Categorias: Relatórios
 Conteúdo:
 Como gerar relatórios de delivery: um guia passo a passo
@@ -2118,7 +2118,7 @@ seus resultados.
 --------------------------------------------------
 
 Título: Como gerar relatórios de vendas por seção?
-Link: https://blog.facity.com.br/como-gerar-relatorios-de-vendas-por-secao/
+Link: https://manual.facity.com.br/como-gerar-relatorios-de-vendas-por-secao/
 Categorias: Relatórios
 Conteúdo:
 Neste tutorial, vou ensinar como gerar relatórios de vendas por seção usando o Facity Controle. Siga as instruções passo a passo
@@ -2159,7 +2159,7 @@ Seguindo esses simples passos, você pode gerar facilmente relatórios de vendas
 --------------------------------------------------
 
 Título: Como gerar relatório de vendas?
-Link: https://blog.facity.com.br/como-usar-relatorio-de-vendas/
+Link: https://manual.facity.com.br/como-usar-relatorio-de-vendas/
 Categorias: Relatórios
 Conteúdo:
 Neste post, vamos explicar passo a passo como gerar um relatório de vendas.
@@ -2194,13 +2194,13 @@ pagamento PIX. Caso você queira ver o total pela forma de pagamento, o ideal é
 
 Clique nesse link abaixo para ver post de como gerar relatórios de formas de pagamento:
 
-Como gerar relatórios de formas de pagamento? [https://blog.facity.com.br/?p=947]???
+Como gerar relatórios de formas de pagamento? [https://manual.facity.com.br/?p=947]???
 
 
 --------------------------------------------------
 
 Título: Como configurar tempo estimado?
-Link: https://blog.facity.com.br/como-configurar-tempo-estimado/
+Link: https://manual.facity.com.br/como-configurar-tempo-estimado/
 Categorias: Cadastros
 Conteúdo:
 Configurar o tempo estimado é uma forma de otimizar o tempo de atendimento na sua empresa. Com o Facity Controle, é possível
@@ -2230,7 +2230,7 @@ configuração, é possível otimizar o tempo de atendimento e oferecer um servi
 --------------------------------------------------
 
 Título: Como configurar formas de pagamento?
-Link: https://blog.facity.com.br/como-configurar-formas-de-pagamento/
+Link: https://manual.facity.com.br/como-configurar-formas-de-pagamento/
 Categorias: Cadastros
 Conteúdo:
 Tutorial sobre como configurar formas de pagamento no Facity Controle:
@@ -2287,7 +2287,7 @@ momento.
 --------------------------------------------------
 
 Título: Como configurar horário de atendimento?
-Link: https://blog.facity.com.br/como-configurar-horario-de-atendimento/
+Link: https://manual.facity.com.br/como-configurar-horario-de-atendimento/
 Categorias: Configurações
 Conteúdo:
 Se você está procurando uma maneira simples e fácil de configurar o horário de atendimento da sua empresa, você veio ao lugar
@@ -2321,7 +2321,7 @@ hesite em entrar em contato com o suporte da Facity Controle. Obrigado por ler e
 --------------------------------------------------
 
 Título: Como configurar informações da empresa?
-Link: https://blog.facity.com.br/como-configurar-informacoes-da-empresa/
+Link: https://manual.facity.com.br/como-configurar-informacoes-da-empresa/
 Categorias: Configurações
 Conteúdo:
 Neste post, eu vou ensinar como configurar as informações da sua empresa. É importante manter esses dados atualizados para que
@@ -2366,7 +2366,7 @@ Espero ter ajudado!
 --------------------------------------------------
 
 Título: Como cadastrar combos?
-Link: https://blog.facity.com.br/como-cadastrar-combos/
+Link: https://manual.facity.com.br/como-cadastrar-combos/
 Categorias: Cadastros
 Conteúdo:
 Para cadastrar combos em seu estabelecimento utilizando o Facity Controle, siga o passo a passo abaixo:
@@ -2385,7 +2385,7 @@ digitado em letras minúsculas.
 Lembre se de criar uma seção chamada combo/promoção para quando for criar um combo ela aparecer no cardápio.
 
  * Segue link de como criar uma seção/categoria:
- * http://blog.facity.com.br/?p=35 [http://blog.facity.com.br/?p=35]
+ * https://manual.facity.com.br/?p=35 [https://manual.facity.com.br/?p=35]
 
 6 – Para adicionar produtos ao combo, clique no ícone verde para editar.
 
@@ -2414,7 +2414,7 @@ Com esse passo a passo você poderá cadastrar combos em seu estabelecimento com
 --------------------------------------------------
 
 Título: Como adicionar um produto tipo açaí?
-Link: https://blog.facity.com.br/como-adicionar-um-produto-tipo-acai/
+Link: https://manual.facity.com.br/como-adicionar-um-produto-tipo-acai/
 Categorias: Cadastros
 Conteúdo:
 Se você é dono de uma loja que vende açaí e quer adicionar essa delícia ao seu cardápio, não se preocupe, o processo é simples e
@@ -2505,7 +2505,7 @@ Agora que você adicionou o produto tipo açaí, ele aparecerá no seu cardápio
 --------------------------------------------------
 
 Título: Como inativar uma seção/categoria?
-Link: https://blog.facity.com.br/como-inativar-uma-secao-categoria/
+Link: https://manual.facity.com.br/como-inativar-uma-secao-categoria/
 Categorias: Cadastros
 Conteúdo:
 Inativar uma seção ou categoria pode ser útil caso você queira ocultar temporariamente um conjunto de produtos ou uma categoria
@@ -2542,7 +2542,7 @@ gerenciar sua loja e seus produtos.
 --------------------------------------------------
 
 Título: Como inativar um produto?
-Link: https://blog.facity.com.br/como-inativar-um-produto/
+Link: https://manual.facity.com.br/como-inativar-um-produto/
 Categorias: Cadastros
 Conteúdo:
 Inativar um produto no Facity Controle é um processo simples e rápido. Seguindo os passos abaixo:
@@ -2581,7 +2581,7 @@ a qualquer momento, sem dificuldades.
 --------------------------------------------------
 
 Título: Como alterar o preço de um produto?
-Link: https://blog.facity.com.br/como-alterar-o-preco-de-um-produto/
+Link: https://manual.facity.com.br/como-alterar-o-preco-de-um-produto/
 Categorias: Cadastros
 Conteúdo:
 Passo a passo de como alterar o preço de um produto no Facity Controle:
@@ -2607,7 +2607,7 @@ Pronto! Agora você sabe como alterar o preço de um produto no Facity Controle.
 --------------------------------------------------
 
 Título: Como cadastrar um usuário Entregador/ motoboy pelo celular?
-Link: https://blog.facity.com.br/como-cadastrar-um-usuario-motoboy/
+Link: https://manual.facity.com.br/como-cadastrar-um-usuario-motoboy/
 Categorias: Cadastros
 Conteúdo:
 Se você está procurando uma maneira rápida e fácil de cadastrar um usuário motoboy em sua empresa, o aplicativo Facity Controle é
@@ -2640,7 +2640,7 @@ passo simples, você poderá cadastrar um usuário motoboy pelo celular de forma
 --------------------------------------------------
 
 Título: Como cadastrar um usurário garçom pelo celular?
-Link: https://blog.facity.com.br/como-cadastrar-um-usurario-garcom/
+Link: https://manual.facity.com.br/como-cadastrar-um-usurario-garcom/
 Categorias: Cadastros
 Conteúdo:
 Guia passo a passo para cadastrar um usuário garçom usando o aplicativo:
@@ -2683,7 +2683,7 @@ O processo de cadastro é simples e rápido, permitindo que você gerencie sua e
 --------------------------------------------------
 
 Título: Como cadastrar um usuário administrativo pelo celular?
-Link: https://blog.facity.com.br/como-cadastrar-um-usuario-administrativo-pelo-celular/
+Link: https://manual.facity.com.br/como-cadastrar-um-usuario-administrativo-pelo-celular/
 Categorias: Cadastros
 Conteúdo:
 Neste tutorial, vamos mostrar como cadastrar um usuário administrativo pelo celular usando o aplicativo Facity Controle.
@@ -2719,7 +2719,7 @@ manter todas as informações em letras minúsculas e gerenciar corretamente as 
 --------------------------------------------------
 
 Título: Como cadastrar um usuário caixa pelo celular?
-Link: https://blog.facity.com.br/como-cadastrar-um-usuario-caixa-pelo-celular/
+Link: https://manual.facity.com.br/como-cadastrar-um-usuario-caixa-pelo-celular/
 Categorias: Cadastros
 Conteúdo:
 Neste tutorial, eu vou ensinar como cadastrar um usuário caixa pelo celular usando o aplicativo Facity Controle:
@@ -2754,7 +2754,7 @@ a próxima!
 --------------------------------------------------
 
 Título: Como funciona uma nova venda (direta) do Facity POS?
-Link: https://blog.facity.com.br/como-funciona-uma-nova-venda-direita-do-facity-pos/
+Link: https://manual.facity.com.br/como-funciona-uma-nova-venda-direita-do-facity-pos/
 Categorias: Cadastros
 Conteúdo:
 Tutorial passo a passo simples sobre como fazer uma nova venda direta no Facity POS:
@@ -2779,7 +2779,7 @@ hesite em entrar em contato com o suporte da Facity POS.
 --------------------------------------------------
 
 Título: Como funciona o pedido(balcão) no Facity POS?
-Link: https://blog.facity.com.br/como-funciona-o-pedido-balcao-no-facity-pos/
+Link: https://manual.facity.com.br/como-funciona-o-pedido-balcao-no-facity-pos/
 Categorias: Cadastros
 Conteúdo:
 Tutorial passo a passo simples sobre como fazer um novo pedido balcão no Facity POS:
@@ -2810,7 +2810,7 @@ Se tiver alguma dúvida, entre em contato com o suporte da Facity POS.
 --------------------------------------------------
 
 Título: Como funciona um novo pedido (delivery) no Facity POS?
-Link: https://blog.facity.com.br/como-funcionar-um-pedido-de-delivery/
+Link: https://manual.facity.com.br/como-funcionar-um-pedido-de-delivery/
 Categorias: Cadastros
 Conteúdo:
 Neste tutorial, vou mostrar passo a passo como funciona um novo pedido (delivery) no Facity POS. É um processo simples e fácil,
@@ -2863,7 +2863,7 @@ sido útil.
 --------------------------------------------------
 
 Título: Como aceitar pedido do aplicativo?
-Link: https://blog.facity.com.br/como-aceitar-pedido-vindo-do-aplicativo/
+Link: https://manual.facity.com.br/como-aceitar-pedido-vindo-do-aplicativo/
 Categorias: Cadastros
 Conteúdo:
  * Abra o Facity POS em seu computador
@@ -2893,7 +2893,7 @@ Conteúdo:
 --------------------------------------------------
 
 Título: Como usar o app dos garçons?
-Link: https://blog.facity.com.br/como-usar-o-app-dos-garcons/
+Link: https://manual.facity.com.br/como-usar-o-app-dos-garcons/
 Categorias: Cadastros
 Conteúdo:
 Neste post, vamos ensinar como utilizar o app Facity Garçom para gerenciar pedidos de forma simples e prática. Siga os seguintes
@@ -2929,7 +2929,7 @@ Com esses passos, você já pode usar o app dos garçons da Facity de maneira si
 --------------------------------------------------
 
 Título: Como baixar e instalar o Anydesk?
-Link: https://blog.facity.com.br/como-baixar-e-instalar-o-anydesk/
+Link: https://manual.facity.com.br/como-baixar-e-instalar-o-anydesk/
 Categorias: Cadastros
 Conteúdo:
 O Anydesk é um software que permite a conexão remota entre computadores. Ele é uma ótima ferramenta para quem precisa trabalhar de
@@ -2977,7 +2977,7 @@ confiáveis e atualizar o Anydesk sempre que houver uma nova versão disponível
 --------------------------------------------------
 
 Título: Como fazer um novo pedido mesa no Facity POS?
-Link: https://blog.facity.com.br/como-utilizar-facity-pos-mesa/
+Link: https://manual.facity.com.br/como-utilizar-facity-pos-mesa/
 Categorias: Cadastros
 Conteúdo:
 Guia de passo a passo para fazer um novo pedido de mesa no Facity POS:
@@ -3022,7 +3022,7 @@ Certifique-se de que o pedido foi finalizado e de que o cliente foi cobrado corr
 --------------------------------------------------
 
 Título: Como cadastrar usuário Entregador/ Motoboy?
-Link: https://blog.facity.com.br/como-cadastrar-usuario-motoboy/
+Link: https://manual.facity.com.br/como-cadastrar-usuario-motoboy/
 Categorias: Cadastros
 Conteúdo:
 Passo a passo sobre como cadastrar um usuário motoboy no Facity Controle:
@@ -3048,7 +3048,7 @@ cadastro, você poderá gerenciar suas entregas de forma mais eficiente e organi
 --------------------------------------------------
 
 Título: Como cadastrar usuário garçom?
-Link: https://blog.facity.com.br/como-cadastrar-usuario-garcom/
+Link: https://manual.facity.com.br/como-cadastrar-usuario-garcom/
 Categorias: Cadastros
 Conteúdo:
 Neste post, vamos mostrar como cadastrar um usuário garçom no Facity Controle. Siga as etapas abaixo:
@@ -3073,7 +3073,7 @@ Pronto! Agora você cadastrou um usuário garçom no Facity Controle.
 --------------------------------------------------
 
 Título: Como cadastrar um usuário administrativo?
-Link: https://blog.facity.com.br/como-cadastrar-um-usuario-administrativo/
+Link: https://manual.facity.com.br/como-cadastrar-um-usuario-administrativo/
 Categorias: Cadastros
 Conteúdo:
 Neste post, vamos mostrar como cadastrar um usuário administrativo no Facity Controle. Veja abaixo os passos:
@@ -3109,7 +3109,7 @@ que todas as informações inseridas estejam corretas e atualizadas para evitar 
 --------------------------------------------------
 
 Título: Como cadastrar um usuário Caixa?
-Link: https://blog.facity.com.br/como-cadastrar-um-usuario-caixa/
+Link: https://manual.facity.com.br/como-cadastrar-um-usuario-caixa/
 Categorias: Cadastros
 Conteúdo:
 Neste post, vou te mostrar como cadastrar um usuário Caixa no Facity Controle. É um processo simples e fácil de seguir, então
@@ -3170,7 +3170,7 @@ precisar de ajuda, não hesite em entrar em contato com o suporte.
 --------------------------------------------------
 
 Título: Como criar chave do Google Maps e configurar taxa de entrega (Km)?
-Link: https://blog.facity.com.br/como-configurar-taxa-de-entrega-km-e-conseguir-chave-do-google-maps/
+Link: https://manual.facity.com.br/como-configurar-taxa-de-entrega-km-e-conseguir-chave-do-google-maps/
 Categorias: Cadastros
 Conteúdo:
 Neste post, vou explicar de forma simples e objetiva como criar uma chave do Google Maps e configurar a taxa de entrega (Km) no
@@ -3210,7 +3210,7 @@ funcionalidades para otimizar o seu serviço de delivery.
 --------------------------------------------------
 
 Título: Como criar auto respostas e instalar o Facity BOT?
-Link: https://blog.facity.com.br/como-criar-auto-respostas-e-instalar-o-facity-bot/
+Link: https://manual.facity.com.br/como-criar-auto-respostas-e-instalar-o-facity-bot/
 Categorias: Cadastros
 Conteúdo:
 Com o Facity BOT, você pode ter respostas automáticas para pré-atender seus clientes no WhatsApp. O chatbot é especialmente útil
@@ -3268,7 +3268,7 @@ simples, você pode instalar o Facity BOT e criar suas próprias auto respostas 
 --------------------------------------------------
 
 Título: Como criar e usar notificações?
-Link: https://blog.facity.com.br/como-criar-e-usar-notificacoes/
+Link: https://manual.facity.com.br/como-criar-e-usar-notificacoes/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Acesse o Facity Controle
@@ -3316,7 +3316,7 @@ novidades e promoções do seu negócio.
 --------------------------------------------------
 
 Título: Como sortear um pedido?
-Link: https://blog.facity.com.br/como-sortear-um-pedido/
+Link: https://manual.facity.com.br/como-sortear-um-pedido/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Acesse o Facity Controle
@@ -3358,7 +3358,7 @@ com ele ou enviando uma mensagem pelo aplicativo Facity.
 --------------------------------------------------
 
 Título: Como criar um cupom de desconto?
-Link: https://blog.facity.com.br/como-criar-um-cupom-de-desconto/
+Link: https://manual.facity.com.br/como-criar-um-cupom-de-desconto/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Acesse o Facity Controle
@@ -3417,7 +3417,7 @@ Com estes passos simples, você pode criar e gerenciar cupons de desconto para s
 --------------------------------------------------
 
 Título: Como configurar taxas de entrega (bairro)?
-Link: https://blog.facity.com.br/como-configurar-taxas-de-entrega-bairro/
+Link: https://manual.facity.com.br/como-configurar-taxas-de-entrega-bairro/
 Categorias: Cadastros
 Conteúdo:
 Passo a passo simples para configurar taxas de entrega por bairro no Facity Controle:
@@ -3436,7 +3436,7 @@ Pronto! Agora você pode cobrar taxas de entrega diferentes para cada bairro cad
 --------------------------------------------------
 
 Título: Como vincular impressoras de produção na seção/categoria?
-Link: https://blog.facity.com.br/como-vincular-impressoras-de-producao-na-secao-categoria/
+Link: https://manual.facity.com.br/como-vincular-impressoras-de-producao-na-secao-categoria/
 Categorias: Impressoras
 Conteúdo:
 Neste post, vamos te mostrar um passo a passo simples e objetivo para vincular impressoras de produção na seção/categoria no
@@ -3475,7 +3475,7 @@ forma fácil e rápida. Se você tiver alguma dúvida ou sugestão, deixe um com
 --------------------------------------------------
 
 Título: Como adicionar produto tipo pizza com borda e sabores?
-Link: https://blog.facity.com.br/como-adicionar-produto-tipo-pizza-com-borda-e-sabores/
+Link: https://manual.facity.com.br/como-adicionar-produto-tipo-pizza-com-borda-e-sabores/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Abra o Facity Controle em seu computador e faça login com o nome da empresa, login e senha, lembrando que tudo tem que
@@ -3560,7 +3560,7 @@ Espero que este tutorial tenha sido útil para adicionar produtos tipo pizza com
 --------------------------------------------------
 
 Título: Como criar opcionais e colocar no produto?
-Link: https://blog.facity.com.br/como-criar-opcionais-e-colocar-no-produto/
+Link: https://manual.facity.com.br/como-criar-opcionais-e-colocar-no-produto/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Abra o Facity Controle em seu computador
@@ -3638,7 +3638,7 @@ importantes para o controle do estoque e para facilitar a venda.
 --------------------------------------------------
 
 Título: Como criar opcionais e colocar na seção?
-Link: https://blog.facity.com.br/como-criar-opcionais-e-colocar-na-secao-categoria/
+Link: https://manual.facity.com.br/como-criar-opcionais-e-colocar-na-secao-categoria/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Abrir o Facity Controle e fazer login
@@ -3707,7 +3707,7 @@ as mesmas etapas.
 --------------------------------------------------
 
 Título: Como cadastrar lanches?
-Link: https://blog.facity.com.br/como-cadastrar-lanches/
+Link: https://manual.facity.com.br/como-cadastrar-lanches/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Acessar o Facity Controle
@@ -3835,7 +3835,7 @@ cardápio do seu restaurante e garantir que os clientes tenham uma boa experiên
 --------------------------------------------------
 
 Título: Como cadastrar lanches pelo celular?
-Link: https://blog.facity.com.br/ensinando-a-cadastrar-lanches-pelo-celular/
+Link: https://manual.facity.com.br/ensinando-a-cadastrar-lanches-pelo-celular/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Acessar o Facity Controle
@@ -3976,7 +3976,7 @@ melhor o cardápio do seu restaurante e garantir que os clientes tenham uma boa 
 --------------------------------------------------
 
 Título: Como cadastrar produtos pelo celular?
-Link: https://blog.facity.com.br/como-cadastrar-produtos-pelo-celular/
+Link: https://manual.facity.com.br/como-cadastrar-produtos-pelo-celular/
 Categorias: Cadastros
 Conteúdo:
 Passo 1: Acesse o Facity Controle
@@ -4047,7 +4047,7 @@ informações tenham sido úteis. Caso tenha dúvidas ou sugestões, deixe seu c
 --------------------------------------------------
 
 Título: Como cadastrar seções|categorias?
-Link: https://blog.facity.com.br/cadastrando-secoes-categorias-no-sistema-facity-controle/
+Link: https://manual.facity.com.br/cadastrando-secoes-categorias-no-sistema-facity-controle/
 Categorias: Cadastros
 Conteúdo:
 O que é uma seção/categorias?
@@ -4099,7 +4099,7 @@ busca no sistema de vendas e no cardápio digital.
 --------------------------------------------------
 
 Título: Como cadastrar produtos?
-Link: https://blog.facity.com.br/cadastrando-produtos-no-sistema-facity-controle/
+Link: https://manual.facity.com.br/cadastrando-produtos-no-sistema-facity-controle/
 Categorias: Cadastros
 Conteúdo:
 Passo a passo para cadastrar produtos:

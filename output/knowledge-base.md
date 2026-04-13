@@ -1,0 +1,3844 @@
+# Base de conhecimento (Blog - Ajuda Facity Sistemas)
+
+_Gerado em: 2026-04-13T02:08:53.582Z_
+
+## Categorias
+
+- Cadastros
+- Configurações
+- Impressoras
+- Instalação
+- Integrações
+- Relatórios
+
+## Artigos
+
+---
+
+## Como Criar e Configurar a Chave do Google Maps no Facity Controle?
+
+- **Link:** https://manual.facity.com.br/como-criar-e-configurar-a-chave-do-google-maps-no-facity-controle/
+- **Categorias:** Configurações
+
+Precisa ativar os mapas no seu sistema? Siga este guia rápido para gerar sua chave de API e configurá-la em poucos minutos.
+
+PARTE 1: GERAR A CHAVE
+
+ 1. Acesse: Google Maps Platform [https://mapsplatform.google.com]
+    e clique em Criar Conta.
+
+2. Acesso rápido: Se o Google já reconhecer seu e-mail, clique em Pular por enquanto e depois em Continuar. (Caso não reconheça faça login na sua conta)
+
+3. Clique em Continuar;
+
+4. Termos: Marque a caixa de termos de uso e clique em Concordar e Continuar.
+
+5. Cartão de Crédito: O Google pede um método de pagamento para validar a conta (mas oferece um crédito gratuito todo mês). Clique no “+”, insira os dados do cartão e clique em Iniciar.
+
+6. Copie o código: Quando a chave (um código de letras e números) aparecer, copie e guarde ela.
+
+Se não aparecer de imediato, clique no menu Chaves e Credenciais para visualizá-la.
+
+2. COLOCANDO A CHAVE NO SISTEMA FACITY CONTROLE
+
+Agora, você precisa “avisar” ao seu sistema qual é a sua chave.
+
+ 1. Login: Acesse o seu painel do Facity Controle.
+
+2. Configurações: No menu lateral, clique em Configurações
+
+3. No final da página que abrir, clique novamente no botão Configurações.
+
+4. Busca: No campo de pesquisa, digite a palavra Maps.
+
+5. Editar: Você verá duas opções de API
+
+6. Clique no ícone verde (lápis/editar) em cada uma delas.
+
+7. Colar e Salvar: Apague o que estiver no campo, cole a sua nova chave e clique em Salvar.
+
+Pronto! O seu Google Maps já deve estar funcionando.
+
+---
+
+## Como liberar o acesso à rede local no Google Chrome para usar a balança integrada
+
+- **Link:** https://manual.facity.com.br/como-liberar-o-acesso-a-rede-local-no-google-chrome-para-usar-a-balanca-integrada/
+- **Categorias:** Configurações
+
+Se a sua balança integrada parou de funcionar no Facity POS após uma atualização do Google Chrome, não se preocupe — o problema não está na balança nem no sistema.
+
+A partir das versões mais recentes, o Google Chrome passou a exigir uma nova permissão chamada “Acesso à rede local” para que sites seguros (como o nosso, https://pos.facity.com.br) consigam se comunicar com programas locais, como o aplicativo da balança.
+
+🚨 Por que isso acontece?
+
+O Facity POS usa um aplicativo instalado no computador que se comunica localmente com o navegador (por exemplo, através do endereço http://localhost:8989).
+Esse aplicativo é responsável por ler o peso da balança e enviar automaticamente o valor para o sistema.
+
+Com a nova política de segurança do Chrome, qualquer comunicação com o localhost é bloqueada por padrão, a menos que o usuário libere manualmente o “Acesso à rede local”.
+
+Sem essa permissão, o sistema não consegue detectar a balança, e o peso deixa de ser preenchido automaticamente.
+
+Como liberar o “Acesso à rede local” no Chrome
+Passo 1 — Acesse o sistema normalmente
+
+Abra o Facity POS em:
+
+https://pos.facity.com.br [https://pos.facity.com.br]
+
+Passo 2 — Clique no cadeado 🔒 ao lado da barra de endereço
+
+Isso abrirá o menu de permissões do site.
+
+Passo 3 — Ative a opção “Acesso à rede local”
+
+No menu que aparece:
+
+Localize o item Acesso à rede local;
+
+Clique para ativar (deve ficar azul);
+
+Clique em Recarregar quando o Chrome pedir.
+
+(Imagem ilustrativa: tela do Chrome com “Acesso à rede local” ativado e botão “Recarregar” visível)
+
+🔹 Após ativar, o site passa a ter permissão para se comunicar com o aplicativo local da balança.
+
+Passo 4 — Teste novamente a balança
+
+Depois de recarregar a página, tente novamente pesar um produto.
+O campo de peso deve voltar a preencher automaticamente.
+
+💡 Caso o problema continue
+
+Se a opção “Acesso à rede local” não aparecer ou a balança ainda não responder:
+
+Clique novamente no cadeado 🔒;
+
+Selecione Redefinir permissões;
+
+Recarregue a página e repita os passos.
+
+Outras informações:
+
+Essa mudança foi introduzida recentemente pelo Google Chrome como medida de segurança.
+
+Outros navegadores baseados no Chrome (como Edge e Brave) também devem adotar essa exigência em breve.
+
+O Facity POS já é totalmente compatível com esse novo padrão — basta liberar a permissão uma vez para continuar usando a balança normalmente.
+
+🧰 Suporte Facity
+
+Se mesmo após liberar o acesso o sistema ainda não estiver lendo a balança:
+
+📞 Fale com o suporte Facity pelo chat do painel
+ou envie uma mensagem pelo WhatsApp oficial da Facity.
+
+---
+
+## Como autorizar a integração com ifood?
+
+- **Link:** https://manual.facity.com.br/como-autorizar-a-integracao-com-ifood/
+- **Categorias:** Integrações
+
+1 – Acesse o Gestor de Pedidos.
+
+2 – Navegue até a seção Serviços, Produtos e Integrações.
+
+ * Localize a integração FacitySistemas
+ * Clique nos três pontinhos (…) ao lado do nome FacitySistemas
+ * Selecione permitir
+
+3 – Na tela de confirmação, clique em:
+
+ * Autorizar para finalizar a integração.
+
+Pronto! A autorização foi realizada. Aguarde o prazo de até 24 horas para que a integração esteja totalmente ativa e funcional.
+
+---
+
+## Como Aceitar Pedidos Delivery no Facity POS.
+
+- **Link:** https://manual.facity.com.br/como-aceitar-pedidos-delivery-no-facity-pos/
+- **Categorias:** Cadastros
+
+1. Acesse o programa: Clique no ícone do Facity POS na sua área de trabalho. Na tela de login, insira o nome da sua empresa, seu usuário e sua senha.
+
+2. Vá para a área de pedidos: Após fazer login, procure e clique no ícone ou botão que indica a área de pedidos de delivery.
+
+3. Gerencie os pedidos nas diferentes seções: Ao entrar, você verá a página de gestão de pedidos, dividida em três seções principais:
+
+ * Pendentes: Aqui você encontra os novos pedidos que acabaram de chegar. Para aceitar um pedido, clique nele e confirme a aceitação.
+ * Produção: Os pedidos que você já aceitou são movidos automaticamente para esta seção. É onde eles ficam enquanto estão sendo preparados.
+ * Prontos/Entrega: Assim que o pedido estiver pronto para ser enviado, mova-o para esta seção. É o último passo antes de finalizar a entrega.
+
+Seguindo esses passos, você pode aceitar e acompanhar o status de todos os seus pedidos de delivery de forma organizada.
+
+Segue o link de como você fazer um pedido delivery pelo Facity POS:
+
+> Como funciona um novo pedido (delivery) no Facity POS? [https://blog.facity.com.br/como-funcionar-um-pedido-de-delivery/]
+
+---
+
+## Guia Passo a Passo: Como aproveitar ao máximo os Sistemas Facity Controle
+
+- **Link:** https://manual.facity.com.br/guia-passo-a-passo-como-aproveitar-ao-maximo-os-sistemas-facity-controle/
+- **Categorias:** Cadastros
+
+No blog da Facity, você encontra várias dicas e tutoriais para usar nossos sistemas da melhor forma. Se você está começando ou quer aprender a utilizar melhor as funcionalidades, esse guia passo a passo vai te ajudar! Acompanhe os seguintes passos para tirar o máximo proveito dos recursos do sistema Facity.
+
+PASSO 1: COMO INSTALAR O SISTEMA FACITY
+
+ * 1.1. Baixe o Sistema: A primeira coisa a fazer é baixar o sistema Facity no seu computador ou dispositivo. Dependendo do seu modelo de negócio, o Facity oferece versões específicas que podem ser baixadas diretamente no site da Facity.
+ * 1.2. Realize a Instalação: Após o download, siga as instruções para instalar o sistema. O processo é simples e intuitivo, mas se surgir alguma dúvida, há tutoriais disponíveis para ajudar.
+ * 1.3. Configurações Iniciais: Quando a instalação estiver concluída, o sistema vai pedir algumas configurações iniciais. Isso inclui a inserção de dados do seu negócio, como nome, endereço e tipo de operação. Preencha essas informações com cuidado, pois elas são importantes para o funcionamento correto do sistema.
+
+> Como baixar e instalar o sistema Facity? [https://blog.facity.com.br/como-baixar-e-instalar-o-sistema-facity/]
+
+Passo 2: Como cadastrar seções no Facity Controle
+
+ 1. Acesse o sistema e faça login.
+ 2. Vá em “Seções/Categorias” no menu “Cardápio”.
+ 3. Clique em “Nova Seção”, insira o nome e salve.
+ 4. Para editar, clique no ícone verde ao lado da seção.
+
+> Como cadastrar seções|categorias? [https://blog.facity.com.br/cadastrando-secoes-categorias-no-sistema-facity-controle/]
+
+PASSO 3: COMO CADASTRAR PRODUTOS NO FACITY CONTROLE
+
+ * Acesse o Sistema: Faça login no Facity Controle.
+ * Vá em “Cardápio”: No menu lateral, clique em “Cardápio” e depois em “Produtos”.
+ * Clique em “Novo Produto”: Preencha o nome, descrição, valor e categoria do produto.
+ * Salvar: Após preencher, clique em “OK” para salvar.
+ * Pronto! Seu produto foi cadastrado.
+
+> Como cadastrar produtos? [https://blog.facity.com.br/cadastrando-produtos-no-sistema-facity-controle/]
+
+PASSO 3: COMO CADASTRAR COMBOS NO FACITY CONTROLE
+
+ 1. Acesse o sistema: Abra o Facity Controle e faça login.
+ 2. Vá para “Cardápio” > “Combos”: No menu lateral esquerdo, clique em “Cardápio” e depois em “Combos”.
+ 3. Crie um novo combo: Clique em “Novo Combo”, preencha as informações como nome, descrição e preço, e salve.
+ 4. Adicione produtos ao combo: Após criar o combo, edite-o para adicionar os produtos que o compõem, definindo quantidades e possíveis descontos
+
+> Como cadastrar combos? [https://blog.facity.com.br/como-cadastrar-combos/]
+
+PASSO 4: COMO ADICIONAR OPCIONAIS A UM PRODUTO NO FACITY CONTROLE
+
+ 1. Acesse o sistema e faça login.
+ 2. Vá para “Opcionais” no menu lateral.
+ 3. Clique em “Novo Opcional”, insira o nome e salve.
+ 4. Associe o opcional ao produto desejado.
+
+> Como criar opcionais e colocar no produto? [https://blog.facity.com.br/como-criar-opcionais-e-colocar-no-produto/]
+
+PASSO 5: COMO ADICIONAR OPCIONAIS A UMA SEÇÃO NO FACITY CONTROLE
+
+ 1. Acesse o sistema: Faça login no Facity Controle.
+ 2. Crie os opcionais: No menu, selecione “Opcionais” e clique em “Novo Opcional” para adicionar itens como ovo, queijo ou bacon.
+ 3. Vincule os opcionais à seção:
+    * Vá em “Cardápio” > “Seções/Categorias”.
+    * Edite a seção desejada clicando no ícone verde.
+    * Em “Grupo de Opc”, crie um novo grupo ou edite um existente.
+    * Adicione os opcionais ao grupo e salve.
+
+> Como criar opcionais e colocar na seção? [https://blog.facity.com.br/como-criar-opcionais-e-colocar-na-secao-categoria/]
+
+Dessa forma, os opcionais estarão disponíveis para todos os produtos da seção.
+
+PASSO 6: COMO CADASTRAR SEU ESTOQUE NO FACITY CONTROLE
+
+ 1. Acesse o sistema: Abra o Facity Controle e faça login.
+ 2. Vá para “Estoque” > “Matérias-Primas”: No menu, selecione “Estoque” e depois “Matérias-Primas”.
+ 3. Adicione uma nova matéria-prima: Clique em “Novo”, preencha o nome, quantidade e unidade, depois salve.
+ 4. Vincule a matéria-prima a um produto:
+    * Acesse “Produtos” e edite o produto desejado.
+    * Vá para “Ficha Técnica” e clique em “Novo”.
+    * Selecione a matéria-prima, defina a quantidade a ser descontada do estoque e salve.
+ 5. Registre entradas no estoque: Em “Estoque”, vá para “Entradas”, clique em “Novo”, selecione “Matérias-Primas” e insira as informações da nova entrada.
+
+Seguindo esses passos, você poderá gerenciar seu estoque no Facity Controle de forma eficiente.
+
+> Como cadastrar seu Estoque no Facity Controle? [https://blog.facity.com.br/como-cadastrar-seu-estoque-no-facity-controle/]
+
+----------------------------------------
+
+Passo 7: Como criar um Cupom de Desconto no Facity Controle
+
+ 1. Acesse o sistema: Faça login no Facity Controle.
+ 2. Navegue até “Cupons de Desconto”: No menu lateral, clique em “Marketing” e selecione “Cupons de Desconto”.
+ 3. Crie um novo cupom: Clique em “Novo”, preencha os detalhes do cupom (como código, valor de desconto, validade) e salve.
+
+Assim, seu cupom de desconto estará pronto para uso.
+
+> Como criar um cupom de desconto? [https://blog.facity.com.br/como-criar-um-cupom-de-desconto/]
+
+Passo 8: Como criar e enviar notificações no Facity Controle
+
+ 1. Acesse o sistema: Faça login no Facity Controle.
+ 2. Vá para “Marketing” > “Notificações”: No menu lateral, clique em “Marketing” e selecione “Notificações”.
+ 3. Crie uma nova notificação: Clique em “Novo”, insira um título e uma breve descrição para a notificação.
+ 4. Envie a notificação: Após configurar, clique em “Enviar” para que seus clientes a recebam.
+
+Assim, você mantém seus clientes informados sobre promoções e novidades
+
+> Como criar e usar notificações? [https://blog.facity.com.br/como-criar-e-usar-notificacoes/]
+
+Passo 9: Como Sortear um pedido no Facity Controle
+
+ 1. Acesse o sistema e vá até “Pedidos”.
+ 2. Defina os filtros (data, pagamento, origem e tipo de cliente).
+ 3. Clique em “Sortear” para escolher um pedido aleatório.
+
+Pronto! Seu sorteio foi realizado.
+
+> Como sortear um pedido? [https://blog.facity.com.br/como-sortear-um-pedido/]
+
+Passo 10: Como Instalar o Facity BOT e criar auto respostas
+
+Para instalar o Facity BOT e criar auto respostas:
+
+ 1. Instale a extensão no Chrome Web Store.
+ 2. Faça login no WhatsApp Web com seus dados.
+ 3. Crie auto respostas no Facity Controle em “Marketing” > “Auto Resposta”.
+
+Pronto! O BOT responderá automaticamente seus clientes.
+
+> Como criar auto respostas e instalar o Facity BOT? [https://blog.facity.com.br/como-criar-auto-respostas-e-instalar-o-facity-bot/]
+
+Passo 11: Como Cadastrar um usuário pelo Facity Controle
+
+ 1. Acesse o sistema e faça login.
+ 2. Vá em “Usuários” e toque em “Novo”.
+ 3. Preencha os dados, defina login e senha.
+ 4. Selecione “Caixa” como função e conclua.
+
+Para cadastrar usuário administrativo, caixa, garçom e motoboy é o mesmo procedimento.
+
+Pronto! O usuário foi cadastrado.
+
+> Como cadastrar um usuário Caixa? [https://blog.facity.com.br/como-cadastrar-um-usuario-caixa/]
+
+Passo 12: Como gerar um relatório de vendas no Facity Controle
+
+ 1. Acesse o sistema: Faça login no Facity Controle.
+ 2. Vá para “Relatórios” > “Vendas”: No menu lateral, clique em “Relatórios” e depois em “Vendas”.
+ 3. Defina o período e método de pagamento: Escolha a data inicial, final (máximo de 30 dias) e o método de pagamento desejado.
+ 4. Visualize o relatório: O sistema exibirá o total de vendas conforme os filtros aplicados.
+
+Para gerar outros tipos de relatórios é só seguir o mesmo passo a passo.
+
+> Como gerar relatório de vendas? [https://blog.facity.com.br/como-usar-relatorio-de-vendas/]
+
+Passo 13: Como integrar o Mercado Pago ao Facity
+
+ 1. Crie uma chave PIX aleatória no Mercado Pago.
+ 2. No Facity Controle, vá em “Integrações” > “Mercado Pago”, insira seu e-mail e autorize.
+ 3. Ative o PIX Online em “Configurações” > “Forma de pagamento”.
+
+Pronto! A integração está feita.
+
+> Como integrar o Mercado Pago no Sistema Facity? [https://blog.facity.com.br/como-integrar-o-mercado-pago-no-sistema-facity/]
+
+Passo 14: Como configurar Taxas de Entrega(bairro) no Facity Controle
+
+ 1. Acesse o sistema: Faça login no Facity Controle.
+ 2. Vá em “Configurações” > “Taxas de Entrega (Bairro)”: No menu administrativo, selecione “Configurações” e depois “Taxas de Entrega (Bairro)”.
+ 3. Adicione um novo bairro: Clique em “Novo”, digite o nome do bairro e confirme em “OK”.
+
+Pronto! Agora você pode definir taxas de entrega específicas para cada bairro cadastrado.
+
+> Como configurar taxas de entrega (bairro)? [https://blog.facity.com.br/como-configurar-taxas-de-entrega-bairro/]
+
+Passo 15: Como configurar Taxas de Entrega(KM) e obter a chave da API do Google Maps
+
+ 1. Obtenha a chave da API do Google Maps:
+    * Acesse o Console do Google Cloud [https://console.cloud.google.com/].
+    * Crie um projeto ou selecione um existente.
+    * Vá em “APIs e Serviços” > “Credenciais”.
+    * Clique em “Criar credenciais” > “Chave de API”.
+    * Copie a chave gerada.
+ 2. Configure no Facity Controle:
+    * No Facity, vá em “Configurações” > “Taxas de Entrega (Km)”.
+    * Cole a chave da API no campo correspondente.
+    * Defina o valor da taxa por quilômetro.
+    * Salve as alterações.
+
+Pronto! A taxa de entrega por km está configurada.
+
+> Como criar chave do Google Maps e configurar taxa de entrega (Km)? [https://blog.facity.com.br/como-configurar-taxa-de-entrega-km-e-conseguir-chave-do-google-maps/]
+
+Passo 16: Como configurar formas de pagamento no Facity Controle
+
+ 1. Acesse “Configurações” > “Formas de Pagamento”.
+ 2. Clique em “Novo” ou edite uma existente.
+ 3. Preencha os dados (nome, tipo) e salve.
+
+Pronto! Forma de pagamento configurada.
+
+> Como configurar formas de pagamento? [https://blog.facity.com.br/como-configurar-formas-de-pagamento/]
+
+Passo 17: Como criar Taxas de Serviço no Facity Controle
+
+ 1. Vá em “Configurações” > “Taxa de Serviço”.
+ 2. Ative a opção e defina o percentual.
+ 3. Clique em “Salvar”.
+
+Pronto! A taxa será aplicada nos pedidos.
+
+> Como criar Taxas de Serviço no Facity Controle? [https://blog.facity.com.br/como-criar-taxas-de-servico-no-facity-controle/]
+
+Passo 18: Como alterar o Tempo Estimado no Facity Controle
+
+Para alterar o tempo estimado no Facity Controle:
+
+ 1. Acesse “Configurações” > “Tempo Estimado”.
+ 2. Defina os minutos para entrega e/ou retirada.
+
+Pronto! O tempo estimado foi atualizado.
+
+> Como alterar tempo estimado? [https://blog.facity.com.br/como-alterar-tempo-estimado/]
+
+Passo 19: Como configurar o Horário de Atendimento no Facity Controle
+
+ 1. Acesse “Configurações” > “Horário de Atendimento”.
+ 2. Ajuste os horários para cada dia da semana.
+ 3. Clique em “Salvar”.
+
+Pronto! Seu horário de atendimento está configurado.
+
+> Como configurar horário de atendimento? [https://blog.facity.com.br/como-configurar-horario-de-atendimento/]
+
+---
+
+## Como adicionar o App do Garçom no IOS?
+
+- **Link:** https://manual.facity.com.br/como-adicionar-o-app-do-garcom-no-ios/
+- **Categorias:** Configurações
+
+Para adicionar o App do Garçom à tela inicial do seu iPhone, siga esses passos rápidos:
+
+Passo 1: Abra a página no Safari:
+Abra o Safari e acesse a página do App do Garçom que você quer adicionar.
+
+Passo 2: Toque no ícone de compartilhamento:
+No menu que aparece, toque no ícone de compartilhamento (um quadrado com uma seta para cima) e depois em “Adicionar à Tela de Início”. 
+
+Passo 3: Dê um nome ao atalho:
+Escolha um nome para o atalho e toque em “Adicionar”.
+
+Pronto! Agora o App do Garçom estará disponível na tela inicial do seu iPhone.
+
+---
+
+## Novos atalhos do teclado no Sistema Facity
+
+- **Link:** https://manual.facity.com.br/novos-atalhos-do-teclado-no-sistema-facity/
+- **Categorias:** Configurações
+
+A nova atualização do sistema Facity traz atalhos de teclado que tornam o uso da plataforma mais ágil e prático. Confira como usá-los:
+
+Abrir o Facity POS:
+Primeiro, entre no sistema Facity POS.
+
+Imprimir uma Comanda:
+Para imprimir rapidamente, pressione as teclas ALT + P no seu teclado.
+
+Transferir uma Mesa:
+Quando precisar transferir uma mesa, basta pressionar ALT + T.
+
+Bloquear uma Mesa:
+Para bloquear uma mesa , pressione ALT + B.
+
+Esses atalhos são simples, mas vão ajudar a otimizar seu tempo enquanto usa o sistema!
+
+---
+
+## Como adicionar vários sabores de refrigerante ao seu combo?
+
+- **Link:** https://manual.facity.com.br/como-adicionar-varios-sabores-de-refrigerante-ao-seu-combo/
+- **Categorias:** Cadastros
+
+Este tutorial te guiará passo a passo para incluir opções de refrigerantes em seus combos no Facity Controle.
+
+Passo a Passo:
+
+ 1. Faça login com seu nome de usuário e senha. Certifique-se de digitar tudo em letras minúsculas.
+
+ * Abra o programa Facity Controle em seu computador.
+
+2. Criação do Produto “Refrigerantes”:
+
+ * Acesse a seção de produtos: Clique em “Produtos”.
+ * Crie um novo produto: Clique em “Novo produto“.
+
+ * Preencha as informações:
+ * Nome: “Refrigerantes”
+ * Descrição: Uma breve descrição do produto (opcional).
+ * Status: Mantenha como “Inativo”
+ * Salve: Clique em “OK” para salvar as informações.
+   
+
+3. Criação das Opções de Sabores:
+
+ * Edite o produto: Encontre o produto “Refrigerantes” na lista e clique em “Editar”.
+
+Crie um grupo de opções:
+
+ * Clique em “Novo”.
+ * Clique em “Grupos de Opc”.
+
+ * Nomeie o grupo: Por exemplo: “Escolha seu refrigerante”.
+ * Defina quantidade mínima e máxima: Escolha a quantidade mínima e máxima de opções que o cliente poderá selecionar.
+
+Adicione as opções:
+
+ * Clique em “Opções”.
+ * Clique em “Novo Opcional”.
+
+ * Digite cada sabor de refrigerante disponível.
+ * Lembrando sempre de clicar em “Ok” para salvar.
+
+4. Adição dos Refrigerantes ao Combo:
+
+ * Selecione o combo: Vá para a seção “Combos” e escolha o combo que deseja editar ou crie um novo.
+
+Adicione um novo produto ao combo:
+
+ * Clique em “Produtos”.
+ * Clique em “Novo”.
+
+ * Escolha o produto “Refrigerantes”: Busque pelo produto “Refrigerantes” que você criou e selecione-o.
+ * Defina o valor.
+
+Parabéns! Você acabou de adicionar opções de refrigerantes ao seu combo no Facity Controle. Agora seus clientes poderão escolher o sabor de refrigerante que preferem ao fazer seus pedidos.
+
+---
+
+## Como adicionar um novo sabor à sua pizza no Facity Controle?
+
+- **Link:** https://manual.facity.com.br/como-adicionar-um-novo-sabor-a-sua-pizza-no-facity-controle/
+- **Categorias:** Cadastros
+
+Passo a passo simplificado para deixar seu cardápio ainda mais completo:
+
+Passo 1: Abra o Facity Controle em seu computador e faça login com o nome da empresa, login e senha, lembrando que tudo tem que ser em letras minúsculas.
+
+Passo 2: Clique em “Cardápio” no menu lateral esquerdo e selecione “Produtos” como indicado pela seta na imagem.
+
+Passo 3: Busque o produto “Pizza” na lista e clique em “Editar” no ícone verde.
+
+Passo 4: Adicione o novo sabor:
+
+Dentro da edição da pizza, procure a seção “Classes/Sabores”. Selecione a classe onde o novo sabor se encaixa e clique em “Sabores”
+
+Passo 5: Crie um novo sabor:
+
+Clique em “Novo sabor” e preencha as informações solicitadas, como nome do sabor e ingredientes
+
+Salve as alterações: Após inserir todas as informações, clique em “OK” para salvar o novo sabor e as modificações na pizza.
+
+Prontinho! Agora você pode oferecer mais uma deliciosa opção aos seus clientes.
+
+---
+
+## Como Alterar os Preços das Pizzas no Facity Controle?
+
+- **Link:** https://manual.facity.com.br/como-alterar-os-precos-das-pizzas-no-facity-controle/
+- **Categorias:** Cadastros
+
+Quer ajustar os preços das suas pizzas no Facity Controle? É mais simples do que parece! Siga este passo a passo:
+
+1. Abra o Facity Controle em seu computador
+
+ * Digite o nome da empresa, login e senha, lembrando que tudo deve ser em letras minúsculas.
+
+2. Encontre o Cardápio:
+
+ * No menu à esquerda, clique em “Cardápio”.
+ * Em seguida, selecione a opção “Produtos“.
+
+3. Localize a Pizza:
+
+ * Procure pela pizza que você quer alterar o preço na lista de produtos.
+ * Clique no botão “Editar”
+
+4. Edite o Preço:
+
+ * Uma nova página irá abrir.
+ * Procure a seção de “Preços”.
+ * Digite o novo valor que você deseja para a pizza.
+ * Clique em “Salvar”.
+
+E pronto! Você acabou de atualizar o preço da sua pizza. Repita esses passos para qualquer outra pizza que você queira ajustar.
+
+---
+
+## Guide with pos.facity.com.br
+
+- **Link:** https://manual.facity.com.br/guide-with-pos-facity-com-br/
+- **Categorias:** Cadastros
+
+----------------------------------------
+
+ * Created by Suporte Facity Sistemas on 12/10/2024
+ * Edit original on dubble [https://dubble.so/guides/guide-with-posfacitycombr-py3ntv3ftwjlbttkgtfb]
+
+----------------------------------------
+
+1. GO TO FACITY POS [https://pos.facity.com.br/facitycontrole/login]
+
+2. TYPE IN HIGHLIGHT [https://pos.facity.com.br/facitycontrole/login]
+
+3. CLICK ON ENTRAR [https://pos.facity.com.br/facitycontrole/login]
+
+4. CLICK ON NÃO SELECIONADO [https://pos.facity.com.br/facitycontrole/config]
+
+5. CLICK ON 1 [https://pos.facity.com.br/facitycontrole/config]
+
+6. CLICK ON HIGHLIGHT [https://pos.facity.com.br/facitycontrole/config]
+
+7. CLICK ON CONFIRMAR [https://pos.facity.com.br/facitycontrole/config]
+
+8. CLICK ON HIGHLIGHT [https://pos.facity.com.br/facitycontrole/tablescontainer]
+
+9. CLICK ON HIGHLIGHT [https://pos.facity.com.br/facitycontrole/tablescontainer]
+
+---
+
+## Como as mensagens vão para o motoboy com as taxas configuradas?
+
+- **Link:** https://manual.facity.com.br/como-as-mensagens-vao-para-o-motoboy-com-as-taxas-configuradas/
+- **Categorias:** Configurações
+
+Passo 1: Acesse o Facity Controle
+
+ * Abra o Facity Controle no seu computador.
+ * Faça login com seu usuário e senha, ambos em letras minúsculas.
+
+Passo 2: Cadastrando o motoboy:
+
+ * Clique em “usuários” e depois clique em “novo”
+
+Passo 3: Adicionando as informações:
+
+ * Coloque o nome do motoboy;
+ * Adicione o numero com o DDD;
+ * Clique em próxima;
+
+Passo 4: Adicionando nome e senha:
+
+ * Coloque o mesmo nome do motoboy;
+ * Coloque uma senha e repita ela;
+ * Clique em Próxima;
+
+Passo 5: Selecionando a função correta;
+
+ * Clique em cima de Motoboy;
+ * Clique em concluir para finalizar;
+
+Depois de concluir esses passos, vamos ver como as mensagens chegam ao motoboy. Para simular isso, você pode fazer um pedido de delivery seguindo os passos abaixo:
+
+Passo 1: Coloque o nome da sua empresa no navegador;
+
+Exemplo: nomedasuaempresa.facitydelivery.com.br
+
+ * Clique em Delivery;
+ * Selecione qualquer pedido do seu cardápio;
+ * Siga os passos a passos até concluir o pedido;
+
+Passo 2: Aceitando o pedido e selecionando o motoboy no Facity Pos;
+
+ * Aceite o pedido;
+ * Clique no ícone de capacete para selecionar o Motoboy;
+ * Selecione o Entregador/Motoboy;
+
+Passo 3: Chegando a mensagem:
+
+ * Após selecionar o Motoboy;
+ * Chegará uma mensagem com o pedido para ele e a localização do Google Maps;
+
+ * Clicando no link o Motoboy vai ter as melhores rotas para chegar até o destino;
+
+Esse processo facilita a comunicação entre a empresa e o motoboy, tornando as entregas mais rápidas e eficientes. Com esses passos, fica mais simples gerenciar os entregadores e melhorar a experiência dos clientes.
+
+---
+
+## Como criar conta e usar o Google Analytics no sistema?
+
+- **Link:** https://manual.facity.com.br/como-criar-conta-e-usar-o-google-analytics-no-sistema/
+- **Categorias:** Cadastros
+
+TUTORIAL SIMPLES PARA CRIAR UMA CONTA NO GOOGLE ANALYTICS E CONFIGURAR GA4
+
+PASSO 1: CRIAR UMA CONTA NO GOOGLE ANALYTICS
+
+ 1. Acesse o Google Analytics:
+    * Vá para o site do Google Analytics [https://analytics.google.com/].
+
+ 1. Fazer Login ou Criar uma Conta Google:
+    * Faça login com sua conta do Google. Se você não tiver uma conta Google, clique em “Criar Conta” e siga as instruções.
+
+ 1. Criar uma Nova Conta no Google Analytics:
+    * Após o login, você verá um botão “Começar a usar“. Clique nele.
+
+PASSO 2: CONFIGURAR PROPRIEDADE GA4
+
+ 1. Configurar a Conta:
+    * Dê um nome para sua conta (por exemplo, “Vida Mansa Bistro”).
+    * Configure as opções de compartilhamento de dados conforme suas preferências e clique em “Próximo”.
+
+ 1. Configurar a Propriedade:
+    * Dê um nome à sua propriedade (por exemplo, “Website Demonstracao”).
+    * Selecione seu fuso horário e moeda.
+    * Clique em “Próximo”.
+
+ 1. Configurar Detalhes da Empresa:
+    * Selecione a categoria da indústria, o tamanho da empresa e como pretende usar o Google Analytics.
+    * Clique em “Criar“.
+
+ 1. Aceitar os Termos de Serviço:
+    * Leia e aceite os Termos de Serviço do Google Analytics e a Política de Processamento de Dados da Google.
+
+PASSO 3: OBTER O ID DE MEDIÇÃO GA4
+
+ 1. Adicionar um Fluxo de Dados:
+    * Escolha “Web” como plataforma para rastrear.
+    * Insira a URL do seu site (https://demonstracao.facitydelivery.com.br/ [https://demonstracao.facitydelivery.com.br/]) [https://bistrovidamansa.facitydelivery.com.br/] “‌”) e um nome do fluxo (por exemplo, “Website Demonstracao”).
+    * Clique em “Criar Fluxo“.
+
+ 1. Obter o ID de Medição:
+    * Será exibido um ID de medição (algo como “G-XXXXXXX”). Copie este ID.
+
+PASSO 4: ADICIONAR O ID AO SEU SITE
+
+ 1. Acessar o Painel de Administração do Seu Site (Facity):
+    * Faça login no painel de administração do seu site no Facity Delivery.
+
+ 1. Adicionar o ID de Medição:
+    * No painel Facity, vá para Configurações > Configurações.
+
+ 1. Procure pela configuração “googleadsgtag“.
+    * Edite a configuração clicando no botão verde de edição.
+    * Cole o ID de medição (G-XXXXXXX) no campo apropriado e salve as alterações.
+      Alternativa:
+    * Se preferir, você pode passar o código G-XXXXXXX para o suporte do Facity e eles farão a alteração para você.
+
+PASSO 5: VERIFICAR SE O RASTREAMENTO ESTÁ FUNCIONANDO
+
+ 1. Acessar o Google Analytics:
+    * Volte para o painel do Google Analytics.
+ 2. Verificar os Relatórios:
+    * Vá para a seção “Tempo Real” e veja se há atividade no seu site. Caso contrário, aguarde alguns minutos e atualize a página.
+
+Parabéns! Você configurou com sucesso o Google Analytics para o seu site . Agora você pode monitorar o tráfego e o comportamento dos usuários para obter insights valiosos sobre o desempenho do seu site.
+
+---
+
+## Como cadastrar seu Estoque no Facity Controle?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-seu-estoque-no-facity-controle/
+- **Categorias:** Cadastros
+
+Passo 1: Acesse o Facity Controle
+
+ * Abra o Facity Controle no seu computador.
+ * Faça login com seu usuário e senha, ambos em letras minúsculas.
+
+Passo 2: Acesse o menu de Estoque
+
+ * Clique em “Estoque”.
+ * Selecione “Matérias-Primas”.
+
+Passo 3: Adicione uma nova matéria-prima
+
+ * Clique em “Novo”.
+
+Passo 4: Cadastre cada produto
+
+ * Preencha as informações: Nome do produto, quantidade e unidade.
+ * Clique em “Ok” para salvar.
+ * Repita para todos os produtos.
+
+Faça esse processo de cadastramento com todos os produtos do seu estoque primeiro para depois vincular ele ao produto já cadastrado no sistema.
+
+Exemplo de como colocar a “Quantidade”:
+
+Passo 5: Vincule o estoque aos produtos
+
+ * Clique em “Produtos”.
+
+ * Encontre o produto desejado e clique em “Editar”.
+
+Passo 6: Edite a entre em Ficha Técnica
+
+ * Clique em “Ficha Técnica”.
+
+ * Clique em “Novo”.
+
+Passo 7: Adicione a matéria-prima
+
+ * Selecione a matéria-prima correspondente.
+ * Insira a quantidade a ser diminuída (1.000 é igual a 1).
+ * O produto está agora vinculado ao seu estoque.
+
+Passo 8: Adicione entradas de estoque
+
+ * Vá para “Estoque” > “Entradas” > “Novo” > “Matérias-Primas”.
+
+ * Clique em “Inserir” e preencha as informações.
+
+Pronto! Agora você sabe como cadastrar seu estoque no Facity Controle.
+
+---
+
+## Como configurar o Facity Impressor?
+
+- **Link:** https://manual.facity.com.br/como-configurar-o-facity-impressor/
+- **Categorias:** Impressoras
+
+Após baixar e instalar o Sistema Facity, siga estas etapas para configurar o Impressor:
+
+Se precisar de ajuda com a instalação, consulte o tutorial completo:
+
+Link: https://blog.facity.com.br/como-baixar-e-instalar-o-sistema-facity/ [https://blog.facity.com.br/como-baixar-e-instalar-o-sistema-facity/]
+
+Passo 1:
+Abra o programa “Facity Impressor” na área de trabalho.
+
+Passo 2:
+Clique em “Configurar Conexão”.
+
+Passo 3:
+Selecione “Online” e clique em “Login”.
+
+Passo 4:
+Insira as informações solicitadas:
+
+ * Nome da empresa (sem espaços e em minúsculas)
+ * Usuário
+ * Senha
+ * Clique em “Logar”
+
+Nota: Se não tiver as informações de login, contate o Suporte Facity.
+
+Passo 5:
+Vá em “Configurações Gerais” e clique em “Buscar do Administrativo”. Verifique as informações e clique em “Salvar”.
+
+Passo 6:
+Configurar a Impressora de Terminal:
+
+ 1. Clique em “Impressora de Terminal”.
+ 2. Selecione o Terminal.
+ 3. Escolha a impressora na lista.
+ 4. Selecione o modelo e marque “negrito” e “cortar”.
+ 5. Clique em “Adicionar” e salve as configurações.
+
+Passo 7:
+Configurar a Impressora de Produção:
+
+ 1. Clique em “Impressoras de Produção”.
+ 2. Selecione o Terminal.
+ 3. Escolha a impressora na lista.
+ 4. Selecione o modelo e marque “negrito” e “cortar”.
+ 5. Clique em “Adicionar” e salve as configurações.
+
+Nota: O processo é o mesmo para ambas as impressoras, variando conforme o modelo.
+
+Passo 8:
+Clique em “Iniciar Servidor” para começar a usar o impressor.
+
+Finalizando a Configuração:
+
+ 1. Teste todas as impressoras configuradas para garantir que estão imprimindo corretamente.
+ 2. Se houver problemas, revise as configurações ou entre em contato com o Suporte Facity.
+
+Dicas Adicionais:
+
+ * Mantenha os drivers das impressoras atualizados.
+ * Realize manutenções periódicas nas impressoras para evitar falhas.
+
+Com esses passos, seu Facity Impressor estará configurado e pronto para uso, garantindo eficiência e precisão nas suas impressões.
+
+---
+
+## Como integrar o Mercado Pago no Sistema Facity?
+
+- **Link:** https://manual.facity.com.br/como-integrar-o-mercado-pago-no-sistema-facity/
+- **Categorias:** Integrações
+
+LEMBRETE IMPORTANTE: CRIAÇÃO DE CHAVE ALEATÓRIA NO MERCADO PAGO
+
+Passos para Criar a Chave Aleatória:
+
+ 1. Após criar sua conta no Mercado Pago, siga os seguintes passos:
+    * Acesse a seção “Área PIX”
+    * Clique em “Gerenciar chaves PIX”
+    * Selecione “Cadastrar chave”
+    * Escolha “Chave Aleatória”
+    * Confirme e finalize o processo
+
+Importância da Chave Aleatória: É fundamental criar esta chave antes de prosseguir com o processo de vinculação ao Sistema Facity. Isso evita possíveis erros ou problemas na integração.
+
+Integrar o Mercado Pago ao sistema Facity é simples e rápido, seguindo estes passos:
+
+Passo 1: Abra o Facity Controle no seu computador e insira o nome da empresa, login e senha, utilizando letras minúsculas.
+
+Passo 2: No menu lateral à esquerda, clique em “Integrações” e depois em “Mercado Pago”.
+
+Passo 3: Clique em “Renovar”. Caso seja solicitada uma senha, entre em contato com o Suporte Facity para obtê-la e continuar com a integração de forma tranquila.
+
+Passo 4: Se você já possui uma conta no Mercado Pago, insira o email da sua conta e clique em “Ok” para prosseguir. Se não possui uma conta, siga o link fornecido para criar uma conta no Mercado Pago.
+
+👉 https://blog.facity.com.br/como-criar-uma-conta-no-mercado-pago/ [http://👉 https://blog.facity.com.br/como-criar-uma-conta-no-mercado-pago/]
+
+Passo 5: Clique em “Autorizar” para prosseguir com a integração.
+
+Passo 6: Após clicar em autorizar, uma nova página será aberta no seu navegador. Siga as etapas para entrar na sua conta do Mercado Pago:
+
+ * Coloque seu E-mail;
+ * Coloque sua senha;
+ * Clique em “Iniciar sessão”
+
+Passo 7: Clique na caixa que aparece no final do texto e depois em “continuar”.
+
+Passo 8: Selecione “Autorizar este aplicativo”.
+
+Passo 9: Após autorizar, uma tela de confirmação irá aparecer, concluindo a integração.
+
+Passo 10: Para ativar essa forma de pagamento:
+
+ * Volte para o Facity Controle;
+ * Clique em configurações;
+ * Selecione Forma de pagamento;
+
+Passo 11: Após realizar a integração, a opção “Pix Online” estará disponível. Para ativá-la, clique em “Ativar”.
+
+Com este simples e objetivo passo a passo, você pode integrar facilmente o Mercado Pago ao seu sistema Facity.
+
+---
+
+## Como criar uma conta no mercado pago?
+
+- **Link:** https://manual.facity.com.br/como-criar-uma-conta-no-mercado-pago/
+- **Categorias:** Cadastros
+
+RECEBA PAGAMENTOS PIX COM MAIS SEGURANÇA E PRATICIDADE PELO MERCADO PAGO!
+
+Temos o prazer de anunciar uma novidade incrível para facilitar ainda mais a vida de nossos clientes: a integração do pagamento PIX com o Mercado Pago em nosso sistema!
+
+Com essa integração, você desfruta de:
+
+ * Segurança reforçada: seus pagamentos PIX serão processados pelo Mercado Pago, plataforma reconhecida por sua confiabilidade e tecnologia avançada de proteção contra fraudes.
+ * Praticidade incomparável: os pedidos só serão processados após a confirmação do pagamento, eliminando transtornos e otimizando seu fluxo de trabalho.
+ * Conciliação automática: as transações PIX serão automaticamente conciliadas com o Mercado Pago, facilitando o acompanhamento do seu histórico financeiro e a gestão do seu negócio.
+
+Além disso, oferecemos:
+
+ * Taxa competitiva: para cada transação PIX realizada pelo Mercado Pago, você paga apenas 1,5%, uma das taxas mais baixas do mercado.
+ * Suporte dedicado: nossa equipe de especialistas está à disposição para te auxiliar na ativação da integração e te orientar em qualquer dúvida que você tenha.
+
+Para habilitar essa funcionalidade em sua conta, basta entrar em contato conosco!
+
+Como criar uma conta no Mercado Pago como Pessoa Física:
+
+ * Baixe o app:
+
+Android: Play Store: Clique aqui [https://play.google.com/store/apps/details?id=com.mercadopago.wallet] 👈
+
+iOS: App Store: Clique aqui [https://apps.apple.com/br/app/mercado-pago-cuenta-digital/id925436649?l=en-GB] 👈
+
+Após baixar o app comece a criar sua conta seguindo esses passos abaixo 👇
+
+ 1. Abra o app e toque em “Criar uma conta”.
+ 2. Selecione “Brasil” e “Criar conta pessoal”.
+ 3. Aceite os termos e condições.
+ 4. Valide seu e-mail e digite seu CPF.
+ 5. Tire uma selfie e faça upload de um documento com foto.
+ 6. Siga as instruções para confirmar seu celular.
+ 7. Insira seu endereço e renda mensal.
+ 8. Responda se você é PEP (Pessoa Exposta Politicamente).
+
+Pronto! Sua conta está criada!
+
+Após criar a conta, crie uma chave aleatória no mercado pago:
+
+Clique em:
+
+ * Área PIX;
+ * Gerenciar chaves PIX;
+ * Cadastrar chave;
+ * Chave Aleatória;
+ * Confirmar e Finalizar.
+
+Ao seguir estes passos, você gerou uma Chave Aleatória. É crucial ressaltar que essa chave deve ser criada para evitar quaisquer problemas durante o processo de vinculação com o Sistema Facity.
+
+Com o Mercado Pago, você tem tudo que precisa para gerenciar suas finanças com segurança e praticidade.
+
+CRIANDO UMA CONTA NO MERCADO PAGO COMO PESSOA JURÍDICA:
+
+Criar sua conta é rápido e fácil:
+
+ 1. Baixe o app:
+    * Android: Play Store: Clique aqui [https://play.google.com/store/apps/details?id=com.mercadopago.wallet] 👈
+    * iOS: App Store: Clique aqui [https://apps.apple.com/br/app/mercado-pago-cuenta-digital/id925436649?l=en-GB] 👈
+
+Após baixar o app comece a criar sua conta seguindo esses passos abaixo 👇
+
+ 1.  Abra o app e toque em “Criar conta”.
+ 2.  Selecione “Brasil” e “Criar conta empresa”.
+ 3.  Aceite os termos e condições.
+ 4.  Preencha os dados da sua empresa, incluindo CNPJ.
+ 5.  Informe a renda mensal da empresa.
+ 6.  Responda se há beneficiários finais com no mínimo 25% de participação.
+ 7.  Confirme as informações e selecione sua função na empresa.
+ 8.  Tire uma selfie e faça upload de um documento com foto.
+ 9.  Siga as instruções para confirmar seu celular.
+ 10. Crie sua senha e chave Pix.
+
+Após criar a conta crie uma chave aleatória no mercado pago:
+
+Clique em:
+
+ * Área PIX
+ * Gerenciar chaves PIX
+ * Cadastrar chave
+ * Chave Aleatória
+ * Confirmar e Finalizar
+
+Ao seguir estes passos, você gerou uma Chave Aleatória. É crucial ressaltar que essa chave deve ser criada para evitar quaisquer problemas durante o processo de vinculação com o Sistema Facity.
+
+Pronto! Sua conta PJ está pronta para usar!
+
+---
+
+## Como baixar e instalar o sistema Facity?
+
+- **Link:** https://manual.facity.com.br/como-baixar-e-instalar-o-sistema-facity/
+- **Categorias:** Instalação
+
+Para começar, você precisará realizar a instalação do programa, onde ocorre a configuração do sistema. O processo é bastante simples e você mesmo pode executar seguindo os passos a seguir:
+
+Passo 1: Download e Instalação do Programa
+
+1.1 – Acesse o link abaixo e quando abrir a pagina clique em “Instalador Facity Controle Cliente Web”.
+
+?? https://www.facity.com.br/downloads [https://www.facity.com.br/downloads]
+
+1.2 – Clique no link para iniciar o download. Dependendo do seu navegador, uma nova guia pode abrir automaticamente para salvar o arquivo ou iniciar o download.
+
+1.3 – Após o download, abra o arquivo (clicando onde a seta indica na imagem a cima). Se o antivírus mostrar uma mensagem de proteção, clique em “Mais informações” e selecione “Executar mesmo assim”.
+
+1.4 – Na tela de instalação, escolha entre “Instalação Completa” (instala o sistema e o servidor de impressão) ou “Instalação Parcial” (instala apenas o sistema). Clique em “Próxima” até chegar à opção “Instalar“.
+
+1.5 – Aguarde a conclusão da instalação e, em seguida, insira o nome da sua empresa em letras minúsculas quando solicitado. Clique em “Salvar”.
+
+Passo 2: Programas Instalados na Área de Trabalho
+
+Na conclusão da instalação, os seguintes programas estarão disponíveis em sua área de trabalho:
+
+ * Rusdesk (acesso remoto)
+ * Facity Pos
+ * Facity Controle
+ * Facity Impressor
+
+Imagem dos dos programas mencionados:
+
+Passo 3: Configuração do Facity Impressor
+
+2.1 – Abra o programa Facity Impressor.
+
+2.2 – Clique em “Configurar Conexão”.
+
+2.3 – Escolha “Online” e clique em login.
+
+Se estiver reinstalando, insira o ID do impressor encontrado no Facity Controle em “Configuração de Impressor”. Clique em “Trocar a Hash”, insira a senha “123456” e salve antes de copiar o código para colar na configuração do Facity Impressor.
+
+2.4 – Insira o nome da empresa, login e senha na nova aba que se abrirá. Clique em “Logar”.
+
+2.5 – Retorne à tela principal do Impressor, clique em “Configurações Gerais” e selecione “Buscar do Administrativo”. Insira as informações solicitadas e clique em “Salvar”
+
+Passo 4: Adição de Impressoras de Terminal e Produção
+
+4.1 – Na tela inicial, clique em “Parar o Servidor” e selecione “Impressora de Terminal”.
+
+4.2 – Escolha o terminal(1), modelo da impressora em “Impressora de Destino”(2), selecione o “Modelo”(3), marque “Negrito” e “Cortar”. Clique em “Adicionar”(4) e salve(5) as configurações.
+
+Lembre de escolher o “Modelo” dependendo da marca da sua impressora.
+
+4.3 – Repita o mesmo processo para “Impressora de Produção”, selecionando a “Impressora de Origem“(1), a “Impressora de destino”(2), o “Modelo”(3) , marcando “Negrito” e “Cortar”. Clique em “Adicionar”(4) e salve (5) as configurações.
+
+Passo 5: Iniciar o Servidor
+
+5.1 – Após configurar as impressoras, clique em “Iniciar Servidor”.
+
+Se as impressoras estiverem corretamente selecionadas, o processo estará completo. Caso encontre dificuldades, entre em contato com o suporte técnico para assistência adicional. Agora, desfrute do controle eficiente e simplificado do Facity Controle Cliente Web em sua empresa!
+
+---
+
+## como cadastrar um produto tipo pizza promocional sendo um produto simples?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-um-produto-tipo-pizza-promocional-sendo-um-produto-simples/
+- **Categorias:** Cadastros
+
+Passo 1: Abra o Facity Controle no seu computador e insira o nome da empresa, login e senha. Lembre-se de que tudo deve ser digitado em letras minúsculas.
+
+Passo 2: No menu lateral à esquerda, clique em “Cardápio“.
+
+Passo 3: Em seguida, no menu lateral à esquerda, selecione “Produtos“.
+
+Passo 4: Crie o produto com o nome promocional desejado, por exemplo, “Pizza Grande Promocional“, e clique em “ok” para salvar. Não se esqueça de criar a seção para vincular esse produto, como “Promoções” ou “Pizzas Promocionais“.
+
+Passo 5: Com o produto criado, procure-o novamente em “Produtos“, seja através da barra de pesquisa ou navegando pelas páginas.
+
+Passo 6: Clique em “Grupos de Opcionais” para começar a criar grupos de opcionais e, se desejar, atualize a foto do produto.
+
+Passo 7: Clique em “Novo” para criar os grupos. Insira o nome do grupo e defina a quantidade mínima e máxima, então clique em “ok” para salvar.
+
+Passo 8: Agora, você precisará criar os “sabores” nos opcionais para, em seguida, adicioná-los ao grupo.
+
+Passo 9: Clique em “Opcionais” para começar a criação.
+
+Passo 10: Dentro de “Opcionais“, clique em “Novo Opcional“.
+
+Passo 11: Insira o sabor da pizza e uma breve descrição. Não é necessário adicionar o preço, pois ele será definido no produto principal. Clique em “ok” para salvar.
+
+Passo 12: Volte para a seção “Produtos” e encontre o produto “Pizza Promocional“. Clique em “Editar“.
+
+Passo 13: Após clicar em “Editar”, vá para “Grupos de Opcionais“. Comece clicando em “Opções” para adicionar os sabores.
+
+Passo 14: Dentro de “Opções“, procure pelo produto que deseja adicionar dentro do grupo de “sabores“. Clique em “Adicionar“.
+
+Você pode usar a caixa de pesquisa ou navegar pelas páginas conforme indicado pela seta.
+
+Com esses passos, você criou com sucesso um produto simples tipo pizza com opcionais. Agora, seus clientes poderão desfrutar de suas pizzas promocionais com facilidade. Se tiver alguma dúvida ou precisar de mais orientações, fique à vontade para deixar um comentário ou entrar em contato com o suporte.
+
+---
+
+## Como alterar tempo estimado?
+
+- **Link:** https://manual.facity.com.br/como-alterar-tempo-estimado/
+- **Categorias:** Configurações
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Para começar, abra o Facity Controle em seu computador. Certifique-se de que tem o login e senha corretos da sua empresa. Lembre-se de que tudo tem que ser digitado em letras minúsculas.
+
+Passo 2: Clique em “Configurações”
+
+No menu lateral à esquerda, clique em “Configurações”.
+
+Passo 3: Clique em “Tempo Estimado”
+
+Dentro de “Configurações”, clique em “Tempo Estimado”.
+
+Passo 4: Agora, para alterar o tempo estimado:
+
+ * Selecione um dos relógios pré-definidos clicando neles;
+ * Digite manualmente os horários desejados nos campos fornecidos;
+
+Passo 5: Certifique-se de salvar as alterações, clicando em “Salvar” na parte inferior página.
+
+Se tiver alguma dúvida ou precisar de assistência adicional, não hesite em entrar em contato com o suporte técnico do Facity Controle ou deixe um comentário abaixo.
+
+---
+
+## Como configurar senhas de retirada?
+
+- **Link:** https://manual.facity.com.br/como-configurar-senhas-de-retirada/
+- **Categorias:** Configurações
+
+Passo 1: Acesse o Facity Controle no seu computador e faça o login na sua conta.
+
+Passo 2: No menu lateral esquerdo, clique em “Impressoras de Terminal”.
+
+Passo 3: Clique em “Editar Terminal” e selecione as opções desejadas. Em seguida, clique em “OK” para salvar. Isso criará a opção de senha de retirada.
+
+Passo 4: Entre no Facity POS e clique onde a seta indica na imagem abaixo:
+
+Passo 5: Após clicar, você será redirecionado para a seguinte página. Clique em “Senhas de Retirada” para configurar.
+
+Passo 6: Na próxima tela, você pode alterar os números das senhas usando os símbolos “+” e “-“ ou digitando os números diretamente no espaço fornecido.
+
+Passo 7: Por fim, clique em “Confirmar” para finalizar a configuração. Lembre-se de que, sempre que desejar alterar as senhas no painel, você deve voltar a esta configuração.
+
+Com esses simples passos, você configurou com sucesso senhas de retirada no Facity POS. Agora você pode desfrutar de uma experiência mais segura e organizada em seu sistema.
+
+Esperamos que este guia tenha sido útil! Se tiver alguma dúvida, não hesite em entrar em contato conosco.
+
+---
+
+## Como adicionar ou alterar os valores em combos?
+
+- **Link:** https://manual.facity.com.br/como-adicionar-ou-alterar-os-valores-no-combo/
+- **Categorias:** Cadastros
+
+Passo 1: Acesse o Facity Controle no seu computador e faça o login na sua conta.
+
+Passo 2: No menu lateral esquerdo, clique na opção “Cardápio”.
+
+Passo 3: Na próxima tela, clique em “Combos”.
+
+Passo 4: Agora você verá a lista de combos disponíveis. Escolha o combo que deseja editar e clique no ícone verde associado a ele para começar a edição.
+
+Passo 5: Ao entrar na página de edição do combo, clique em “Produtos”.
+
+Passo 6: Nesta seção, você verá a lista de produtos que fazem parte do combo. Escolha o produto cujo valor você deseja editar e clique no ícone verde ao lado desse produto para iniciar a edição.
+
+Passo 7: Na janela de edição do produto, você pode agora modificar o valor do produto de acordo com as suas necessidades.
+
+Passo 8: Após alterar o valor do produto, clique em “Ok” para confirmar as alterações e salvar as atualizações feitas.
+
+Com esses passos simples, você conseguiu adicionar ou alterar os valores em um combo no Facity Controle. Lembre-se de verificar todas as alterações antes de finalizar e garantir que seu cardápio esteja sempre atualizado para oferecer aos seus clientes a melhor experiência possível.
+
+---
+
+## Como permitir quantidade fracionada em um produto?
+
+- **Link:** https://manual.facity.com.br/como-permitir-quantidade-fracionada-em-um-produto/
+- **Categorias:** Cadastros
+
+Passo 1: Abra o Facity Controle no seu computador e faça login.
+
+Passo 2: Acesse “Produtos” no menu principal.
+
+Passo 3: Selecione o produto desejado e clique no ícone verde para editá-lo.
+
+Passo 4: Marque a opção “Permitir quantidade fracionada” na página de edição e depois clique em “salvar”.
+
+Agora você pode vender e gerenciar quantidades fracionadas desse produto de forma simples. Se tiver mais produtos, repita o processo.
+
+---
+
+## Novas variáveis disponíveis no Bot para fornecer informações atualizadas do sistema
+
+- **Link:** https://manual.facity.com.br/novas-variaveis-disponiveis-no-bot-para-fornecer-informacoes-atualizadas-do-sistema/
+- **Categorias:** Cadastros
+
+Entendendo as variáveis disponíveis, as variáveis disponíveis são as seguintes:
+
+ 1. [openinghours]: Essa variável permite exibir os horários de funcionamento do estabelecimento.
+ 2. [deliverytime]: Utilize essa variável para mostrar o tempo estimado de entrega para pedidos de delivery, em horas.
+ 3. [withdrawaltime]: Essa variável mostra o tempo estimado de retirada de pedidos, em horas.
+ 4. [deliverytimeminutes]: Utilize essa variável para mostrar o tempo estimado de entrega para pedidos de delivery, em minutos.
+ 5. [withdrawaltimeminutes]: Essa variável mostra o tempo estimado de retirada de pedidos, em minutos.
+ 6. [companyaddress]: Utilize essa variável para exibir o endereço da empresa.
+ 7. [webappurl]: Essa variável contém a URL do aplicativo.
+ 8. [sendername]: Utilize essa variável para obter o nome informado pelo cliente através do WhatsApp.
+
+Para usar as variáveis, segue um passo a passo:
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Digite o nome da empresa, login e senha, lembrando que tudo deve ser em letras minúsculas.
+
+Passo 2: Navegue até o menu “Marketing”
+
+No painel do Facity Controle, encontre e clique na opção “Marketing”. Em seguida, dentro do menu “Marketing”, procure pela opção “Auto Respostas” e clique nela.
+
+Passo 3: Adicione as novas variáveis às auto respostas
+
+Agora vem a parte importante! Na tela das “Auto Respostas”, você verá um ícone em azul para adicionar novas respostas. Clique nesse ícone para começar a criar as suas auto respostas e incluir as novas variáveis.
+
+Passo 4: Exemplo de como colocar as variáveis
+
+Todas as variáveis estão no inicio do post ☝
+
+Alguns exemplos de variáveis:
+
+1.[companyaddress]: Utilize essa variável para exibir o endereço da empresa.
+
+2. [openinghours]: Essa variável permite exibir os horários de funcionamento do estabelecimento.
+
+3. [deliverytime]: Utilize essa variável para mostrar o tempo estimado de entrega para pedidos de delivery, em horas.
+
+4. [withdrawaltimeminutes]: Essa variável mostra o tempo estimado de retirada de pedidos, em minutos.
+
+5. [deliverytimeminutes]: Utilize essa variável para mostrar o tempo estimado de entrega para pedidos de delivery, em minutos.
+
+6. [webappurl]: Essa variável contém a URL do aplicativo.
+
+7. [sendername]: Utilize essa variável para obter o nome informado pelo cliente através do WhatsApp.
+
+Passo 5: Não se esqueça de salvar
+
+Após criar todas as suas auto respostas com as variáveis desejadas, clique em “SALVAR” para garantir que todo o trabalho feito seja armazenado corretamente e não se perca.
+
+Agora você está pronto para utilizar as novas variáveis em seu bot e fornecer informações atualizadas de forma simples e eficiente. Aproveite esses recursos para tornar a experiência dos seus clientes ainda melhor!
+
+Esperamos que este passo a passo tenha sido útil para você. Se tiver alguma dúvida ou quiser compartilhar suas experiências, deixe um comentário abaixo. Até a próxima!
+
+---
+
+## Como criar Taxas de Serviço no Facity Controle?
+
+- **Link:** https://manual.facity.com.br/como-criar-taxas-de-servico-no-facity-controle/
+- **Categorias:** Cadastros
+
+Hoje, iremos aprender como criar Taxas de Serviço no Facity Controle, uma funcionalidade essencial para o gerenciamento eficiente do seu negócio. Vamos seguir um passo a passo simples e explicativo. Vamos lá!
+
+Passo 1: Acesse o Facity Controle
+
+Para começar, acesse o Facity Controle em seu computador e faça login usando suas credenciais. Certifique-se de que o nome da empresa, login e senha estejam em letras minúsculas para evitar problemas de acesso.
+
+Passo 2: Acesse as Configurações e selecione “Taxas de Serviço”
+
+Após fazer login, você estará na área administrativa do Facity Controle. Agora, clique na opção “Configurações” no menu. Em seguida, procure pela opção “Taxas de Serviço” e clique nela.
+
+Passo 3: Adicione uma nova taxa
+
+Ao acessar a seção de “Taxas de Serviço”, você verá a opção “Novo”. Clique nesse botão para criar uma nova taxa.
+
+Passo 4: Preencha os detalhes da taxa de serviço
+
+Agora, é o momento de preencher os detalhes da sua nova taxa de serviço. Comece inserindo o nome da taxa que você deseja adicionar.
+
+Tipos de valor: Você pode escolher entre dois tipos de variações para a taxa – porcentagem ou valor fixo. Selecione o que melhor se adequa às suas necessidades.
+
+Destino da taxa de serviço: Nesta etapa, escolha entre as opções “Caixa”, “Garçom” ou “Cover” (Couvert Artístico) como destino da taxa.
+
+Tipo de cobrança: Escolha o tipo de cobrança que melhor se aplica à sua taxa. As opções disponíveis podem variar, mas normalmente incluem “Por Mesa” ou “Por Pessoa”.
+
+Passo 5: Exemplos de Taxas de Serviço
+
+Aqui estão alguns exemplos de como preencher os campos da taxa de serviço:
+
+Exemplo de Taxa de Serviço de Couvert Artístico:
+
+Exemplo de Taxa de Serviço Garçom:
+
+Passo 6: Status da taxa
+
+No campo “Status”, você pode optar por deixar a taxa “Ativa” ou “Inativa” de acordo com a necessidade. Quando estiver tudo configurado, clique em “OK” para salvar as informações da taxa de serviço.
+
+Parabéns! Agora você criou com sucesso uma nova taxa de serviço no Facity Controle. Essa configuração ajudará na organização financeira do seu negócio.
+
+Espero que este tutorial tenha sido útil e que você possa aproveitar ao máximo essa funcionalidade. Se tiver alguma dúvida, não hesite em deixar seu comentário abaixo. Boa gestão e até a próxima!
+
+---
+
+## Como adicionar um produto tipo Hambúrguer?
+
+- **Link:** https://manual.facity.com.br/como-adicionar-um-produto-tipo-hamburguer/
+- **Categorias:** Cadastros
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Para começar, abra o Facity Controle em seu computador. Certifique-se de digitar o nome da empresa, login e senha, lembrando que tudo deve ser escrito em letras minúsculas.
+
+Passo 2: Acesse o cardápio no menu lateral esquerdo
+
+Dentro do painel administrativo, clique em “Cardápio” no menu lateral esquerdo.
+
+Passo 3: Selecione a opção “Produtos”
+
+Na página do cardápio, localize e clique em “Produtos”. Você pode identificá-lo pela seta indicativa na imagem.
+
+Passo 4: Crie um novo produto
+
+Para adicionar um novo produto, clique em “Novo Produto”.
+
+Passo 5: Preencha as informações do produto
+
+Ao clicar em “Novo Produto”, uma caixa de cadastramento será aberta. Nela, preencha as informações necessárias sobre o produto:
+
+ * Nome do produto
+ * Preço
+ * Descrição do produto
+ * Seção do produto
+
+Após inserir os dados, clique em “Salvar”.
+
+Observação: Se você não possui uma seção para esse produto, é necessário criar uma nova.
+
+Siga o passo a passo abaixo:
+
+ * Volte ao menu e clique em “Seções / Categorias”
+
+ * Em seguida, clique em “Nova Seção”
+
+ * Insira um nome para a seção e clique em “OK” para salvar
+
+Agora, vamos adicionar uma foto ao produto e à seção:
+
+ * Volte ao menu e clique em “Produtos”
+ * Utilize a barra de pesquisa para encontrar o produto desejado
+
+ * Clique no ícone verde para editar e acessar a página do produto
+
+ * Localize a opção “Selecionar”, conforme indicado pela seta
+ * Clique em “Selecionar imagem” para abrir a janela de seleção de fotos
+
+ * Procure e selecione a imagem desejada
+ * Clique em “Abrir”
+ * Ajuste a imagem de acordo com sua preferência
+ * Clique em “Concluir” para adicionar a imagem
+ * No final da página, clique em “Salvar”
+
+[
+
+Agora, vamos adicionar uma foto à seção:
+
+ * Clique em “Seções / Categorias“
+ * Encontre a seção à qual deseja adicionar a foto
+ * Clique no ícone verde
+
+ * Clique em “Selecionar”
+
+ * Selecione a imagem salva anteriormente e clique em “Abrir”
+ * Ajuste a imagem conforme sua preferência
+ * Clique em “Concluir”
+
+ * Para finalizar, clique em “Salvar”
+
+Seguindo esses passos, você conseguirá adicionar um produto tipo hambúrguer ao seu cardápio no Facity Controle. Experimente e aproveite!
+
+---
+
+## Como adicionar um link no stories do Instagram para acessar o cardápio digital?
+
+- **Link:** https://manual.facity.com.br/como-adicionar-um-link-no-stories-do-instagram-para-acessar-o-cardapio-digital/
+- **Categorias:** Cadastros
+
+Hoje eu vou ensinar como adicionar um link ao seu cardápio digital no seu stories do Instagram. É muito fácil, siga os passos abaixo:
+
+Passo 1: Abra o Instagram e vá até adicionar ao Stories;
+
+Passo 2: Após gravar ou escolher a imagem que quer postar, clique no ícone de stickers (o quadradinho com um rosto);
+
+Passo 3: Toque em “Link”
+
+Passo 4: Após clicar no link e adicione o endereço do seu cardápio digital;
+
+Passo 5: Clique em “Concluir” para finalizar
+
+Exemplo:
+
+Outro exemplo de como fica com o “link” já pronto:
+
+Clicando no “Link” imediatamente o cliente vai acessar o cardápio digital, segue uma imagem de exemplo abaixo;
+
+Imediatamente! Agora seus seguidores podem acessar o seu cardápio digital clicando no link que você adicionou ao seu stories!
+
+Fácil, né? Lembre-se que adicionar links ao seu stories é uma ótima maneira de fornecer aos seus seguidores uma experiência mais interativa e completa com seu conteúdo.
+
+---
+
+## Como adicionar bordas em um produto tipo pizza?
+
+- **Link:** https://manual.facity.com.br/como-adicionar-bordas-em-um-produto-tipo-pizza/
+- **Categorias:** Cadastros
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Digite o nome da empresa, login e senha, lembrando que tudo deve ser em letras minúsculas.
+
+Passo 2: Abra o menu
+
+No menu, clique em “cardápio” e, em seguida, clique em “Opicionais”.
+
+Passo 3: Clique em “Novo Opcional” para começar a criar os opcionais
+
+Comece a criar os opcionais de borda um por um, como :
+
+Borda de Cheddar, Borda de Catupiry, Sem borda, etc.
+
+Clique em “OK” para salvar.
+
+Passo 4: Adicione os opcionais nas bordas dos produtos
+
+Acesse novamente o “Cardápio” e clique em “produtos”. Busque na barra de pesquisa o nome pizza ou monte sua pizza para começar a adicionar as bordas.
+
+Clique no ícone verde para editar e depois em “Grupos de Opc”.
+
+Clique em “Opções” que está em azul para começar a adicionar opcionais nas bordas
+
+Clique em “adicionar” para incluir opcionais nos grupos. Busque na barra de pesquisa pelo nome do opcional e clique em “adicionar”.
+
+Salve clicando em “ok”.
+
+Passo 5: Edite a quantidade mínima e máxima do grupo criado
+
+Próximo passo é editar a quantidade mínima e quantidade máxima do grupo criado.
+
+Ao criar o grupo de adicionais, defina a quantidade mínima e máxima que os clientes podem escolher.
+
+ * A quantidade mínima é o menor número de ingredientes que você pode escolher. Se a quantidade mínima é 0, você pode escolher nenhum ingrediente extra. Se a quantidade mínima é 1, você precisa escolher pelo menos um ingrediente extra. Se a quantidade mínima é maior que 1, você precisa escolher pelo menos essa quantidade de ingredientes extras.
+ * A quantidade máxima é o maior número de ingredientes que você pode escolher. Se a quantidade máxima é 0, você não pode escolher nenhum ingrediente extra. Se a quantidade máxima é 1, você pode escolher apenas um ingrediente extra. Se a quantidade máxima é maior que 1, você pode escolher até essa quantidade de ingredientes extras.
+
+Volte nos grupos de opc e clique no ícone verde para editar. Ajuste a quantidade mínima e máxima do grupo, lembrando que essa regra equivale para todos os opcionais adicionados nesse grupo.
+
+Com esses passos simples, você pode adicionar bordas recheadas em suas pizzas e melhorar ainda mais o seu cardápio.
+
+---
+
+## Como limitar permissões dos usuários?
+
+- **Link:** https://manual.facity.com.br/como-limitar-permissoes-dos-usuarios/
+- **Categorias:** Cadastros
+
+Passo a passo sobre como limitar permissões dos usuários no sistema:
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Digite o nome da empresa, login e senha, lembrando que tudo deve ser em letras minúsculas.
+
+Passo 2: Abra o menu
+
+No menu, clique em “cardápio” e, em seguida, clique em “usuários”.
+
+Passo 3: Escolha o usuário que deseja alterar as permissões e clique no ícone verde para editar
+
+Passo 4: Depois que clicar em “Editar”, clique em “Próxima” até chegar na ultima opção.
+
+Segue um exemplo nas imagens abaixo:
+
+Passo 5: Escolha a função e clique em “detalhes”.
+
+Selecione a função que deseja limitar as permissões.
+
+Passo 6: Desmarque as permissões que deseja limitar.
+
+Visualize as permissões atuais do usuário e desmarque as que deseja limitar. Por exemplo, se não quiser que o usuário acesse uma função do sistema específica, desmarque a opção correspondente.
+
+Passo 6: Salve as alterações. Clique em “OK” para salvar as alterações e limitar as permissões do usuário.
+
+Pronto! Agora você sabe como limitar as permissões dos usuários em um sistema usando o Facity Controle. Seguindo esses passos, é possível garantir a segurança das informações da sua empresa.
+
+---
+
+## Como adicionar opcionais ao sabor em produto tipo pizza?
+
+- **Link:** https://manual.facity.com.br/como-adicionar-opcionais-ao-sabor-em-produto-tipo-pizza-2/
+- **Categorias:** Cadastros
+
+Adicionar opcionais ao sabor em uma pizza é uma ótima maneira de oferecer mais opções aos seus clientes. Aqui está um passo a passo simples para fazê-lo:
+
+1 – Acesse o sistema de controle de cardápio em seu computador.
+
+2 – Procure a opção “Adicionais” e clique em “Novo adicional” para criar um novo opcional.
+
+3 – Insira o nome e o valor do adicional na tela de criação do opcional e clique em “Salvar” para concluir.
+
+4 – Clique em “Cardápio” e depois em “Produtos” para adicionar o grupo de adicionais ao produto.
+
+5 – Encontre o produto desejado e clique no ícone verde. Em seguida, clique em “Grupos de adicionais” e crie um novo grupo ou adicione o adicional a um grupo existente.
+
+6 – Ao criar o grupo de adicionais, defina a quantidade mínima e máxima que os clientes podem escolher.
+
+ * A quantidade mínima é o menor número de ingredientes que você pode escolher. Se a quantidade mínima é 0, você pode escolher nenhum ingrediente extra. Se a quantidade mínima é 1, você precisa escolher pelo menos um ingrediente extra. Se a quantidade mínima é maior que 1, você precisa escolher pelo menos essa quantidade de ingredientes extras.
+ * A quantidade máxima é o maior número de ingredientes que você pode escolher. Se a quantidade máxima é 0, você não pode escolher nenhum ingrediente extra. Se a quantidade máxima é 1, você pode escolher apenas um ingrediente extra. Se a quantidade máxima é maior que 1, você pode escolher até essa quantidade de ingredientes extras.
+
+7 – Volte para a tela de grupos de adicionais dentro do produto e clique em “Novo” para adicionar o adicional ao grupo. Insira o nome do grupo e a quantidade, clique em “Salvar” e depois em “Opções” em azul.
+
+8 – Encontre o adicional pelo nome ou clique em “Seguinte” para visualizar a lista completa de opcionais. Clique em “Adicionar” para incluí-lo no grupo e depois em “OK” para salvar.
+
+9 – Visualize os opcionais no sistema e no app.
+
+Agora, seus clientes terão mais opções de adicionar ingredientes extras em suas pizzas, sem complicações.
+
+---
+
+## Como adicionar o PIXEL no Sistema Facity?
+
+- **Link:** https://manual.facity.com.br/como-adicionar-o-pixel-no-sistema-facity/
+- **Categorias:** Cadastros
+
+Integrando o Facebook ao sistema Facity: Como fazer a verificação de domínio via DNS e vincular o código Pixel ao sistema
+
+Se você deseja criar campanhas de anúncios no Facebook ADS, é essencial integrar sua conta do Facebook com o sistema Facity. Para isso, é preciso realizar duas etapas:
+
+Fazer a verificação de domínio via DNS;
+
+Vincular o código Pixel ao sistema;
+
+NESTE ARTIGO, VAMOS EXPLICAR COMO REALIZAR ESSAS DUAS ETAPAS PARA INTEGRAR O FACEBOOK AO SISTEMA FACITY.
+
+1 – Fazendo a verificação de domínio via DNS
+
+Antes de criar qualquer campanha no Facebook ADS, é importante realizar a verificação do domínio. Isso é necessário para garantir que o domínio pertence a você e que você tem permissão para criar anúncios em seu nome.
+
+Para realizar a verificação de domínio, siga os seguintes passos:
+
+1.1. Acesse o Gerenciador de Negócios do Facebook e selecione a opção “Verificação do Domínio” no menu de configurações.
+
+1.2. Na tela seguinte, selecione a opção “Adicionar uma entrada TXT de DNS” como método de verificação.
+
+1.3. Em seguida, o Facebook fornecerá um valor TXT que deve ser adicionado ao DNS do seu domínio. Para isso, basta enviar esse valor para a equipe do Facity Controle e aguardar a confirmação de que o valor foi adicionado.
+
+1.4. Assim que a equipe do Facity Controle confirmar que o valor foi adicionado, volte à tela de verificação de domínio do Facebook ADS.
+
+1.5. Clique no botão “Verificar” e aguarde a confirmação de que a verificação foi concluída com sucesso.
+
+Com a verificação do domínio concluída, você pode usar o seu domínio para criar campanhas de anúncios no Facebook ADS, o que ajudará a aumentar a credibilidade e a eficácia dos seus anúncios. Lembre-se de que a verificação do domínio é um requisito obrigatório para usar determinadas funcionalidades do Facebook ADS, como a segmentação por interesses e comportamentos.
+
+2 – Vinculando o código Pixel ao sistema do Facity Controle
+
+Para vincular o código Pixel ao sistema do Facity Controle, siga estes passos:
+
+2.1. Abra o Facity Controle e vá até o menu na lista lateral esquerda “Configurações”.
+
+2.2. Clique no submenu “Configurações”.
+
+2.3. Na tela que aparecer, haverá uma caixa de pesquisa “nome”. Digite “Pixel” na caixa de pesquisa.
+
+2.4. Na lista de opções que aparecerá, clique na opção “Pixel” Clique no botão verde para editar.
+
+2.5. Na caixa de texto que aparecerá, preencha com o valor do Pixel fornecido pelo Facebook, algo parecido com isso: “718569825528970”.
+
+2.6. Clique em “Salvar” para concluir a configuração.
+
+Apos tudo configurado você também pode conferir o mapa de URLS [https://blog.facity.com.br/mapa-de-urls-para-facebook-pixel/] para o sistema dessa forma sabendo rastrear a jornada do cliente pelo Cardápio Digital clicando no link: mapa de URLS [https://blog.facity.com.br/mapa-de-urls-para-facebook-pixel/].
+
+CONSIDERAÇÕES FINAIS
+
+Agora que você já sabe como integrar o Facebook ao sistema Facity, é importante destacar a importância dessa integração para a sua estratégia de marketing digital.
+
+O código Pixel do Facebook é uma ferramenta fundamental para quem deseja realizar campanhas de anúncios eficazes. Ele permite que você colete dados sobre as interações dos usuários com o seu site e use esses dados para criar campanhas mais segmentadas e personalizadas.
+
+Ao vincular o Facebook ao sistema Facity, você pode acompanhar o desempenho das suas campanhas de anúncios com mais precisão e obter insights valiosos sobre o comportamento do seu público-alvo. Além disso, essa integração permite que você crie anúncios mais relevantes e personalizados, aumentando a eficácia das suas campanhas e melhorando os resultados.
+
+Mas antes de começar a criar suas campanhas de anúncios no Facebook ADS, é preciso fazer a verificação de domínio via DNS, que é um requisito obrigatório para usar determinadas funcionalidades da plataforma, como a segmentação por interesses e comportamentos.
+
+Para fazer a verificação de domínio via DNS, siga os passos que mencionamos anteriormente. É importante destacar que esse processo pode levar alguns dias para ser concluído, então é importante iniciar essa verificação com antecedência para evitar atrasos na sua estratégia de marketing digital.
+
+Após a verificação do domínio ser concluída, é hora de adicionar o pixel do Facebook ao sistema do Facity Controle. O pixel é um código que permite rastrear as interações dos usuários com os seus anúncios no Facebook, possibilitando que você mensure o desempenho das suas campanhas e otimize suas estratégias de marketing.
+
+Para adicionar o pixel ao sistema Facity, siga os passos que mencionamos anteriormente. É importante que você preencha o valor do Pixel fornecido pelo Facebook com precisão, para que o código seja vinculado corretamente ao seu sistema.
+
+Em resumo, integrar o Facebook ao sistema Facity pode trazer muitos benefícios para a sua estratégia de marketing digital, desde o acompanhamento mais preciso do desempenho das suas campanhas até a criação de anúncios mais relevantes e personalizados. Siga os passos que mencionamos neste artigo e comece a aproveitar todos os recursos que essa integração pode oferecer para o seu negócio!
+
+---
+
+## Como alterar foto de uma seção?
+
+- **Link:** https://manual.facity.com.br/como-alterar-foto-de-uma-secao/
+- **Categorias:** Cadastros
+
+Neste post, vamos ensinar como alterar a foto de uma seção em sua página do Facity Controle. Siga o passo a passo abaixo:
+
+Passo 1: Abra o Facity Controle em seu computador e faça login com o nome da empresa, login e senha. Lembre-se de que tudo deve ser escrito em letras minúsculas.
+
+Passo 2: Abra o menu e clique em “Cardápio”.
+
+Passo 3: Em seguida, clique em “Seções/Categorias”.
+
+Passo 4: Selecione a seção que deseja alterar a foto e clique em “Editar” no ícone verde.
+
+Passo 5: Clique em “Selecionar” e, em seguida, em “Selecionar a imagem”.
+
+Busque pela foto que salvou para colocar na seção e selecione-a. Clique em “Abrir”.
+
+Passo 6: Ajuste a imagem do jeito que preferir e clique em “Concluir”.
+
+Passo 7: Clique em “Salvar” e, em seguida, em “OK”.
+
+Pronto! A foto da seção foi adicionada ou alterada e, se quiser mudá-la novamente, basta repetir o mesmo processo. Esperamos que este tutorial tenha sido útil e fácil de seguir. Se tiver alguma dúvida, deixe um comentário abaixo.
+
+---
+
+## Como alterar foto de um produto?
+
+- **Link:** https://manual.facity.com.br/como-alterar-foto-de-um-produto/
+- **Categorias:** Cadastros
+
+Se você precisa alterar a foto de um produto no Facity Controle, siga esses passos simples:
+
+Passo 1: Abra o Facity Controle em seu computador.
+
+Passo 2: Insira o nome da empresa, o login e a senha – tudo em letras minúsculas.
+
+Passo 3: Abra o menu e clique em “Cardápio”.
+
+Passo 4: Selecione a opção “Produtos”.
+
+Passo 5: Escolha o produto que deseja alterar a foto e clique no ícone verde de “Editar”.
+
+Passo 6: Clique em “Selecionar”.
+
+Passo 7: Busque a foto que deseja adicionar e selecione-a.
+
+Ajuste a imagem do jeito que preferir e clique em “Concluir”
+
+Passo 8: Salve as alterações clicando em “Salvar”.
+
+Passo 9: Confirme a ação clicando em “OK”.
+
+Pronto! A foto do produto foi adicionada ou alterada com sucesso. Para mudá-la novamente, basta repetir esses mesmos passos.
+
+---
+
+## Mapa de URLS para Facebook Pixel
+
+- **Link:** https://manual.facity.com.br/mapa-de-urls-para-facebook-pixel/
+- **Categorias:** Configurações
+
+Início:
+
+ * https://facitycontrole.facitydelivery.com.br/ [https://facitycontrole.facitydelivery.com.br/]
+
+Login:
+
+ * https://facitycontrole.facitydelivery.com.br/loginmethods [https://facitycontrole.facitydelivery.com.br/loginmethods]
+
+Seções:
+
+ * https://facitycontrole.facitydelivery.com.br/sections [https://facitycontrole.facitydelivery.com.br/sections]
+
+Produtos:
+
+ * https://facitycontrole.facitydelivery.com.br/products [https://facitycontrole.facitydelivery.com.br/products]
+
+Cupons:
+
+ * https://facitycontrole.facitydelivery.com.br/coupons [https://facitycontrole.facitydelivery.com.br/coupons]
+
+Cadastrar um endereço:
+
+ * https://facitycontrole.facitydelivery.com.br/myaddresses [https://facitycontrole.facitydelivery.com.br/myaddresses]
+
+Informações do cliente:
+
+ * https://facitycontrole.facitydelivery.com.br/accountinformations [https://facitycontrole.facitydelivery.com.br/accountinformations]
+
+Um produto específico:
+
+Exemplo de um produto ?
+
+ * https://facitycontrole.facitydelivery.com.br/product/c1362458-b70d-4c4a-91f0-eff2dd3687c6 [https://facitycontrole.facitydelivery.com.br/product/c1362458-b70d-4c4a-91f0-eff2dd3687c6]
+
+Carrinho:
+
+ * https://facitycontrole.facitydelivery.com.br/presale [https://facitycontrole.facitydelivery.com.br/presale]
+
+Métodos de pagamentos:
+
+ * https://facitycontrole.facitydelivery.com.br/paymentmethods [https://facitycontrole.facitydelivery.com.br/paymentmethods]
+
+Resumo do pedido antes de finalizar:
+
+ * https://facitycontrole.facitydelivery.com.br/orderreview [https://facitycontrole.facitydelivery.com.br/orderreview]
+
+Pós finalização de compra e acompanhamento do pedido:
+
+ * https://facitycontrole.facitydelivery.com.br/orders [https://facitycontrole.facitydelivery.com.br/orders]
+
+---
+
+## Como resolver problemas no WhatsApp de sincronismo entre mensagem do celular e navegador?
+
+- **Link:** https://manual.facity.com.br/como-resolver-problemas-no-whatsapp-de-sincronismo-entre-mensagem-do-celular-e-navegador/
+- **Categorias:** Configurações
+
+Se você utiliza o WhatsApp Web para conversar com seus contatos pelo computador, provavelmente já se deparou com o problema de sincronismo entre as mensagens do celular e as do navegador. Mas não se preocupe, neste tutorial vou te ensinar como resolver esse problema de forma simples e objetiva.
+
+Passo 1: Abra o WhatsApp no seu celular e clique nos três pontos localizados no canto superior direito da tela.
+
+Passo 2: Em seguida, selecione a opção “Aparelhos Conectados”.
+
+Passo 3: Desconecte todos os aparelhos conectados ao WhatsApp clicando em cima de cada um e selecionando a opção “Desconectar”.
+
+Passo 4: Agora, abra o WhatsApp Web no seu navegador e conecte seu celular novamente.
+
+Passo 5: Repita esse processo sempre que o problema de sincronismo entre as mensagens do celular e do navegador acontecer.
+
+É importante lembrar que esse problema é um bug do próprio WhatsApp e que ele pode conectar até 4 dispositivos. Por isso, sempre que precisar, siga esses passos simples para resolver o problema de sincronismo.
+
+---
+
+## Como baixar e instalar app dos garçons da versão online?
+
+- **Link:** https://manual.facity.com.br/como-baixar-e-instalar-app-dos-garcons-da-versao-online/
+- **Categorias:** Instalação
+
+Neste post, vou te ensinar como baixar e instalar o aplicativo Facity Garçom, que é a versão online para os garçons das empresas que utilizam a plataforma Facity. É super fácil, confira o passo a passo abaixo:
+
+Passo 1: Acesse o link do Facity Garçom na PlayStore
+
+Link do Facity Garçom na PlayStore:
+
+Clique aqui [https://play.google.com/store/apps/details?id=br.com.facity.facitygarcom]
+
+Link do Facity Garçom para abrir no navegador:
+
+Clique aqui [https://garcom.facity.com.br/nomedaempresa/login]
+
+Passo 2: Aguarde o aplicativo ser baixado e instalado no seu celular.
+
+Passo 3: Abra o Facity Garçom em seu celular.
+
+Passo 4: Insira o nome da empresa, login e senha. Lembre-se de digitar tudo em letras minúsculas.
+
+Pronto! Agora você já pode usar o aplicativo Facity Garçom.
+
+Caso você queira saber como usar o aplicativo, confira o post com todas as explicações detalhadas neste link: https://blog.facity.com.br/como-usar-o-app-dos-garcons/ [https://blog.facity.com.br/como-usar-o-app-dos-garcons/].
+
+Espero que tenha ajudado! Se tiver alguma dúvida, deixe um comentário abaixo que eu te ajudo.
+
+---
+
+## Como excluir seções/categorias e produtos?
+
+- **Link:** https://manual.facity.com.br/como-excluir-secoes-categorias-e-produtos/
+- **Categorias:** Cadastros
+
+Passo a passo para excluir seções/categorias e produtos no Facity Controle:
+
+1 – Abra o Facity Controle no seu computador
+
+2 – Insira o nome da empresa, login e senha (tudo em letras minúsculas)
+
+3 – Clique em “Cardápio”
+
+4 – Clique em “Seções/Categorias”
+
+5 – Escolha a seção/categoria que deseja excluir
+
+6 – Clique no “X” em vermelho para deletar
+
+7 – Confirme clicando em “Sim, deletar”
+
+Para excluir um produto:
+
+ * Clique em “Cardápio”
+
+ * Clique em “Produtos”
+
+ * Escolha o produto que deseja excluir
+
+ * Clique no “X” em vermelho para deletar
+
+8 – Confirme clicando em “Sim, deletar”
+
+Imediatamente! Seguindo esses passos você pode excluir seções/categorias e produtos no Facity Controle.
+
+---
+
+## Como gerar relatórios de últimas entradas por matéria prima?
+
+- **Link:** https://manual.facity.com.br/como-gerar-relatorios-de-ultimas-entradas-por-materia-prima/
+- **Categorias:** Relatórios
+
+Segue abaixo um passo a passo sobre como gerar relatórios de últimas entradas por matéria prima no Facity Controle:
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Para gerar o relatório de últimas entradas por matéria prima, é necessário acessar o Facity Controle em seu computador. Certifique-se de que está conectado à internet e abra o programa.
+
+Passo 2: Insira os dados de login da empresa
+
+Após abrir o programa, insira o nome da empresa, login e senha nos campos indicados. Lembre-se de digitar tudo em letras minúsculas.
+
+Passo 3: Clique em “Relatórios” no menu lateral
+
+No menu lateral esquerdo, clique na opção “Relatórios”. Em seguida, selecione a opção “Últimas entradas por matéria prima”.
+
+Passo 4: Escolha as datas de filtro
+
+Ao selecionar a opção “Últimas entradas por matéria prima”, você será redirecionado para uma nova página. Nela, escolha uma data inicial e uma data final para filtrar as entradas de matéria prima. É importante lembrar que o período entre as datas escolhidas não pode ser maior do que 30 dias.
+
+Passo 5: Clique em “Buscar”
+
+Após selecionar as datas desejadas, clique em “Buscar” para gerar o relatório de últimas entradas por matéria prima.
+
+Pronto! Agora você já sabe como gerar relatórios de últimas entradas por matéria prima no Facity Controle. Se tiver alguma dúvida, deixe um comentário abaixo que eu te ajudo.
+
+---
+
+## Como gerar relatórios de entradas por matéria prima?
+
+- **Link:** https://manual.facity.com.br/como-gerar-relatorios-de-entradas-por-materia-prima/
+- **Categorias:** Relatórios
+
+Passo a passo para gerar relatórios de entradas por matéria prima no Facity Controle:
+
+Passo 1: Abra o Facity Controle no seu computador.
+
+Insira o nome da empresa, login e senha, tudo em letras minúsculas.
+
+Passo 2: Clique em “Relatórios” no menu lateral esquerdo.
+
+Passo 3: Selecione “Entradas por Matéria Prima”.
+
+Passo 4: Escolha uma data inicial e uma data final para o período que deseja filtrar.
+
+Lembre-se que o intervalo máximo permitido é de 30 dias
+
+Passo 5: Clique em “Buscar” para gerar o relatório de entradas por matéria prima.
+
+Nesse relatório, você poderá ver informações sobre as entradas de matéria prima na sua empresa. Essas informações são essenciais para o controle de estoque e para garantir uma gestão eficiente do seu negócio.
+
+Espero que esse passo a passo tenha sido útil e que você consiga gerar seus relatórios com facilidade!
+
+---
+
+## Como gerar relatórios de fechamentos de caixa?
+
+- **Link:** https://manual.facity.com.br/como-gerar-relatorios-de-fechamentos-de-caixa/
+- **Categorias:** Relatórios
+
+Gerar relatórios de fechamento de caixa é uma tarefa essencial para o controle financeiro da sua empresa. Com esses relatórios, você pode ter uma visão clara das vendas realizadas em um determinado período, além de conferir se as movimentações de caixa estão de acordo com as vendas realizadas. Neste artigo, vamos ensinar um passo a passo simples para gerar relatórios de fechamento de caixa no Facity Controle.
+
+Passo 1: Acesse o Facity Controle
+
+Abra o Facity Controle no seu computador e faça o login com o nome da empresa, nome do usuário e senha em letras minúsculas.
+
+Passo 2: Acesse a opção “Relatórios”
+
+No menu lateral à esquerda, clique em “Relatórios”.
+
+Passo 3: Selecione “Fechamentos de Caixa”
+
+Dentro dos relatórios, escolha a opção “Fechamentos de Caixa”.
+
+Passo 4: Acesse as informações
+
+Clique no ícone verde para acessar as informações do fechamento de caixa ou editar as informações, caso seja necessário.
+
+Passo 5: Verifique as informações do fechamento de caixa
+
+Nessa tela, você poderá conferir a abertura e o fechamento de caixa, bem como todas as vendas realizadas por cliente.
+
+Passo 6: Verifique os totais e imprima o relatório
+
+Ao final da tela, estarão os totais das vendas e a opção de imprimir o relatório.
+
+Seguindo esses passos, você poderá gerar relatórios de fechamento de caixa de forma simples e rápida, o que ajudará a manter o controle financeiro da sua empresa em dia.
+
+---
+
+## Como gerar relatórios de vendas por tipo de pedido?
+
+- **Link:** https://manual.facity.com.br/como-gerar-relatorios-de-vendas-por-tipo-de-pedido/
+- **Categorias:** Relatórios
+
+Neste post, vamos mostrar como você pode gerar esses relatórios usando o Facity Controle.
+
+Passo 1: Abra o Facity Controle em seu computador
+
+O primeiro passo é abrir o Facity Controle em seu computador. Certifique-se de ter o programa instalado e que você tenha o nome da empresa, login e senha para acessar. Lembrando que é tudo em letras minúsculas.
+
+Passo 2: Clique em RELATÓRIOS no menu lateral a esquerda
+
+Após fazer login, você será direcionado para a página inicial do Facity Controle. No menu lateral à esquerda, clique em “Relatórios”.
+
+Passo 3: Clique em VENDAS POR TIPO DE PEDIDO
+
+Depois de clicar em “Relatórios”, você verá uma lista de opções. Selecione “Vendas por Tipo de Pedido”.
+
+Passo 4: Escolha uma data inicial e uma data final
+
+Na página de “Vendas por Tipo de Pedido”, escolha uma data inicial e uma data final. Lembre-se de que essas datas só podem ser filtradas em um período de 30 dias entre cada uma.
+
+Passo 5: Escolha o tipo de pedido Escolha o tipo de pedido que você deseja analisar. Você pode escolher entre “Delivery”, “Mesa”, “Venda Direta” ou “Retirada”.
+
+Passo 6: Clique em FILTRAR para gerar o relatório de vendas por tipo de pedido
+
+Com esses passos simples, você pode gerar relatórios de vendas por tipo de pedido no Facity Controle.
+
+---
+
+## Como gerar relatórios de formas de pagamento?
+
+- **Link:** https://manual.facity.com.br/como-gerar-relatorios-de-formas-de-pagamento/
+- **Categorias:** Relatórios
+
+Como gerar relatórios de formas de pagamento no Facity Controle
+
+Se você quer saber como está o desempenho das formas de pagamento em seu estabelecimento, gerar um relatório é a melhor opção. Com o Facity Controle, você pode fazer isso de forma simples e rápida. Confira o passo a passo:
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Certifique-se de que o programa esteja instalado em seu computador e tenha o nome da empresa, login e senha em mãos. Lembre-se de que tudo deve ser em letras minúsculas.
+
+Passo 2: Acesse a opção RELATÓRIOS no menu lateral esquerdo
+
+Após fazer login, você será direcionado para a página inicial do Facity Controle. No menu lateral à esquerda, clique em “Relatórios”.
+
+Passo 3: Selecione a opção FORMAS DE PAGAMENTO
+
+Entre as opções de relatórios disponíveis, selecione “Formas de Pagamento”.
+
+Passo 4: Escolha a data inicial e a data final
+
+Na página de “Formas de Pagamento”, escolha a data inicial e a data final que deseja analisar. É importante lembrar que esse filtro só pode ser feito em um período de 30 dias entre cada data.
+
+Passo 5: Clique em FILTRAR para gerar o relatório de formas de pagamento
+
+Com tudo preenchido, basta clicar em “Filtrar” para gerar o relatório completo das formas de pagamento utilizadas em seu estabelecimento no período selecionado.
+
+Imediatamente! Agora você já sabe como gerar relatórios de formas de pagamento no Facity Controle. Fácil, não é mesmo? Experimente e descubra como essa ferramenta pode ajudar a melhorar a gestão do seu negócio.
+
+---
+
+## Como gerar relatórios de produtos (venda)?
+
+- **Link:** https://manual.facity.com.br/como-gerar-relatorios-de-produtos-venda/
+- **Categorias:** Relatórios
+
+Passo a passo para gerar relatórios de venda de produtos:
+
+Passo 1: Abra o Facity Controle no seu computador.
+
+Passo 2: Insira o nome da empresa, login e senha. Verifique se as informações estão em letras minúsculas.
+
+Passo 3: Clique em “Relatórios” no menu lateral à esquerda.
+
+Passo 4: Selecione a opção “Produtos”.
+
+Passo 5: Escolha uma data inicial e uma data final para o período de vendas que você deseja analisar. Lembre-se que só é possível filtrar um período de 30 dias entre cada data.
+
+Passo 6: Você pode selecionar o nome do garçom responsável pelas vendas ou deixar como “todos”.
+
+Passo 7: Clique em “Filtrar” para gerar o relatório de vendas de produtos.
+
+Pronto! Agora você pode analisar as informações e dados de vendas de produtos da sua empresa.
+
+---
+
+## Como gerar relatórios de taxas de serviço?
+
+- **Link:** https://manual.facity.com.br/como-gerar-relatorios-de-taxas-de-servico/
+- **Categorias:** Relatórios
+
+passo a passo sobre como gerar relatórios de taxas de serviço no Facity Controle:
+
+Passo 1: Abra o Facity Controle em seu computador.
+
+Passo 2: Insira o nome da empresa, login e senha, certificando-se de que todas as informações estão em letras minúsculas.
+
+Passo 3: No menu lateral esquerdo, clique em “Relatórios”.
+
+Passo 4: Selecione a opção “Taxas de Serviço”.
+
+Passo 5: Escolha uma data inicial e uma data final para o período que você deseja analisar.
+
+Lembre-se de que o período de tempo não pode ser superior a 30 dias.
+
+Passo 6: Clique em “Buscar” para gerar o relatório de taxas de serviço.
+
+Pronto! Agora você pode visualizar o relatório de taxas de serviço da sua empresa.
+
+---
+
+## Como gerar relatório de comissão de Entregador/ motoboy?
+
+- **Link:** https://manual.facity.com.br/como-gerar-relatorio-de-comissao-motoboy/
+- **Categorias:** Relatórios
+
+Passo a passo para gerar um relatório de comissão/motoboy no Facity Controle:
+
+Passo 1: Abra o Facity Controle em seu computador
+
+ * Abra o aplicativo Facity Controle no seu computador
+ * Insira o nome da empresa, login e senha (lembrando que tudo deve ser inserido em letras minúsculas)
+
+Passo 2: Acesse a opção de relatórios
+
+ * No menu lateral à esquerda, clique na opção “Relatórios”
+
+Passo 3: Selecione a opção “Motoboys”
+
+ * Na lista de opções de relatórios, selecione “Motoboys”
+
+Passo 4: Defina o período de tempo
+
+ * Escolha a data inicial e final do período que você deseja analisar
+ * Caso queira buscar por um motoboy específico, utilize a barra de pesquisa para encontrá-lo
+
+Passo 5: Clique em “Buscar” para gerar o relatório
+
+ * Depois de inserir todas as informações necessárias, clique em “Buscar
+ * Após a geração do relatório, você poderá visualizar todas as informações referentes à comissão dos motoboys no período selecionado
+
+E é isso! Com esses simples passos, você poderá gerar um relatório de comissão/motoboy no Facity Controle de forma rápida e eficiente.
+
+---
+
+## Como editar um usuário?
+
+- **Link:** https://manual.facity.com.br/como-editar-um-usuario/
+- **Categorias:** Cadastros
+
+Passo a passo para editar um usuário no Facity Controle:
+
+Passo 1: Abra o Facity Controle em seu computador
+
+ * Abra o aplicativo Facity Controle no seu computador
+ * Insira o nome da empresa, login e senha (lembrando que tudo deve ser inserido em letras minúsculas)
+
+Passo 2: Acesse a opção de usuários
+
+ * No menu lateral à esquerda, clique na opção “Usuários”
+
+Passo 3: Selecione o usuário que deseja editar
+
+ * Na lista de usuários, clique no ícone verde localizado ao lado do nome do usuário que deseja editar
+
+ * Clique em PRÓXIMA
+
+Passo 4: Insira uma nova senha (opcional)
+
+ * Caso deseje alterar a senha do usuário, insira a nova senha nos dois campos onde está escrito “Senha” e “Repita a senha”
+
+Passo 5: Clique em “Próxima”
+
+ * Depois de inserir as informações necessárias, clique em “Próxima”
+
+Passo 6: Edite as permissões do usuário (opcional)
+
+ * Se desejar editar as permissões do usuário, clique em “Detalhes”
+ * Altere as permissões conforme necessário e clique em “Salvar” quando terminar
+
+Passo 7: Clique em “Concluir”
+
+ * Depois de editar as informações necessárias, clique em “Concluir”
+
+Pronto! O usuário foi editado com sucesso. Com esses simples passos, você pode editar um usuário no Facity Controle de forma fácil e rápida, garantindo que as informações estejam sempre atualizadas.
+
+---
+
+## Como gerar relatórios de comissão/garçom?
+
+- **Link:** https://manual.facity.com.br/como-gerar-relatorios-de-comissao-garcom/
+- **Categorias:** Relatórios
+
+Neste post, vamos te ensinar a gerar relatórios de comissão/garçom utilizando o Facity Controle. Confira abaixo o passo a passo:
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Acesse o programa Facity Controle em seu computador e insira o nome da empresa, login e senha. Lembre-se que tudo deve ser digitado em letras minúsculas.
+
+Passo 2: Clique em RELATÓRIOS no menu lateral a esquerda
+
+Após acessar o programa, clique na opção “Relatórios” no menu lateral à esquerda da tela.
+
+Passo 3: Clique em GARÇOM
+
+Na tela de relatórios, escolha a opção “Garçom”.
+
+Passo 4: Escolha uma data inicial e uma data final
+
+Informe a data inicial e a data final do período que deseja gerar o relatório. É importante lembrar que o filtro de datas só pode ser feito para um período de 30 dias.
+
+Passo 5: Busque pelo nome na barra de pesquisa
+
+Caso queira filtrar o relatório pelo nome do garçom, você pode digitar o nome desejado na barra de pesquisa.
+
+Passo 6: Clique em BUSCAR para gerar relatório de comissão/garçom
+
+Após inserir todas as informações necessárias, clique em “Buscar” para gerar o relatório de comissão/garçom.
+
+Pronto! Agora você sabe como gerar relatórios de comissão/garçom utilizando o Facity Controle. Com essas informações, você pode ter um controle mais eficiente sobre as comissões dos seus funcionários.
+
+---
+
+## Como gerar relatórios de delivery?
+
+- **Link:** https://manual.facity.com.br/como-gerar-relatorios-de-delivery/
+- **Categorias:** Relatórios
+
+Como gerar relatórios de delivery: um guia passo a passo
+
+Passo 1: Abra o Facity Controle em seu computador
+
+A primeira coisa que você precisa fazer é acessar o Facity Controle em seu computador. Esse é o software que você usará para gerar seus relatórios. Certifique-se de ter o nome da empresa, login e senha em mãos. É importante lembrar que todas as informações devem ser inseridas em letras minúsculas.
+
+Passo 2: Acesse “Relatórios“.
+
+Depois de fazer login, clique na opção “Relatórios” no menu lateral esquerdo. Em seguida, clique na opção “Delivery”.
+
+Passo 3: Defina um período de tempo para o relatório
+
+Agora é hora de selecionar um período de tempo para o seu relatório. Escolha uma data inicial e uma data final. É importante lembrar que só é possível filtrar datas em um período de 30 dias entre cada uma. Se você quiser uma busca mais específica, pode usar a barra de pesquisa para procurar por nomes de clientes.
+
+Passo 4: Selecione o motoboy
+
+Na seção “MOTOBOY” (Entregador), você pode selecionar um ou todos os seus entregadores. Isso permitirá que você obtenha uma visão geral do desempenho de cada um.
+
+Passo 5: Clique em “Filtrar” para gerar o relatório
+
+Depois de selecionar as datas e o entregador, clique no botão “Filtrar” para gerar o relatório.
+
+Seguindo os passos acima, você pode obter informações sobre o desempenho de sua equipe e tomar decisões informadas para melhorar seus resultados.
+
+---
+
+## Como gerar relatórios de vendas por seção?
+
+- **Link:** https://manual.facity.com.br/como-gerar-relatorios-de-vendas-por-secao/
+- **Categorias:** Relatórios
+
+Neste tutorial, vou ensinar como gerar relatórios de vendas por seção usando o Facity Controle. Siga as instruções passo a passo abaixo:
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Certifique-se de inserir o nome da empresa, login e senha. Lembre-se de que todas as letras devem estar em minúsculo.
+
+Passo 2: Clique em “RELATÓRIOS” no menu lateral esquerdo
+
+Ao fazer isso, uma lista de opções de relatórios será exibida.
+
+Passo 3: Selecione “VENDAS POR SEÇÃO”
+
+Isso permitirá que você gere relatórios de vendas de cada seção.
+
+Passo 4: Escolha uma data inicial e final.
+
+Defina um período de tempo para o qual você deseja gerar relatórios de vendas. Você pode escolher uma data específica ou um intervalo de datas.
+
+Passo 5: Clique em “FILTRAR” para iniciar a busca
+
+Ao fazer isso, o software procurará por todas as vendas dentro do período de tempo selecionado.
+
+Passo 6: Filtrar por seção
+
+Se você deseja gerar um relatório de vendas para uma seção específica, digite o nome da seção no campo de busca e clique em “FILTRAR”. Isso mostrará apenas as vendas da seção escolhida.
+
+Observação importante: O período de tempo entre as datas de pesquisa deve ser inferior a 30 dias. Se for superior a 30 dias, o software não exibirá nenhum resultado.
+
+Exemplo na imagem se a data passar de um período de 30 dias:
+
+Seguindo esses simples passos, você pode gerar facilmente relatórios de vendas por seção usando o Facity Controle.
+
+---
+
+## Como gerar relatório de vendas?
+
+- **Link:** https://manual.facity.com.br/como-usar-relatorio-de-vendas/
+- **Categorias:** Relatórios
+
+Neste post, vamos explicar passo a passo como gerar um relatório de vendas.
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Para começar, abra o Facity Controle em seu computador. Certifique-se de que tem o login e senha corretos da sua empresa. Lembre-se de que tudo tem que ser digitado em letras minúsculas.
+
+Passo 2: Clique em “Relatórios”
+
+No menu lateral à esquerda, clique em “Relatórios”.
+
+Passo 3: Clique em “Vendas”
+
+Dentro de “Relatórios”, clique em “Vendas”.
+
+Passo 4: Filtre as vendas por data e método de pagamento
+
+Na tela de “Relatório de Vendas”, você pode filtrar as vendas por data e método de pagamento. Escolha a data inicial e a data final que deseja filtrar. Lembre-se de que só pode ser filtrado um período de 30 dias entre cada uma. Em seguida, escolha o método de pagamento que deseja filtrar.
+
+Passo 5: Verifique o relatório de vendas
+
+Depois de filtrar as vendas por data e método de pagamento, o relatório de vendas trará o total de todas as vendas que contêm aquele pagamento. Por exemplo, se você filtrar por PIX, ele vai trazer todas as vendas que possuem PIX. No entanto, pode ser que na mesma venda tenha o valor do PIX e dinheiro. Nesse caso, o valor mostrado será o total de vendas e não apenas o valor de pagamento PIX. Caso você queira ver o total pela forma de pagamento, o ideal é usar o relatório de formas de pagamento.
+
+Clique nesse link abaixo para ver post de como gerar relatórios de formas de pagamento:
+
+Como gerar relatórios de formas de pagamento? [https://blog.facity.com.br/?p=947]???
+
+---
+
+## Como configurar tempo estimado?
+
+- **Link:** https://manual.facity.com.br/como-configurar-tempo-estimado/
+- **Categorias:** Configurações
+
+Configurar o tempo estimado é uma forma de otimizar o tempo de atendimento na sua empresa. Com o Facity Controle, é possível configurar o tempo estimado de forma fácil e rápida. Neste post, vamos mostrar como fazer isso passo a passo.
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Para começar, abra o Facity Controle em seu computador. Certifique-se de que tem o login e senha corretos da sua empresa. Lembre-se de que tudo tem que ser digitado em letras minúsculas.
+
+Passo 2: Clique em “Configurações”
+
+No menu lateral à esquerda, clique em “Configurações”.
+
+Passo 3: Clique em “Tempo Estimado”
+
+Dentro de “Configurações”, clique em “Tempo Estimado”.
+
+Passo 4: Configure o tempo estimado
+
+Na tela de “Tempo Estimado”, é possível configurar o tempo estimado para cada serviço prestado pela sua empresa. Para alterar os horários, clique no relógio e ajuste o tempo estimado conforme necessário. Depois de configurar o tempo estimado, clique em “Salvar” para confirmar as alterações.
+
+Seguindo esses passos simples, você pode configurar o tempo estimado na sua empresa de forma rápida e fácil. Com essa configuração, é possível otimizar o tempo de atendimento e oferecer um serviço mais eficiente para os seus clientes.
+
+---
+
+## Como configurar formas de pagamento?
+
+- **Link:** https://manual.facity.com.br/como-configurar-formas-de-pagamento/
+- **Categorias:** Configurações
+
+Tutorial sobre como configurar formas de pagamento no Facity Controle:
+
+Passo 1: Abra o Facity Controle em seu computador.
+
+Ao abrir o Facity Controle, você será direcionado para a tela de login. Insira o nome da sua empresa, login e senha, tudo em letras minúsculas.
+
+Passo 2: Acesse as configurações do sistema.
+
+No menu lateral esquerdo, clique em “Configurações” para acessar as opções de configuração do sistema.
+
+Passo 3: Selecione “Formas de Pagamento”.
+
+Dentro das opções de configuração do sistema, escolha “Formas de Pagamento”. Esta seção permitirá que você gerencie as formas de pagamento que estarão disponíveis para seus clientes.
+
+Passo 4: Clique em “Novo”.
+
+Para adicionar uma nova forma de pagamento, clique em “Novo”. Esta ação permitirá que você comece a configurar sua nova forma de pagamento.
+
+Passo 5: Escolha a forma de pagamento.
+
+Aqui é onde você escolhe o tipo de pagamento que deseja adicionar. As opções mais comuns são Dinheiro, Cartão de Débito, Cartão de Crédito e PIX.
+
+Se a forma de pagamento for PIX você pode cadastrar uma chave junto e quando o cliente selecionar essa opção a chave PIX é copiada automaticamente
+
+Passo 6: Insira a chave PIX.
+
+Se você escolheu PIX como forma de pagamento, insira a chave PIX que deseja usar. Isso permitirá que seus clientes façam pagamentos instantâneos usando essa opção.
+
+Passo 7: Selecione a bandeira correspondente à forma de pagamento.
+
+Se você adicionou uma forma de pagamento de cartão de crédito ou débito, será necessário selecionar a bandeira correspondente ao tipo de cartão.
+
+Passo 8: Insira o nome da forma de pagamento.
+
+Insira um nome para a nova forma de pagamento. Isso permitirá que você a identifique facilmente na lista de opções disponíveis.
+
+Passo 9: Salve as configurações.
+
+Clique em “OK” para salvar as configurações da nova forma de pagamento. Agora, ela estará disponível para ser usada pelos seus clientes.
+
+Pronto! Agora você sabe como configurar formas de pagamento no Facity Controle. Certifique-se de que todas as informações estejam corretas antes de salvar as configurações. Lembre-se de que é possível editar ou excluir uma forma de pagamento a qualquer momento.
+
+---
+
+## Como configurar horário de atendimento?
+
+- **Link:** https://manual.facity.com.br/como-configurar-horario-de-atendimento/
+- **Categorias:** Configurações
+
+Se você está procurando uma maneira simples e fácil de configurar o horário de atendimento da sua empresa, você veio ao lugar certo. Neste post, eu vou te ensinar a fazer isso passo a passo usando o Facity Controle. Vamos lá!
+
+Passo 1: Abra o Facity Controle em seu computador
+
+O primeiro passo é abrir o Facity Controle em seu computador. Certifique-se de ter o nome da empresa, login e senha em mãos e lembre-se que tudo deve ser digitado em letras minúsculas.
+
+Passo 2: Clique em CONFIGURAÇÕES no menu lateral esquerdo
+
+Depois de entrar no Facity Controle, clique no menu lateral esquerdo em CONFIGURAÇÕES.
+
+Passo 3: Clique em HORÁRIO DE ATENDIMENTO
+
+Ao acessar as configurações, você verá uma lista de opções. Clique em HORÁRIO DE ATENDIMENTO.
+
+Passo 4: Ajuste o horário de atendimento para cada dia da semana
+
+Agora você está na tela de configuração de horário de atendimento. Ajuste o horário de atendimento para cada dia da semana. Se você quiser que os horários de atendimento sejam os mesmos todos os dias, clique em “Replicar” para copiar as informações do primeiro dia.
+
+Passo 5: Clique em SALVAR
+
+Depois de ajustar os horários de atendimento, clique em SALVAR e a configuração estará pronta.
+
+Pronto! Seguindo esses passos simples, você configurou o horário de atendimento da sua empresa. Se tiver qualquer dúvida, não hesite em entrar em contato com o suporte da Facity Controle. Obrigado por ler este post e até a próxima!
+
+---
+
+## Como configurar informações da empresa?
+
+- **Link:** https://manual.facity.com.br/como-configurar-informacoes-da-empresa/
+- **Categorias:** Configurações
+
+Neste post, eu vou ensinar como configurar as informações da sua empresa. É importante manter esses dados atualizados para que seus clientes possam entrar em contato com você e encontrar sua empresa com facilidade.
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Certifique-se de que está com o programa aberto e que já fez login com suas informações de usuário.
+
+Passo 3: Clique em EMPRESA
+
+Agora você verá uma lista de opções disponíveis. Clique em “Empresa” para começar a editar as informações da sua empresa.
+
+Passo 4: Clique em SELECIONAR IMAGEM para adicionar uma foto ou alterar
+
+Para adicionar ou alterar a imagem da sua empresa, clique em “Selecionar imagem”.
+
+Passo 5: CONCLUIR para salvar
+
+Depois de selecionar a imagem, clique em “Concluir” para salvar as alterações.
+
+Passo 6: Edite as informações da sua empresa
+
+Você verá que algumas informações, como o nome e o CNPJ, já estão cadastradas no sistema. No entanto, você pode editar outras informações importantes, como o nome fantasia, o nome do responsável, o email, o telefone, o WhatsApp, o CEP, o estado, a cidade, o bairro (se ele não estiver listado, você precisará cadastrá-lo em “Taxas de Entrega Bairro”), o endereço e o número. A latitude e a longitude serão configuradas automaticamente quando você inserir o endereço completo.
+
+Passo 7: Troque a logo no aplicativo
+
+Por fim, lembre-se de trocar a logo também no aplicativo para que seus clientes possam reconhecer facilmente a sua marca. Para fazer isso, basta clicar em “Selecionar imagem” e escolher a nova logo da sua empresa.
+
+E pronto! Agora você sabe como configurar as informações da sua empresa no Facity Controle. Mantenha seus dados atualizados para garantir a satisfação dos seus clientes e o sucesso do seu negócio.
+
+Espero ter ajudado!
+
+---
+
+## Como cadastrar combos?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-combos/
+- **Categorias:** Cadastros
+
+Para cadastrar combos em seu estabelecimento utilizando o Facity Controle, siga o passo a passo abaixo:
+
+1 – Abra o Facity Controle em seu computador e faça login com o nome da empresa, login e senha, lembrando que tudo deve ser digitado em letras minúsculas.
+
+2 – No menu lateral à esquerda, clique em “Cardápio”.
+
+3 – Clique em “Combos”
+
+4 – Clique em “Novo Combo” para começar a criar o combo.
+
+5 – Coloque o nome do combo e mude a seção para “Combos” ou “Promoção”, conforme sua preferência.
+
+Lembre se de criar uma seção chamada combo/promoção para quando for criar um combo ela aparecer no cardápio.
+
+ * Segue link de como criar uma seção/categoria:
+ * http://blog.facity.com.br/?p=35 [http://blog.facity.com.br/?p=35]
+
+6 – Para adicionar produtos ao combo, clique no ícone verde para editar.
+
+Na página de edição, você pode alterar as informações básicas do combo.
+
+7 – Clique em “Produtos” para começar a adicionar produtos ao combo.
+
+8 – Clique em “Novo” e selecione o produto que você deseja adicionar ao combo.
+
+ * Exemplo:
+
+9 – Você pode adicionar um preço de sua preferência ao produto selecionado. Repita o processo para adicionar mais produtos ao combo e Clique em “OK” para salvar.
+
+ * Exemplos de como fica no cardápio/delivery:
+
+10 – Verifique como fica o combo no cardápio/delivery para ter certeza de que foi cadastrado corretamente.
+
+Com esse passo a passo você poderá cadastrar combos em seu estabelecimento com facilidade e rapidez utilizando o Facity Controle.
+
+---
+
+## Como adicionar um produto tipo açaí?
+
+- **Link:** https://manual.facity.com.br/como-adicionar-um-produto-tipo-acai/
+- **Categorias:** Cadastros
+
+Se você é dono de uma loja que vende açaí e quer adicionar essa delícia ao seu cardápio, não se preocupe, o processo é simples e fácil. Siga o passo a passo abaixo e aprenda como adicionar um produto tipo açaí:
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Coloque o nome da empresa, login e senha. Não esqueça que tudo tem que ser em letras minúsculas.
+
+Passo 2: Para criar um produto dentro do painel administrativo, você começa clicando em cardápio no menu lateral a esquerda:
+
+Passo 3: Selecione “Produtos” igual a seta está indicando na imagem:
+
+Passo 4: Clique em “Novo Produto” para começar o cadastramento:
+
+Passo 5: Clicando no botão “Novo Produto”, irá abrir a caixa de cadastramento para começar a incluir as informações do produto:
+
+ * Coloque o nome AÇAÍ ou MONTE SEU AÇAÍ
+ * Deixe o valor zerado pra depois ir adicionando os opcionais com preço
+ * Mude também a seção do produto, selecione a opção MONTE SEU AÇAÍ ou em qual seção você queira que esse produto fique
+ * Clique em OK para salvar
+
+Passo 6: A próxima parte é criar um GRUPOS DE OPC dentro do produto
+
+ * Busque o produto na lista ou digite na barra de pesquisa para achar
+ * Clique no ícone verde para editar o produto
+
+ * Clique em GRUPOS DE OPC
+
+ * Clique em NOVO para começar criar os grupos, exemplos:
+ * Tamanhos
+ * Acompanhamentos
+ * Caldas
+
+A quantidade máxima/mínima em TAMANHOS deixe os dois em 1 e nos outros deixe essas opções zeradas.
+
+ * Exemplo em imagem de como ficar esses grupos adicionados:
+
+Passo 7: Após adicionar os GRUPOS DE OPC a próxima parte é você ir em OPCIONAIS para cadastrar os TAMANHOS, ACOMPANHAMENTOS E CALDAS
+
+ * Busque OPCIONAIS no menu do sistema
+ * Clique em NOVO OPCIONAL
+
+ * Comece adicionando os TAMANHOS e os valores de cada um, segue exemplos nas imagens abaixo:
+ * Coloque o nome, valor e clique em OK para salvar
+
+exemplo de como fica vários cadastrados
+ * Exemplos de ACOMPANHAMENTOS:
+ * Coloque o nome, valor e clique em OK para salvar
+
+exemplo de como fica vários cadastrados
+ * Exemplos de CALDAS:
+ * Coloque o nome, valor e clique em OK para salvar
+
+exemplo de como fica vários cadastrados
+
+Passo 8: A última parte é adicionar esses opcionais lá no seu GRUPO DE OPC criado dentro do produto MONTE SEU AÇAÍ/AÇAÍ
+
+ * Volte em GRUPOS DE OPC dentro do produto AÇAÍ
+
+ * Clique em OPÇÕES:
+
+ * Clique em ADICIONAR
+
+ * Selecione todos os opcionais criados para esse grupo
+ * Clique em OK para salvar
+
+ * Faça o mesmo processo para adicionar os opcionais em ACOMPANHAMENTOS E CALDAS.
+
+Não esqueça de adicionar as IMPRESSORAS indo na seção do produto ou em PRODUTOS
+
+ * Clique no ícone verde para editar o produto
+ * Entre em IMPRESSORAS
+
+ * Clique em NOVO e selecione e adicione as impressoras
+ * Clique em OK para salvar
+
+No cardápio/delivery vai aparecer assim:
+
+Agora que você adicionou o produto tipo açaí, ele aparecerá no seu cardápio/delivery.
+
+---
+
+## Como inativar uma seção/categoria?
+
+- **Link:** https://manual.facity.com.br/como-inativar-uma-secao-categoria/
+- **Categorias:** Cadastros
+
+Inativar uma seção ou categoria pode ser útil caso você queira ocultar temporariamente um conjunto de produtos ou uma categoria específica. Veja abaixo como realizar esse processo de forma simples e rápida no Facity Controle.
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Acesse o Facity Controle em seu computador e insira o nome da empresa, login e senha. Lembre-se de digitar tudo em letras minúsculas.
+
+Passo 2: Acesse o menu de seções/categorias
+
+No menu principal, procure pela opção “Seções/Categorias”. Clique nessa opção para acessar a lista de seções e categorias cadastradas.
+
+Passo 3: Selecione a seção/categoria a ser inativada
+
+Escolha a seção ou categoria que deseja inativar e clique sobre ela para selecioná-la.
+
+Passo 4: Inative a seção/categoria
+
+Para inativar a seção ou categoria, basta clicar no ícone correspondente, que se parece com uma seta, conforme indicado na imagem abaixo. O status da seção ou categoria mudará para “inativo”.
+
+Passo 5: Ative a seção/categoria novamente (se necessário)
+
+Se precisar reativar a seção ou categoria novamente, basta clicar no mesmo ícone para alternar o status para “ativo”.
+
+Ao inativar uma seção ou categoria, você pode ver uma mensagem de confirmação ao aproximar o cursor do mouse sobre o ícone de inativar. Essa mensagem indicará que a seção/categoria foi inativada com sucesso.
+
+Pronto! Agora você sabe como inativar uma seção ou categoria em sua loja pelo Facity Controle. Essa é uma maneira fácil e útil de gerenciar sua loja e seus produtos.
+
+---
+
+## Como inativar um produto?
+
+- **Link:** https://manual.facity.com.br/como-inativar-um-produto/
+- **Categorias:** Cadastros
+
+Inativar um produto no Facity Controle é um processo simples e rápido. Seguindo os passos abaixo:
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Para inativar um produto no Facity Controle, é preciso ter acesso ao sistema em seu computador. Lembrando de colocar nome da empresa, login e senha, tudo em letras minúsculas.
+
+Passo 2: Entre na seção de Produtos
+
+Depois de fazer login com seu nome de usuário e senha, você será direcionado para a tela inicial do Facity Controle. Nela, você deve clicar na opção “Produtos” no menu principal para ter acesso aos produtos cadastrados em sua empresa.
+
+Passo 3: Selecione o produto para ser inativado/pausado
+
+Uma vez dentro da seção de Produtos, escolha o produto que deseja inativar. Para fazer isso, você pode buscar pelo nome do produto ou rolar a lista de produtos até encontrar o que procura.
+
+ * Clique nesse ícone como mostra a imagem abaixo para inativar um produto
+ * Para deixá-lo ativo de novo é só clicar novamente em cima
+
+Passo 4: Inative o produto
+
+Para inativar um produto, basta clicar no ícone indicado na imagem abaixo. Esse ícone se encontra ao lado direito do nome do produto e representa a opção de inativar o produto.
+
+Passo 5: Reative o produto
+
+Se precisar reativar o produto no futuro, basta clicar novamente no mesmo ícone e o produto voltará a ficar disponível para venda.
+
+Inativar um produto no Facity Controle é simples e rápido. Com os passos descritos acima, você pode pausar ou reativar um produto a qualquer momento, sem dificuldades.
+
+---
+
+## Como alterar o preço de um produto?
+
+- **Link:** https://manual.facity.com.br/como-alterar-o-preco-de-um-produto/
+- **Categorias:** Cadastros
+
+Passo a passo de como alterar o preço de um produto no Facity Controle:
+
+Passo 1: Abra o Facity Controle em seu computador.
+
+Passo 2: Insira o nome da empresa, login e senha. Verifique se todos os caracteres estão em letras minúsculas.
+
+Passo 3: Acesse o MENU e procure pela opção PRODUTOS. Clique nessa opção para acessar a lista de produtos cadastrados.
+
+Passo 4: Selecione o produto que deseja editar. Você pode usar a barra de rolagem ou a barra de busca para encontrar o produto.
+
+Passo 5: Clique no ícone verde para editar o produto. Esse ícone está localizado à direita do nome do produto.
+
+Passo 6: Altere o valor do produto no campo onde está escrito PREÇO. Digite o novo valor do produto e verifique se está correto.
+
+Passo 7: Clique em SALVAR para salvar as alterações que você fez no produto.
+
+Passo 8: Após clicar em salvar, uma mensagem de confirmação aparecerá na tela informando que as alterações foram salvas com sucesso. Clique em OK para finalizar a edição do produto.
+
+Pronto! Agora você sabe como alterar o preço de um produto no Facity Controle.
+
+---
+
+## Como cadastrar um usuário Entregador/ motoboy pelo celular?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-um-usuario-motoboy/
+- **Categorias:** Cadastros
+
+Se você está procurando uma maneira rápida e fácil de cadastrar um usuário motoboy em sua empresa, o aplicativo Facity Controle é a solução perfeita para você. Com este tutorial simples e objetivo, você será capaz de realizar o cadastro sem dificuldades.
+
+Passo 1: Abra o aplicativo Facity Controle em seu celular.
+
+Passo 2: Informe o nome da empresa, login e senha em letras minúsculas.
+
+Passo 3: Clique no ícone de três linhas horizontais no canto superior esquerdo da tela para acessar o menu do sistema.
+
+Passo 4: Selecione a opção “Usuários”.
+
+Passo 5: Clique em “Novo” para criar um novo usuário.
+
+Passo 6: Preencha as informações do Entregador/Motoboy, incluindo nome, sobrenome e e-mail (opcional). Clique em “Próxima”.
+
+TODAS AS INFORMAÇÕES DO CADASTRO EM LETRAS MINÚSCULAS.
+
+Passo 7: Preencha as informações de login, incluindo nome, senha e confirmação de senha em letras minúsculas. Clique em “Próxima”.
+
+Passo 8: Selecione a função “Motoboy”(Entregador)
+
+Passo 9: Clique em “Concluir” para finalizar o cadastro do usuário motoboy em sua empresa.
+
+Lembre-se de que todas as informações devem ser preenchidas em letras minúsculas para evitar erros no cadastro. Com este passo a passo simples, você poderá cadastrar um usuário motoboy pelo celular de forma fácil e rápida usando o aplicativo Facity Controle.
+
+---
+
+## Como cadastrar um usurário garçom pelo celular?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-um-usurario-garcom/
+- **Categorias:** Cadastros
+
+Guia passo a passo para cadastrar um usuário garçom usando o aplicativo:
+
+Passo 1: Abra o aplicativo Facity Controle em seu celular e faça login
+
+Para começar, abra o aplicativo Facity Controle em seu celular e faça login com o nome da empresa, login e senha. Lembre-se de que todas as informações devem ser inseridas em letras minúsculas.
+
+Passo 2: Acesse o menu do sistema
+
+Para acessar o menu do sistema, clique no ícone no canto superior esquerdo da tela.
+
+Passo 3: Busque por “Usuários” no menu do sistema
+
+No menu do sistema, procure por “Usuários” e clique nele.
+
+Passo 4: Clique em “Novo”
+
+Para cadastrar um novo usuário, clique em “Novo”.
+
+Passo 5: Insira as informações pessoais do usuário
+
+Agora é hora de inserir as informações pessoais do usuário. Inclua o nome, sobrenome e e-mail (opcional). Clique em “Próxima” para continuar com o cadastro. Lembre-se de inserir todas as informações em letras minúsculas
+
+Passo 6: Insira a senha do usuário
+
+Insira o nome novamente e uma senha para o usuário e repita-a para confirmar. Clique em “Próxima” para continuar.
+
+Passo 7: Selecione a função “Garçom”
+
+Selecione a função “Garçom” clicando em cima da palavra.
+
+Passo 8: Conclua o cadastro
+
+Clique em “Concluir” para finalizar o cadastro do usuário garçom.
+
+O processo de cadastro é simples e rápido, permitindo que você gerencie sua equipe com eficiência.
+
+---
+
+## Como cadastrar um usuário administrativo pelo celular?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-um-usuario-administrativo-pelo-celular/
+- **Categorias:** Cadastros
+
+Neste tutorial, vamos mostrar como cadastrar um usuário administrativo pelo celular usando o aplicativo Facity Controle.
+
+Passo 1: Abra o aplicativo Facity Controle em seu celular
+
+Passo 2: Coloque o nome da empresa, login e senha. Não esqueça que tudo tem que ser em letras minúsculas.
+
+Passo 3: Para acessar o menu do sistema, clique no canto superior esquerdo, conforme apresentado na imagem.
+
+Passo 4: Busque por “USUÁRIOS” no menu do sistema.
+
+Passo 5: Clique em “NOVO”.
+
+Passo 6: Coloque as informações: nome, sobrenome e e-mail (opcional). Clique em “Próxima” para seguir no cadastro. Lembre-se de colocar todas as informações do cadastro em letras minúsculas.
+
+Passo 7: Coloque o nome novamente, crie uma senha e repita a senha. Clique em “Próxima”.
+
+Passo 8: Clique em cima onde está escrito “ADMINISTRATIVO” para selecionar a função. Clique em “Concluir” depois de gerenciar as permissões para finalizar o cadastro.
+
+Passo 9: O próximo passo é gerenciar as permissões que esse funcionário vai ter no sistema. Para isso, clique em “Detalhes” logo abaixo da opção selecionada.
+
+Passo 10: Na tela seguinte, você pode selecionar as permissões que deseja dar ao funcionário. Todas as permissões estão liberadas por padrão. Desmarque as opções que não deseja permitir.
+
+Passo 11: Após selecionar as permissões, deslize a tela e clique em “OK” para salvar.
+
+Pronto! Agora você sabe como cadastrar um usuário administrativo pelo celular usando o aplicativo Facity Controle. Lembre-se de manter todas as informações em letras minúsculas e gerenciar corretamente as permissões do usuário no sistema.
+
+---
+
+## Como cadastrar um usuário caixa pelo celular?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-um-usuario-caixa-pelo-celular/
+- **Categorias:** Cadastros
+
+Neste tutorial, eu vou ensinar como cadastrar um usuário caixa pelo celular usando o aplicativo Facity Controle:
+
+Passo 1: Abra o aplicativo Facity Controle em seu celular.
+
+Passo 2: Insira o nome da empresa, login e senha.(tudo em letras minúsculas)
+
+Passo 3: Para acessar o menu do sistema, clique no canto superior esquerdo, onde há um ícone semelhante ao apresentado na imagem.
+
+Passo 4: No menu do sistema, busque por “USUÁRIOS” e clique em “NOVO”.
+
+Passo 5: Insira as informações solicitadas, como nome, sobrenome e e-mail (opcional). Clique em “Próxima” para avançar no cadastro. Lembre-se de inserir todas as informações em letras minúsculas.
+
+Passo 6: Insira novamente o nome, uma senha e repita a senha. Clique em “Próxima”.
+
+Passo 7: Selecione a função “CAIXA” e clique em “Concluir” para finalizar o cadastro.
+
+Passo 8: Gerencie as permissões do usuário, escolhendo quais funções ele poderá realizar no sistema. Para isso, clique em “Detalhes” logo abaixo da opção selecionada.
+
+Nessa imagem as permissões estão todas liberadas para essa função, deslize a tela para ver todas elas:
+
+Passo 9: Na tela de permissões, você pode marcar ou desmarcar as opções conforme a necessidade. Ao finalizar, clique em “OK” para salvar.
+
+Agora você sabe como cadastrar um usuário caixa pelo celular usando o aplicativo Facity Controle. Espero que tenha sido útil. Até a próxima!
+
+---
+
+## Como funciona uma nova venda (direta) do Facity POS?
+
+- **Link:** https://manual.facity.com.br/como-funciona-uma-nova-venda-direita-do-facity-pos/
+- **Categorias:** Cadastros
+
+Tutorial passo a passo simples sobre como fazer uma nova venda direta no Facity POS:
+
+Passo 1: Abra o Facity POS no seu computador.
+
+Passo 2: Faça login com o nome da empresa, login e senha. Coloque tudo em letras minúsculas.
+
+Passo 3: Clique em “Nova Venda Direta”.
+
+Passo 4: Adicione os produtos que deseja vender, clicando em cima do produto ou buscando na barra de pesquisa. Você também pode buscar o cliente pela barra de pesquisa ou cadastrar um novo (opcional nesse tipo de venda).
+
+Passo 5: Selecione a forma de pagamento que o cliente utilizará.
+
+Passo 6: Clique em “Adicionar” e em seguida em “Concluir Pedido”.
+
+Passo 7: Clique em “Confirmar” para finalizar a venda.
+
+E é isso! Com esses simples passos, você pode fazer uma nova venda direta no Facity POS. Caso precise de ajuda adicional, não hesite em entrar em contato com o suporte da Facity POS.
+
+---
+
+## Como funciona o pedido(balcão) no Facity POS?
+
+- **Link:** https://manual.facity.com.br/como-funciona-o-pedido-balcao-no-facity-pos/
+- **Categorias:** Cadastros
+
+Tutorial passo a passo simples sobre como fazer um novo pedido balcão no Facity POS:
+
+Passo 1: Abra o Facity POS no seu computador.
+
+Passo 2: Faça login com o nome da empresa, login e senha, lembrando-se de usar apenas letras minúsculas.
+
+Passo 3: Clique em “Novo Pedido Balcão”.
+
+Passo 4: Adicione os produtos que o cliente deseja, clicando em cima do produto ou buscando na barra de pesquisa. Você também pode buscar o cliente pela barra de pesquisa ou cadastrar um novo (opcional nesse tipo de venda).
+
+Passo 5: Selecione a forma de pagamento que o cliente utilizará.
+
+Passo 6: Clique em “Adicionar” e em seguida em “Salvar“.
+
+Passo 7: Clique em “Confirmar”.
+
+Passo 8: Quando o produto estiver pronto para ser entregue ao cliente, clique em “Despachar”. Também é possível imprimir uma segunda via do pedido, editar o pedido ou mudar a forma de pagamento clicando nos ícones em azul.
+
+Passo 9: Marque em “Confirmar” se o produto já estiver pronto para o cliente retirar.
+
+Passo 10: Clique em “Finalizar” depois de confirmar o pagamento.
+
+Se tiver alguma dúvida, entre em contato com o suporte da Facity POS.
+
+---
+
+## Como funciona um novo pedido (delivery) no Facity POS?
+
+- **Link:** https://manual.facity.com.br/como-funcionar-um-pedido-de-delivery/
+- **Categorias:** Cadastros
+
+Neste tutorial, vou mostrar passo a passo como funciona um novo pedido (delivery) no Facity POS. É um processo simples e fácil, então vamos lá!
+
+Passo 1: Abra o Facity POS em seu computador e faça login com o nome da empresa, login e senha, lembrando que tudo tem que ser em letras minúsculas.
+
+Passo 2: No menu principal, clique em DELIVERY, onde a seta indica para começar a notar o pedido.
+
+Passo 3: Selecione o pedido clicando em cima ou buscando pelo nome.
+
+Passo 4: Adicione os produtos e clique em “SALVAR”.
+
+Passo 5: O sistema vai pedir para adicionar um cliente para a entrega. Se você já tem o cliente cadastrado, basta buscar pelo nome no campo de pesquisa. Caso contrário, clique onde a seta está indicando para cadastrar agora. Coloque todas as informações e clique em SALVAR.
+
+Passo 6: Clique em SALVAR para enviar o pedido para produção e em seguida em CONFIRMAR.
+
+ * Clique em SALVAR para enviar para produção
+ * Clique em CONFIRMAR
+
+Passo 7: Clicando nos ícones em azul, você pode imprimir uma segunda via, editar produtos, mudar a forma de pagamento, mudar o motoboy e configurar a impressão automática.
+
+Passo 8: Para escolher uma forma de pagamento, clique no ícone em azul com símbolo de cifrão ($), adicione e depois clique em SALVAR.
+
+ * Clique em ADICIONAR e depois SALVAR
+
+Passo 9: Após despachar o pedido, confirme se deseja informar um entregador. Selecione o entregador clicando no + em azul.
+
+ * Selecione o Entregador clicando no + em azul
+
+Passo 10: Após a confirmação do pagamento, clique em FINALIZAR o pedido.
+
+E pronto! Com estes passos simples, você pode realizar um novo pedido de delivery no Facity POS. Espero que este tutorial tenha sido útil.
+
+---
+
+## Como aceitar pedido do aplicativo?
+
+- **Link:** https://manual.facity.com.br/como-aceitar-pedido-vindo-do-aplicativo/
+- **Categorias:** Cadastros
+
+* Abra o Facity POS em seu computador
+ * Coloque o nome da empresa, login e senha. Não esqueça que tudo tem que ser em letras minúsculas.
+
+ * Quando chegar pedidos do aplicativo logo o Facity POS vai notificar avisando
+ * Em pedidos onde a seta está indicando vai ficar todos aqueles que chegarem
+ * Clique em ACEITAR e o seu pedido vai para produção
+
+ * Imprime automaticamente (você pode mudar essa configuração se quiser no sistema Facity Controle indo em configurações de impressão)
+ * Clicando nesses ícones em azul você pode:
+   * Imprimir uma segunda via
+   * Editar produtos
+   * Mudar a forma de pagamento
+   * Mudar o Motoboy (Entregador)
+
+ * Após clicar em DESPACHAR confirme essa ação
+
+ * Selecione SIM ou NÃO para informar um entregador
+
+ * Selecione um entregador clicando no + em azul
+
+ * Após o pagamento clique em FINALIZAR o pedido
+
+---
+
+## Como usar o app dos garçons?
+
+- **Link:** https://manual.facity.com.br/como-usar-o-app-dos-garcons/
+- **Categorias:** Cadastros
+
+Neste post, vamos ensinar como utilizar o app Facity Garçom para gerenciar pedidos de forma simples e prática. Siga os seguintes passos:
+
+Passo 1: Abra o aplicativo Facity Garçom no seu celular.
+
+Passo 2: Insira o nome da empresa, login e senha, tudo em letras minúsculas.
+
+Passo 3: Clique em cima de uma mesa livre para começar a anotar o pedido.
+
+Passo 4: Clique em “Adicionar Produtos”.
+
+Passo 5: Selecione os produtos desejados clicando em cima deles ou buscando na barra de pesquisa.
+
+Passo 6: Se quiser incluir mais produtos, clique em “Adicionar mais itens”.
+
+Passo 7: Clique em “Enviar” para finalizar o pedido.
+
+Passo 8: Confirme essa ação ou cancele se quiser editar algum item da lista.
+
+Passo 9: Após confirmar a ação, o seu pedido será enviado.
+
+Com esses passos, você já pode usar o app dos garçons da Facity de maneira simples e prática.
+
+---
+
+## Como baixar e instalar o Anydesk?
+
+- **Link:** https://manual.facity.com.br/como-baixar-e-instalar-o-anydesk/
+- **Categorias:** Instalação
+
+O Anydesk é um software que permite a conexão remota entre computadores. Ele é uma ótima ferramenta para quem precisa trabalhar de casa, fazer suporte técnico à distância, ou acessar o computador de outra pessoa. Neste tutorial, vamos mostrar como baixar e instalar o Anydesk em seu computador.
+
+Passo 1: Acesse o site oficial do Anydesk
+
+Para começar, acesse o site oficial do Anydesk pelo endereço https://anydesk.com/pt/downloads/windows [https://anydesk.com/pt/downloads/windows]. Certifique-se de estar no site oficial para evitar baixar um arquivo malicioso.
+
+Passo 2: Clique em “Baixar agora”
+
+No site do Anydesk, clique no botão “Baixar agora”. O download será iniciado automaticamente.
+
+Passo 3: Abra o arquivo baixado
+
+Assim que o download terminar, abra o arquivo baixado clicando nele. O arquivo deverá ter um nome como “AnyDesk.exe”.
+
+Passo 4: Instale o Anydesk
+
+O programa será aberto sem instalar. Clique em “Instalar Anydesk” e aguarde alguns instantes enquanto o programa é instalado. Na tela de instalação, desmarque a opção “Instalar impressora Anydesk” se você não precisar dela.
+
+Passo 5: Abra o Anydesk
+
+Quando a instalação terminar, o Anydesk será aberto automaticamente. Caso ele não seja aberto, procure pelo ícone do programa em sua área de trabalho ou na lista de programas.
+
+ * Geralmente quando você instala o programa ele já cria uma cópia dele no seu desktop (tela principal do seu computador)
+
+Passo 6: Configure o Anydesk (opcional)
+
+Ao abrir o Anydesk pela primeira vez, você pode configurá-lo de acordo com suas preferências. Por exemplo, você pode definir uma senha de acesso remoto para aumentar a segurança da conexão.
+
+Pronto! Agora você já sabe como baixar e instalar o Anydesk em seu computador. Lembre-se de sempre baixar softwares de sites confiáveis e atualizar o Anydesk sempre que houver uma nova versão disponível.
+
+---
+
+## Como fazer um novo pedido mesa no Facity POS?
+
+- **Link:** https://manual.facity.com.br/como-utilizar-facity-pos-mesa/
+- **Categorias:** Cadastros
+
+Guia de passo a passo para fazer um novo pedido de mesa no Facity POS:
+
+Passo 1: Abra o Facity POS no seu computador.
+
+Ao abrir o aplicativo, insira o nome da empresa, login e senha em letras minúsculas.
+
+Passo 2: Escolha o terminal de impressão. Selecione o terminal de impressão preferido e faça outras alterações de configuração, se desejar.
+
+Essa parte da configuração aparece uma vez que abrir o sistema no computador ou quando mudar de uma empresa pra outra.
+
+Passo 3: Adicione um fundo de troco e abra o caixa. Para começar a receber pagamentos, adicione um fundo de troco e abra o caixa.
+
+Passo 4: Adicione uma mesa para o novo pedido. Crie uma nova mesa para o pedido que será realizado.
+
+Passo 5: Adicione os produtos ao pedido.
+
+Escolha os produtos desejados, procurando pelo nome ou pela seção em que estão.
+
+Passo 6: Adicione os opcionais dos produtos, se necessário.
+
+Para produtos que têm opções adicionais, escolha as opções desejadas.
+
+Passo 7: Adicione o pedido à mesa. Ao clicar em “Adicionar”, uma mensagem será exibida perguntando se deseja adicionar o pedido à mesa.
+
+Clique em “Sim” para adicionar.
+
+Passo 8: Para finalizar o pedido e cobrar o cliente clique em cima da mesa ocupada
+
+Passo 9: Feche a mesa e finalize o pedido. Quando estiver pronto para finalizar o pedido, clique na mesa ocupada e selecione “Pagamento”. Escolha a forma de pagamento, adicione-a e feche a mesa.
+
+Passo 10: Confirme a finalização do pedido.
+
+Certifique-se de que o pedido foi finalizado e de que o cliente foi cobrado corretamente.
+
+---
+
+## Como cadastrar usuário Entregador/ Motoboy?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-usuario-motoboy/
+- **Categorias:** Cadastros
+
+Passo a passo sobre como cadastrar um usuário motoboy no Facity Controle:
+
+Você precisa cadastrar um usuário motoboy no Facity Controle e não sabe como? Não se preocupe, este guia passo a passo vai te ajudar a realizar essa tarefa de forma simples e rápida.
+
+Passo 1: Abra o Facity Controle em seu computador e faça o login inserindo o nome da empresa, login e senha, tudo em letras minúsculas.
+
+Passo 2: No menu principal, busque a opção “Usuários” e selecione “Novo”.
+
+Passo 3: Agora é hora de inserir as informações do usuário Entregador/ Motoboy. Coloque o nome, sobrenome e, se desejar, o e-mail (lembrando que todas as informações devem estar em letras minúsculas). Clique em “Próxima” para seguir com o cadastro.
+
+Passo 4: Insira novamente o nome, uma senha e repita a senha para confirmar. Clique em “Próxima” novamente.
+
+Passo 5: Selecione a função “Motoboy”(entregador) clicando em cima da opção correspondente. Clique em “Concluir” para finalizar o cadastro.
+
+E pronto! Agora você já sabe como cadastrar um usuário motoboy no Facity Controle de forma simples e rápida. Com esse novo cadastro, você poderá gerenciar suas entregas de forma mais eficiente e organizada.
+
+---
+
+## Como cadastrar usuário garçom?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-usuario-garcom/
+- **Categorias:** Cadastros
+
+Neste post, vamos mostrar como cadastrar um usuário garçom no Facity Controle. Siga as etapas abaixo:
+
+Passo 1: Abra o Facity Controle no seu computador e insira o nome da empresa, login e senha. Certifique-se de que tudo esteja em letras minúsculas.
+
+Passo 2: No menu, procure a opção “Usuários” e selecione “Novo”.
+
+Passo 3: Insira as informações do usuário, incluindo nome, sobrenome e email (opcional). Clique em “Próxima” para continuar com o cadastro. Lembre-se de que todas as informações devem ser em letras minúsculas.
+
+Passo 4: Insira novamente o nome, escolha uma senha e repita a senha para confirmar. Clique em “Próxima”.
+
+Passo 5: Clique em cima da opção “Garçom” para selecionar a função.
+
+Passo 6: Clique em “Concluir” para finalizar o cadastro.
+
+Pronto! Agora você cadastrou um usuário garçom no Facity Controle.
+
+---
+
+## Como cadastrar um usuário administrativo?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-um-usuario-administrativo/
+- **Categorias:** Cadastros
+
+Neste post, vamos mostrar como cadastrar um usuário administrativo no Facity Controle. Veja abaixo os passos:
+
+Passo 1: Abra o Facity Controle em seu computador e insira o nome da empresa, login e senha. Lembre-se de que tudo deve ser escrito em letras minúsculas.
+
+Passo 2: No menu, procure a opção “Usuários” e selecione “Novo”.
+
+Passo 3: Insira as informações do usuário, incluindo nome, sobrenome e email (opcional). Clique em “Próxima” para continuar com o cadastro. Lembre-se de que todas as informações devem ser em letras minúsculas
+
+Passo 4: Insira novamente o nome, escolha uma senha e repita a senha para confirmar. Clique em “Próxima”.
+
+Passo 5: Clique em cima da opção “Administrativo” para selecionar a função.
+
+Passo 6: Clique em “Concluir” para finalizar o cadastro. Em seguida, você precisará gerenciar as permissões desse usuário no sistema.
+
+Passo 7: Clique em “Detalhes” logo abaixo da opção selecionada para gerenciar as permissões.
+
+Nessa imagem as permissões estão todas liberadas para essa função
+
+Passo 8: Na tela que aparecer, você poderá selecionar quais permissões o usuário terá no sistema. Por exemplo, se você não quer que esse usuário tenha acesso a determinada funcionalidade, basta desmarcá-la.
+
+Passo 9: Depois de selecionar as permissões, clique em “OK” para salvar.
+
+Pronto! Agora você cadastrou um usuário administrativo no Facity Controle e gerenciou suas permissões no sistema. Certifique-se de que todas as informações inseridas estejam corretas e atualizadas para evitar problemas futuros.
+
+---
+
+## Como cadastrar um usuário Caixa?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-um-usuario-caixa/
+- **Categorias:** Cadastros
+
+Neste post, vou te mostrar como cadastrar um usuário Caixa no Facity Controle. É um processo simples e fácil de seguir, então vamos começar!
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Para começar, abra o Facity Controle em seu computador. Certifique-se de que tem o nome da empresa, login e senha em mãos. Lembre-se de que tudo deve ser digitado em letras minúsculas.
+
+Passo 2: Entre no menu e busque a opção “Usuários”
+
+No menu principal, procure pela opção Usuários e clique nela.
+
+Passo 3: Selecione “NOVO”
+
+Ao selecionar a opção Usuários, clique em NOVO para cadastrar um novo usuário.
+
+Passo 4: Coloque as informações
+
+Preencha as informações necessárias para o cadastro do usuário Caixa, incluindo nome, sobrenome e e-mail (opcional). Em seguida, clique em “Próxima” para continuar o cadastro. Lembre-se de que todas as informações devem ser digitadas em letras minúsculas.
+
+Passo 5: Coloque o “NOME” novamente
+
+Neste passo, insira novamente o nome do usuário e crie uma senha. Repita a senha para confirmar. Clique em “Próxima” para continuar.
+
+Passo 6: Selecione a função Caixa
+
+Clique em cima da opção “Caixa” para selecionar a função do usuário. Em seguida, clique em “Concluir” para finalizar o cadastro.
+
+Passo 7: Gerencie as permissões
+
+O próximo passo é gerenciar as permissões que esse funcionário terá no sistema.
+
+Clique em “Detalhes” logo abaixo da opção Caixa. Você verá uma lista de permissões que pode gerenciar.
+
+Nessa imagem as permissões estão todas liberadas para essa função
+
+Passo 8: Selecione as permissões desejadas
+
+Selecione as permissões que deseja dar ao usuário. É possível marcar todas as permissões ou apenas algumas delas, dependendo do que for necessário para o trabalho do usuário.
+
+Passo 9: Salve as permissões
+
+Após selecionar as permissões, clique em “OK” para salvar as configurações.
+
+E pronto! Agora o usuário Caixa está cadastrado e pronto para utilizar o sistema Facity Controle. Se tiver alguma dúvida ou precisar de ajuda, não hesite em entrar em contato com o suporte.
+
+---
+
+## Como criar chave do Google Maps e configurar taxa de entrega (Km)?
+
+- **Link:** https://manual.facity.com.br/como-configurar-taxa-de-entrega-km-e-conseguir-chave-do-google-maps/
+- **Categorias:** Configurações
+
+Neste post, vou explicar de forma simples e objetiva como criar uma chave do Google Maps e configurar a taxa de entrega (Km) no Facity Controle. Com essas configurações, você poderá utilizar o Google Maps para calcular a distância das entregas e definir a taxa correspondente. Vamos começar?
+
+ 1. Criação da chave do Google Maps:
+
+Para criar a chave do Google Maps, assista ao vídeo explicativo acima ou peça ajuda a um atendente da Facity Sistemas. Com a chave criada, siga os passos abaixo para adicioná-la no Facity Controle:
+
+ * Acesse o Menu do Facity Controle
+ * Clique em Configurações
+ * Busque por “Maps” no campo de pesquisa
+ * Clique em Editar no ícone verde e cole a chave gerada nas duas configurações que estão com o nome “googlemapsapkey”
+
+ 2. Configuração da taxa de entrega (Km):
+
+ * Abra o Facity Controle em seu computador
+ * Faça login com o nome da empresa, login e senha (tudo em letras minúsculas)
+
+ * Abra o Menu Administrativo e clique em Configurações
+ * Busque por “Taxas de entrega (Km)”
+
+ * Selecione NOVO
+
+ * Coloque apenas valores numéricos no campo onde pede DISTÂNCIA (Km)
+ * Coloque o valor e clique em OK para salvar.
+
+Exemplo de Taxa de entrega (Km) na imagem abaixo:
+
+Agora que você já sabe como criar a chave do Google Maps e configurar a taxa de entrega (Km), poderá utilizar essas funcionalidades para otimizar o seu serviço de delivery.
+
+---
+
+## Como criar auto respostas e instalar o Facity BOT?
+
+- **Link:** https://manual.facity.com.br/como-criar-auto-respostas-e-instalar-o-facity-bot/
+- **Categorias:** Cadastros
+
+Com o Facity BOT, você pode ter respostas automáticas para pré-atender seus clientes no WhatsApp. O chatbot é especialmente útil quando há muitos clientes a serem atendidos, pois pode responder simultaneamente sem que você precise atendê-los um por um.
+
+Para começar a usar o chatbot, você precisa instalar uma extensão no seu navegador. Siga estes passos:
+
+ 1. Abra o link https://chrome.google.com/webstore/detail/facity-bot/gjnhbgneccjnjjgpnbbclnmphgpgdnnf/related?hl=pt-BR&authuser=0 [https://chrome.google.com/webstore/detail/facity-bot/gjnhbgneccjnjjgpnbbclnmphgpgdnnf/related?hl=pt-BR&authuser=0] no seu navegador.
+
+2. Clique no botão azul “Adicionar ao Chrome”.
+
+3. Clique em “Adicionar extensão”.
+
+Agora, abra o WhatsApp Web para continuar a instalação do BOT. Uma tela de cadastro aparecerá. Preencha com as seguintes informações:
+
+ * ONLINE: Deixe como está, a menos que você possua a versão offline do sistema.
+ * Nome da sua empresa (em letras minúsculas).
+ * Usuário.
+ * Senha.
+
+Quando terminar de preencher as informações, clique em “Fazer Login”. O BOT ficará disponível no sistema com a cor vermelha (offline) ou verde (online).
+
+Com o BOT instalado, você pode começar a criar suas auto respostas. Siga estes passos:
+
+ 1. Abra o Facity Controle no seu computador.
+ 2. Insira o nome da sua empresa, login e senha (em letras minúsculas).
+
+3. Clique em “Marketing” no menu lateral esquerdo.
+
+4. Selecione “Auto Resposta”.
+
+5. Para criar uma nova auto resposta, clique no ícone azul. Para editar uma auto resposta existente, clique no ícone verde. Para deletar uma auto resposta, clique no ícone vermelho.
+
+6. Crie as sub-respostas a partir da primeira mensagem para que a sequência seja seguida corretamente.
+
+Toda sub resposta ela tem que ser criada a partir da primeira mensagem pra ela seguir em uma sequência igual
+
+Veja alguns exemplos de auto respostas abaixo:
+
+ * Um exemplo de auto respostas completo:
+
+Não se esqueça de salvar todo o processo no final para que suas auto respostas fiquem disponíveis no sistema. Com esses passos simples, você pode instalar o Facity BOT e criar suas próprias auto respostas para o WhatsApp.
+
+---
+
+## Como criar e usar notificações?
+
+- **Link:** https://manual.facity.com.br/como-criar-e-usar-notificacoes/
+- **Categorias:** Cadastros
+
+Passo 1: Acesse o Facity Controle
+
+Abra o Facity Controle em seu computador e insira o nome da empresa, login e senha. Certifique-se de que tudo esteja em letras minúsculas.
+
+Passo 2: Acesse o menu de marketing
+
+Uma vez logado no Facity Controle, clique em marketing no menu lateral esquerdo.
+
+Passo 3: Crie uma nova notificação
+
+Na página de marketing, selecione a opção NOTIFICAÇÕES e, em seguida, clique em NOVO para criar uma nova notificação.
+
+Passo 4: Configure sua notificação
+
+Ao criar uma nova notificação, você poderá personalizá-la de acordo com o que deseja comunicar. Inclua um título para sua notificação, uma breve descrição.
+
+Notificações servem para avisar clientes de promoções ou até mesmo comunicado para fazer aquela propaganda e incentivar a fazer uma compra
+
+Passo 5: Envie sua notificação
+
+Depois de configurar sua notificação, clique em ENVIAR para enviá-la aos seus clientes. As notificações serão entregues por meio do aplicativo Facity, que seus clientes precisam ter instalado em seus smartphones.
+
+Exemplo de notificação na imagem abaixo:
+
+Passo 6: Acompanhe suas notificações
+
+Todas as notificações que você enviar ficarão armazenadas no histórico, e você poderá acessá-las sempre que precisar.
+
+Com o Facity Controle, é fácil criar e enviar notificações aos seus clientes, mantendo-os sempre atualizados e informados sobre as novidades e promoções do seu negócio.
+
+---
+
+## Como sortear um pedido?
+
+- **Link:** https://manual.facity.com.br/como-sortear-um-pedido/
+- **Categorias:** Cadastros
+
+Passo 1: Acesse o Facity Controle
+
+Abra o Facity Controle em seu computador e insira o nome da empresa, login e senha. Certifique-se de que tudo esteja em letras minúsculas.
+
+Passo 2: Acesse o menu de marketing
+
+Uma vez logado no Facity Controle, clique em marketing no menu lateral esquerdo.
+
+Passo 3: Acesse a página de pedidos
+
+No menu lateral esquerdo, clique em “PEDIDOS” para acessar a página de pedidos.
+
+ * Selecione a data de início e a data final
+ * Para quais métodos de pagamentos o sorteio vai valer
+ * Origem (App, POS ou todos)
+ * Você pode filtrar quais clientes vão poder estar no sorteio marcando e desmarcando as opções (mesas, delivery, retirada, venda direta)
+
+Passo 4: Acesse a opção de sorteio
+
+Na página de detalhes do pedido, clique na opção “SORTEAR” localizada no canto inferior direito.
+
+Passo 5: Realize o sorteio
+
+Ao clicar em “SORTEAR”, o sistema irá sortear automaticamente um número entre 1 e o número de itens no pedido. O item correspondente ao número sorteado será o vencedor do sorteio.
+
+Passo 6: Informe o cliente sobre o resultado
+
+Depois de realizar o sorteio, informe o cliente vencedor sobre o resultado. Você pode fazer isso entrando em contato diretamente com ele ou enviando uma mensagem pelo aplicativo Facity.
+
+---
+
+## Como criar um cupom de desconto?
+
+- **Link:** https://manual.facity.com.br/como-criar-um-cupom-de-desconto/
+- **Categorias:** Cadastros
+
+Passo 1: Acesse o Facity Controle
+
+Para começar, acesse o Facity Controle em seu computador e faça login usando suas credenciais. Certifique-se de que o nome da empresa, login e senha estejam em letras minúsculas.
+
+Passo 2: Acesse o menu “Marketing”
+
+No menu lateral esquerdo do Facity Controle, clique em “Marketing”.
+
+Passo 3: Selecione “Cupons”
+
+Dentro do menu “Marketing”, selecione “Cupons”.
+
+Passo 4: Crie um novo cupom
+
+Clique no botão “Novo” para começar a criar um novo cupom.
+
+Passo 5: Insira as informações do cupom
+
+Preencha as informações do cupom incluindo o nome, tipo de valor (fixo ou percentual), tipo de pedido (delivery, mesa, retirada), valor do cupom, valor mínimo da compra para que o cupom fique disponível, máximo por cliente, primeira compra (sim ou não), visibilidade (sim ou não), frete grátis (sim ou não), quantidade de cupons disponíveis, status (ativo ou inativo) e data de expiração.
+
+No campo “Nome“, é aconselhável inserir algo simples, pois este também funciona como identificador do cupom; por exemplo, “#10reais” ou “primeiracompra“. O campo “Primeira Compra” restringe o uso do cupom apenas àqueles que nunca realizaram pedidos pelo aplicativo. O “Campo Tipo de Valor” determina se o campo “Valor” se refere a reais ou a percentual. Por exemplo, se estiver configurado como “Percentual“, o campo “Valor” deverá ser interpretado como o percentual de desconto na compra. O campo “Visível” determina se o cupom criado aparecerá na lista de cupons dentro do app de pedidos; se marcado como “Não“, apenas os clientes que souberem o código (Nome) do cupom poderão utilizá-lo. O campo “Delivery Grátis” estabelece se o cupom, além de oferecer o desconto especificado, também eliminará a taxa de entrega do pedido.
+
+O campo “Valor“, conforme definido anteriormente, será um percentual de desconto ou um valor em reais, conforme estabelecido pelo campo “Tipo de Valor“. O campo “Quantidade” limita o número total de usos de um cupom. “Valor Mínimo” restringe a utilização do cupom a compras que atingirem o valor mínimo estipulado. “Mínimo por Cliente” determina quantas vezes um mesmo cupom pode ser usado por cada cliente; por exemplo, um cupom que não é exclusivo para a “Primeira Compra” e está com “Máximo por Cliente” igual a 3, poderá ser utilizado até três vezes pelo mesmo cliente. “Data de Expiração” especifica a data e hora em que o cupom deixará de ser válido, esse campo é importante, para que o cupom funcione corretamente ele deve estar selecionado com um data futura.
+
+Passo 6: Salve o cupom
+
+Quando terminar de preencher todas as informações do cupom, clique em “Salvar” para salvá-lo.
+
+ * Exemplo de um cupom de 15 reais de desconto:
+
+Mudando tipo de valor você pode deixar esse cupom com 15% de desconto no valor da compra e o valor mínimo torna esse cupom disponível para uso só para compras acima de 50,00 reais.
+
+Passo 7: Edite o cupom, se necessário
+
+Se precisar editar o cupom mais tarde, volte à página “Cupons” e clique no ícone verde ao lado do cupom que deseja editar.
+
+Com estes passos simples, você pode criar e gerenciar cupons de desconto para sua empresa.
+
+---
+
+## Como configurar taxas de entrega (bairro)?
+
+- **Link:** https://manual.facity.com.br/como-configurar-taxas-de-entrega-bairro/
+- **Categorias:** Configurações
+
+Passo a passo simples para configurar taxas de entrega por bairro no Facity Controle:
+
+Passo 1: Abra o Facity Controle no seu computador. Insira o nome da sua empresa, login e senha em letras minúsculas.
+
+Passo 2: Clique em “Configurações” no menu administrativo e busque “Taxas De Entrega (Bairro)”.
+
+Passo 3: Clique em “Novo”.
+
+Passo 4: Digite o nome do bairro que deseja adicionar.
+
+Clique em “OK” para salvar a configuração.
+
+Pronto! Agora você pode cobrar taxas de entrega diferentes para cada bairro cadastrado no Facity Controle.
+
+---
+
+## Como vincular impressoras de produção na seção/categoria?
+
+- **Link:** https://manual.facity.com.br/como-vincular-impressoras-de-producao-na-secao-categoria/
+- **Categorias:** Impressoras
+
+Neste post, vamos te mostrar um passo a passo simples e objetivo para vincular impressoras de produção na seção/categoria no Facity Controle. Vamos lá!
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Para começar, abra o Facity Controle em seu computador e insira o nome da empresa, login e senha. É importante lembrar que tudo deve ser escrito em letras minúsculas.
+
+Passo 2: Acesse o menu administrativo e clique em “Cardápio” e depois em “Seção/categoria”
+
+No menu administrativo, clique em “Cardápio” e depois em “Seção/categoria”.
+
+Passo 3: Selecione a seção que você quer vincular a impressora e clique no ícone verde para editar
+
+Escolha a seção que você deseja vincular a impressora e clique no ícone verde para editar.
+
+Passo 4: Busque por “Impressoras”
+
+Na página de edição, busque por “Impressoras”.
+
+Passo 5: Selecione “NOVO” e adicione a impressora de produção
+
+Clique em “NOVO” e adicione a impressora de produção como mostra na imagem. Pronto! Agora sua impressora de produção está vinculada à seção/categoria selecionada.
+
+Passo 6: Adicione uma impressora em um único produto (opcional)
+
+Caso você queira adicionar uma impressora em um único produto, basta buscar o produto na lista e seguir as mesmas etapas acima.
+
+Esperamos que esse passo a passo tenha te ajudado a vincular impressoras de produção na seção/categoria do Facity Controle de forma fácil e rápida. Se você tiver alguma dúvida ou sugestão, deixe um comentário abaixo. Até a próxima!
+
+---
+
+## Como adicionar produto tipo pizza com borda e sabores?
+
+- **Link:** https://manual.facity.com.br/como-adicionar-produto-tipo-pizza-com-borda-e-sabores/
+- **Categorias:** Cadastros
+
+Passo 1: Abra o Facity Controle em seu computador e faça login com o nome da empresa, login e senha, lembrando que tudo tem que ser em letras minúsculas.
+
+Passo 2: Clique em “Cardápio” no menu lateral esquerdo e selecione “Produtos” como indicado pela seta na imagem.
+
+Passo 3: Clique em “Novo Produto” para começar o cadastramento.
+
+Passo 4: Na caixa de cadastramento, coloque o nome “PIZZA” e mude a opção de “Tipo” de “Produto Simples” para “Produto Composto”. Mude também a seção do produto para “Pizzas” e clique em “OK” para salvar.
+
+Passo 5: Busque o produto “Pizza” na lista e clique em “Editar” no ícone verde.
+
+Passo 6: Adicione as Classes (Especial, Tradicional e Doce) clicando em “Novo”.
+
+Passo 7: Salve o produto e clique em “Sabores” (ícone azul). Selecione “Novo” e comece a adicionar os sabores de pizza para cada classe criada.
+
+ * Adicione sabores que vai estar nessa classe
+ * Clique em OK para salvar
+
+Crie cada sabor um por vez, se quiser adicionar em outra classe criada é só voltar e fazer o mesmo processo.
+
+Com a classe criada e sabores definidos, a próxima etapa é começar adicionar os tamanhos das pizzas
+
+Passo 8: Adicione os tamanhos das pizzas selecionando “Tamanhos” e depois “Novo”. Adicione os tamanhos das pizzas um de cada vez e coloque a quantidade de fatias e quantidade de sabores.
+
+ * Selecione NOVO
+ * Adicione os tamanhos das pizzas um de cada vez
+ * Coloque a quantidade de fatias e quantidade de sabores
+ * Salve em OK
+
+Passo 9: Com a parte de classes e tamanhos prontos, coloque os valores nos tamanhos das tradicionais, especial, doce e clique em salvar para finalizar essa parte.
+
+Passo 10: Clique em “Grupo de Opc” para começar a criar os opcionais e coloque o nome do grupo (por exemplo, “Bordas e Adicionais”) e a quantidade mínima e máxima.
+
+ * Clique em grupo de opc para começar criar os opcionais
+ * Coloque o nome do grupo (ex; bordas e adicionais)
+ * Coloque a quantidade mínima e quantidade máxima
+
+Se colocar a quantidade igual 0 você não vai ter um limite quando for adicionar opcionais nesse grupo
+
+Passo 11: Volte ao menu administrativo e crie os opcionais que vão dentro do grupo de opc, buscando “Opcionais” e criando um “Novo Opcional”.
+
+ * Busque opcionais abrindo o cardápio
+ * Crie um NOVO OPCIONAL
+ * Comece a adicionar os opcionais colocando os nomes
+
+Exemplos:
+
+ * Borda de Cheddar
+ * Borda de Catupiry
+ * Sem borda
+ * Adicional de Cheddar ou Catupiry
+
+Passo 12: Volte em “Produtos”, busque o produto “Pizza” e vá em “Editar” no ícone verde. Clique em “Grupo de Opc” e adicione os opcionais que criou.
+
+ * Volte em PRODUTOS e ache o seu produto PIZZA e vá em editar no ícone verde
+ * Clique em grupo de opc
+ * NOVO OPCIONAL
+ * Busque o nome dos opcionais que criou e adicione.
+
+Passo 13: Clique em “Salvar” para finalizar.
+
+Espero que este tutorial tenha sido útil para adicionar produtos tipo pizza com borda e sabores em seu cardápio.
+
+---
+
+## Como criar opcionais e colocar no produto?
+
+- **Link:** https://manual.facity.com.br/como-criar-opcionais-e-colocar-no-produto/
+- **Categorias:** Cadastros
+
+Passo 1: Abra o Facity Controle em seu computador
+
+Para começar, abra o Facity Controle em seu computador e faça login com o nome da empresa, login e senha. Lembre-se de digitar tudo em letras minúsculas.
+
+Passo 2: Acesse o menu e busque a opção “opcionais”
+
+No menu do sistema, procure pela opção “opcionais” e clique nela.
+
+Passo 3: Crie um novo opcional
+
+Dentro de opcionais, selecione a opção “novo opcional” para criar um novo opcional. Você pode criar vários tipos de opcionais, como gelo, morango, limão e outras opções que desejar.
+
+Você pode criar vários tipos de opcionais no seu cardápio:
+
+Exemplos:
+
+ * Gelo
+ * Morango
+ * Limão
+
+Entre outras opções que você desejar.
+
+Clique em OK e está feito!
+
+Passo 4: Edite um opcional existente (opcional)
+
+Se precisar editar um opcional existente, vá em “menu”, “opcional” e encontre o produto a ser editado. Para fazer a edição, clique no ícone verde.
+
+Passo 5: Adicione o opcional ao produto
+
+Agora que você já criou os opcionais, é hora de adicioná-los ao produto. Para fazer isso, vá em “menu”, “cardápio”, “produtos” e busque o produto desejado. Em seguida, clique no ícone verde para abrir a página de edição do produto.
+
+Dentro da página de edição do produto, busque a opção “grupo de opc” e clique nela.
+
+Passo 6: Crie um novo grupo de opcionais
+
+Crie um novo grupo de opcionais clicando em “novo”. Em seguida, coloque o nome do grupo de opc e a quantidade mínima e máxima que poderá ser adicionada.
+
+Se colocar a quantidade igual a 0, você não terá um limite quando adicionar opcionais nesse grupo. Depois, clique em “OK” e o grupo estará pronto.
+
+Passo 7: Adicione o opcional ao grupo
+
+Com o grupo criado, volte em “grupo de opc” dentro do produto e clique no ícone azul.
+
+Em seguida, selecione “adicionar” para abrir uma lista com todos os opcionais criados.
+
+Adicione o opcional que você criou para esse grupo e clique em “OK” para salvar.
+
+Busque o nome do opcional que você que criou e adicione ele
+
+Pronto! Agora você já sabe como criar opcionais e adicioná-los em um produto usando o Facity Controle. Essas informações são importantes para o controle do estoque e para facilitar a venda.
+
+---
+
+## Como criar opcionais e colocar na seção?
+
+- **Link:** https://manual.facity.com.br/como-criar-opcionais-e-colocar-na-secao-categoria/
+- **Categorias:** Cadastros
+
+Passo 1: Abrir o Facity Controle e fazer login
+
+Para começar, abra o Facity Controle em seu computador e insira o nome da empresa, login e senha. É importante lembrar que tudo deve ser escrito em letras minúsculas.
+
+Passo 2: Acessar o menu e buscar a opção “opcionais”
+
+Após fazer login, acesse o menu e busque pela opção “opcionais”. Selecione essa opção e clique em “novo opcional”.
+
+Passo 3: Criar novos opcionais
+
+Nesse passo, você vai criar os seus opcionais. Por exemplo, você pode criar opções como ovo, queijo, bacon, cebola ou outras que desejar. Clique em “OK” para finalizar.
+
+Passo 4: Buscar e editar opcionais
+
+Para buscar e editar um opcional, vá em “menu”, “opcional” e encontre o produto a ser editado. Se quiser mudar o valor ou outra informação, clique no ícone verde.
+
+Se quiser mudar o valor e outra informação clique no ícone verde.
+
+Passo 5: Adicionar opcionais à seção ou produto
+
+A próxima etapa é adicionar o opcional à seção ou ao produto. Se você adicionar o opcional ao produto, ele ficará disponível apenas para aquele produto específico. Se você adicionar à seção, ele ficará disponível para todos os produtos daquela seção. O processo de criação do opcional é o mesmo, só muda onde você vai adicioná-lo.
+
+Passo 6: Acessar o menu “cardápio” e depois “seções/categorias”
+
+Acesse o menu “cardápio” e selecione a opção “seções/categorias”.
+
+Passo 7: Editar a seção
+
+Clique no ícone verde para abrir a página de editar a seção.
+
+Passo 8: Buscar “grupo de opc” e criar um novo grupo
+
+Caso você queira adicionar a um grupo existente pule essa etapa
+
+ * Crie um novo Grupo de Opc clicando e Novo:
+
+Se quiser adicionar a um grupo existente, pule essa etapa. Para criar um novo grupo de opc, clique em “novo” e coloque o nome do grupo de opc e a quantidade mínima e máxima que poderá ser adicionada. Se colocar a quantidade igual a 0, não haverá limite quando for adicionar opcionais nesse grupo.
+
+Se colocar a quantidade igual 0 você não vai ter um limite quando for adicionar opcionais nesse grupo
+ * Clique em OK e grupo está feito!
+
+Passo 9: Adicionar opcionais ao grupo
+
+Com o grupo criado, volte em “grupo de opc” dentro da seção correspondente. Clique no ícone azul e selecione “adicionar”. Vai abrir uma lista com todos os opcionais criados.
+
+Adicione todos os opcionais que você criou para esse grupo. Clique em “OK” para salvar.
+
+Passo 10: Adicionar um opcional para um único produto
+
+Para adicionar um opcional a um único produto, faça o mesmo processo, mas crie o grupo de opc diretamente dentro do produto e siga as mesmas etapas.
+
+---
+
+## Como cadastrar lanches?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-lanches/
+- **Categorias:** Cadastros
+
+Passo 1: Acessar o Facity Controle
+
+Abra o Facity Controle em seu computador e faça login com o nome da empresa, login e senha. É importante lembrar que tudo tem que ser em letras minúsculas.
+
+Passo 2: Criar uma seção
+
+ * Para criar uma seção dentro do painel administrativo, comece clicando em “Cardápio” no menu lateral à esquerda
+
+ * Em seguida, selecione “Seções/Categorias”
+
+ * Clique em “Nova Seção” e coloque o nome da seção no campo indicado:
+
+ * Clique em “Ok” para criar a seção
+ * Se quiser editar a “Seção” mesmo depois de criar ela, é só clicar em editar no ícone verde como está representada na imagem a seguir:
+   
+
+ * Na imagem mostra todas as informações para editar caso queira mudar o nome, a foto da seção ou ajustar outras informações:
+
+Passo 3: Criar produtos
+
+ * Agora, vamos criar os produtos que vão compor a seção de lanches. Para isso, volte ao menu “Cardápio” e selecione “Produtos”
+
+ * Clique em “Novo Produto”
+
+ * Preencha as informações necessárias, como nome, descrição, valor e seção (no caso, “Lanches”)
+
+É importante colocar cada produto na seção específica dele para a organização do cardápio ficar exata.
+
+Comece a criar as opções de lanches que vai estar no cardápio, exemplos: X-Calabresa, X-Bacon, X-Salada e entre outras opções.
+
+ * Para encontrar o produto é só clicar novamente no menu “Produtos” e no campo de busca “Nome”, escrever o nome do produto para encontrar na listagem de produtos já cadastrados.
+
+ * Para “Editar” um produto basta procurar ele pelo nome e clicar no ícone verde conforme o indicado na imagem abaixo:
+
+ * Depois de clicar no botão verde para editar o produto, irá abrir a página que mostra todas as informações do produto caso queira mudar o valor, nome, descrição, foto, unidade e código de barra etc.
+
+Passo 4: Adicionar opcionais
+
+Opcionais são os ingredientes extras que podem ser adicionados aos produtos.
+
+ * Para criar um opcional, vá ao menu “Cardápio” e selecione “Opcionais”
+ * Clique em “Novo Opcional”
+
+Coloque o nome do opcional no campo indicado. Exemplos de opcionais são queijo, bacon, catupiry e cheddar.
+
+ * Clique em “Ok” e está feito!
+
+Para buscar e editar um opcional vá em menu, opcional e encontre o produto a ser editado:
+
+Se quiser mudar o valor e outra informação clique no ícone verde.
+
+Passo 5: Adicionar opcionais na “Seção” ou no “Produto”
+
+Agora, vamos adicionar os opcionais na seção ou no produto. Se você adicionar no produto, aquele opcional ficará disponível apenas para aquele produto específico. Se adicionar na seção, ele ficará disponível para todos os produtos daquela seção.
+
+ * Para adicionar opcionais na seção, vá em “Seções/Categorias” e clique no ícone verde para abrir a página de editar a seção
+
+ * Busque “Grupo de Opc” e clique nessa opção
+
+ * Crie um novo grupo de opc clicando em “Novo”
+
+ * Coloque o nome do grupo de opc e a quantidade mínima e máxima que poderá ser adicionada
+
+Se colocar a quantidade igual 0 você não vai ter um limite quando for adicionar opcionais nesse grupo
+
+ * Clique em OK e grupo está feito!
+ * Com o grupo criado volte em Grupo de Opc dentro da Seção lanches:
+ * Clique no ícone azul:
+
+ * Selecione “Adicionar”
+ * Vai abrir uma lista com todos os “Opcionais’ criados
+
+ * Adicione todos os “Opcionais” que você criou para esse grupo
+ * Clique em “Ok” para salvar
+
+Para criar um grupo de opc para um único produto, crie o grupo diretamente dentro do produto.
+
+Imediatamente! Agora você sabe como cadastrar lanches no Facity Controle. Com essas informações, você poderá gerenciar melhor o cardápio do seu restaurante e garantir que os clientes tenham uma boa experiência.
+
+---
+
+## Como cadastrar lanches pelo celular?
+
+- **Link:** https://manual.facity.com.br/ensinando-a-cadastrar-lanches-pelo-celular/
+- **Categorias:** Cadastros
+
+Passo 1: Acessar o Facity Controle
+
+Abra o Facity Controle em seu celular e faça login com o nome da empresa, login e senha. É importante lembrar que tudo tem que ser em letras minúsculas.
+
+Para achar o menu do sistema clique no canto superior esquerdo igual apresenta na imagem:
+
+Passo 2: Criar uma seção
+
+ * Para criar uma seção dentro do painel administrativo, comece clicando em “Cardápio” no menu lateral à esquerda
+
+ * Selecione seções/categorias no menu igual indica a imagem abaixo:
+
+ * Clicando em seção/categoria vai abrir a página para cadastrar o nome da sua seção desejada, selecione a opção nova seção:
+
+ * Coloque o nome Lanches para criar a sua seção:
+
+ * Clique em Ok e você criou a sua seção
+ * Para achar a seção que você criou, volte no menu e clique em seções/categorias e busque o nome na lista que vai aparecer no sistema
+
+ * se quiser editar a seção mesmo depois de criar ela, é só arrastar a tela para o lado clicar em editar no ícone verde como está representada na imagem a seguir:
+
+ * Na imagem mostra todas as informações para editar caso queira mudar o nome, a foto da seção ou ajustar outras informações:
+
+ * Para colocar uma foto e só clicar onde a seta indica e buscar a foto desejada.
+
+Exemplo de como fica a seção com a imagem.
+
+Passo 3: Criar produtos
+
+ * Agora, vamos criar os produtos que vão compor a seção de lanches. Para isso, volte ao menu “Cardápio” e selecione “Produtos”
+ * Comece abrindo novamente o menu e selecionado o cardápio
+
+ * Selecione produtos
+
+ * Selecione produtos e crie um novo produto
+ * Preencha as informações necessárias, como nome, descrição, valor e seção (no caso, “Lanches”)
+
+É importante colocar cada produto na seção específica dele para a organização do cardápio ficar exata.
+
+Comece a criar as opções de lanches que vai estar no cardápio, exemplos: X-Calabresa, X-Bacon, X-Salada e entre outras opções.
+
+Para buscar o produto é ir em:
+
+Menu / cardápio / produtos
+
+Busque o nome do produto igual seta indica na imagem:
+
+Para editar um produto é só arrastar a tela e clicar no ícone verde
+
+Passo 4: Adicionar opcionais
+
+Próximo passo é adicionar os opcionais, você volta para o menu e busca por opcionais abrindo as opções do cardápio :
+
+ * Selecione e clique em novo opcional
+
+Coloque o nome do opcional no campo indicado. Exemplos de opcionais são queijo, bacon, catupiry e cheddar.
+
+ * Clique em OK e está feito!
+
+Para buscar e editar um opcional vá em menu, opcional e encontre o produto a ser editado:
+
+Se quiser mudar o valor e outra informação clique no ícone verde.
+
+Passo 5: Adicionar opcionais na “Seção” ou no “Produto”
+
+Agora, vamos adicionar os opcionais na seção ou no produto. Se você adicionar no produto, aquele opcional ficará disponível apenas para aquele produto específico. Se adicionar na seção, ele ficará disponível para todos os produtos daquela seção.
+
+ * Para adicionar opcionais na seção, vá em “Seções/Categorias” e clique no ícone verde para abrir a página de editar a seção
+
+ * Arraste a tela e clique no ícone verde para abrir a página de editar a seção:
+
+ * Busque Grupo de Opc e clique nessa opção:
+
+ * Crie um novo Grupo de Opc clicando e Novo :
+
+ * Coloque o nome do grupo de opc e a quantidade mínima e máxima que poderá ser adicionada
+
+se colocar a quantidade igual 0 você não vai ter um limite quando for adicionar opcionais nesse grupo
+
+ * Clique em OK e grupo está feito!
+ * Com o grupo criado volte em Grupo de Opc dentro da Seção lanches
+ * Ache o grupo que você criou
+
+ * Arraste a tela para do lado até achar o ícone azul com o nome opções
+
+ * Selecione adicionar
+ * vai abrir uma lista com todos os opcionais criados
+
+ * Adicione todos os opcionais para esse grupo
+ * Clique em OK para salvar
+
+Para criar um grupo de opc para um único produto, crie o grupo diretamente dentro do produto.
+
+Imediatamente! Agora você sabe como cadastrar lanches no aplicativo Facity Controle. Com essas informações, você poderá gerenciar melhor o cardápio do seu restaurante e garantir que os clientes tenham uma boa experiência.
+
+---
+
+## Como cadastrar produtos pelo celular?
+
+- **Link:** https://manual.facity.com.br/como-cadastrar-produtos-pelo-celular/
+- **Categorias:** Cadastros
+
+Passo 1: Acesse o Facity Controle
+
+Acesse o Facity Controle pelo seu navegador ou baixe o aplicativo pela Play Store. Para acessar a página, copie e cole o link abaixo no seu navegador:
+
+https://sistema.facity.com.br/login/nomedaempresa [https://sistema.facity.com.br/login/nomedaempresa]
+
+ * Temos a opção de baixar aplicativo pela Play Store para sistema android, segue o link:
+ * https://play.google.com/store/apps/details?id=br.com.facity.facitycontrole1 [https://play.google.com/store/apps/details?id=br.com.facity.facitycontrole1]
+
+Passo 2: Faça login no aplicativo
+
+Após abrir o aplicativo Facity Controle no seu celular, insira o nome da empresa, login e senha. Lembre-se de que tudo deve ser digitado em letras minúsculas.
+
+Para achar o menu do sistema clique no canto superior esquerdo igual apresenta na imagem:
+
+Passo 3: Acesse a seção de produtos
+
+Para criar um produto, clique em “cardápio” no menu lateral à esquerda e selecione a opção “produtos”.
+
+ * Selecione produtos igual a seta está indicando na imagem:
+
+Passo 4: Crie um novo produto
+
+ * Clique em “novo produto” para começar o cadastramento. Insira as informações solicitadas, como nome, descrição, valor e seção do produto, e clique em “ok”. Pronto! O produto já foi criado.
+
+Passo 5: Encontre um produto
+
+Para encontrar um produto já cadastrado, clique novamente em “produtos” no menu lateral e digite o nome do produto no campo de busca “nome”.
+
+Passo 6: Edite um produto
+
+Se precisar editar um produto, encontre-o na lista de produtos cadastrados, arraste-o para a direita e clique no ícone verde.
+
+Na página de edição, você poderá alterar o valor, nome, descrição, foto, unidade e código de barras, entre outras informações. Depois de fazer as alterações, não se esqueça de salvar.
+
+Rolando tela você vai encontrar todas as informações que deseja alterar e depois é só salvar.
+
+Com este tutorial você pode cadastrar produtos facilmente pelo celular, usando o aplicativo Facity Controle. Esperamos que estas informações tenham sido úteis. Caso tenha dúvidas ou sugestões, deixe seu comentário abaixo.
+
+---
+
+## Como cadastrar seções|categorias?
+
+- **Link:** https://manual.facity.com.br/cadastrando-secoes-categorias-no-sistema-facity-controle/
+- **Categorias:** Cadastros
+
+O que é uma seção/categorias?
+
+Seções/categorias é uma maneira de organizar os produtos para que sejam facilmente encontrados no sistema de vendas Facity Pos e no cardápio digital.
+
+Passo 1: Acesse o Facity Controle
+
+ * Abra o Facity Controle em seu computador e insira o nome da empresa, login e senha. Lembre-se de que tudo deve ser digitado em letras minúsculas.
+
+Passo 2: Acesse o menu de cadastro de seções/categorias
+
+ * No menu lateral esquerdo, clique em “cardápio”.
+
+ * Em seguida, selecione “seções/categorias”.
+
+Passo 3: Crie uma nova seção/categoria
+
+ * Para criar uma nova seção, clique em “nova seção” na página de cadastro de seções/categorias.
+
+Passo 4: Insira o nome da seção/categoria
+
+ * Digite o nome da seção/categoria que deseja criar no campo indicado na página.
+
+Passo 5: Salve a seção/categoria
+
+Clique em “salvar” para finalizar o cadastro da nova seção/categoria.
+
+Passo 6: Localize a seção/categoria criada
+
+Volte para o menu de seções/categorias e busque o nome da seção/categoria que você acabou de criar na lista que aparecerá na tela.
+
+ * Para achar a seção que você criou, volte no menu e clique em seções/categorias e busque o nome na lista que vai aparecer no sistema
+
+Passo 7: Edite a seção/categoria
+
+ * Se quiser editar a seção/categoria, basta clicar no ícone verde “editar” ao lado da seção/categoria desejada. Na página de edição, você poderá ajustar o nome, a foto da seção/categoria ou outras informações.
+
+Com esses passos simples, você pode cadastrar seções/categorias no Facity Controle e organizar seus produtos para facilitar a busca no sistema de vendas e no cardápio digital.
+
+---
+
+## Como cadastrar produtos?
+
+- **Link:** https://manual.facity.com.br/cadastrando-produtos-no-sistema-facity-controle/
+- **Categorias:** Cadastros
+
+Passo a passo para cadastrar produtos:
+
+1 – Abra o Facity Controle em seu computador e faça o login com a sua empresa, login e senha. (tudo em letras minúsculas)
+
+2 – Clique no menu lateral à esquerda e selecione “Cardápio”.
+
+3 – Clique no menu lateral à esquerda e selecione “Produtos”.
+
+4 – Clique no botão “Novo produto” para começar o cadastramento.
+
+5 – Preencha as informações do produto, como nome, descrição, valor e seção (ex: bebidas, lanches, pizzas e etc…).
+
+6 – Para encontrar o produto, clique novamente em “Produtos” no menu lateral e use o campo de busca “Nome” para procurar pelo nome do produto cadastrado.
+
+7 – Para editar um produto já cadastrado, clique no ícone verde correspondente ao produto que deseja editar na listagem.
+
+8 – Faça as alterações necessárias nas informações do produto, como nome, descrição, valor, foto, unidade e código de barra, e clique em “OK” para salvar as alterações.
+
+Pronto! Agora você já sabe como cadastrar produtos no Facity Controle. Lembre-se de manter as informações atualizadas e precisas para ter um controle eficiente do seu estoque.

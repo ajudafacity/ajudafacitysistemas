@@ -4,7 +4,7 @@ Este guia explica como atualizar o manual do Facity Sistemas puxando os artigos 
 
 ## 🎯 Processo de Atualização
 
-O projeto possui scripts que buscam automaticamente os artigos do blog WordPress (`https://blog.facity.com.br`) via GraphQL e os convertem em arquivos MDX para o Docusaurus.
+O projeto possui scripts que buscam automaticamente os artigos do blog WordPress (`https://manual.facity.com.br`) via GraphQL e os convertem em arquivos MDX para o Docusaurus.
 
 ## 📋 Scripts Disponíveis
 
@@ -116,7 +116,7 @@ yarn deploy
 ## ⚙️ Como Funciona
 
 ### Fonte de Dados
-- **Endpoint GraphQL**: `https://blog.facity.com.br/graphql`
+- **Endpoint GraphQL**: `https://manual.facity.com.br/graphql`
 - Os scripts fazem queries GraphQL para buscar posts e categorias
 
 ### Processamento

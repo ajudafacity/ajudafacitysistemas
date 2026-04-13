@@ -16,6 +16,7 @@
     "fetch-posts-json": "node scripts/fetchPostsWithjson.js",
     "fetch-unified-json": "node scripts/fetchPostUnifiedJson.js",
     "fetch-unified-txt": "node scripts/fetchPostUnifiedTXT.js",
+    "fetch-unified-md": "node scripts/fetchPostUnifiedMD.js",
     "update-manual": "node scripts/fetchPostsWithjson.js",
     "check-deploy": "node scripts/verificar-deploy.js",
     "normalize-search": "node scripts/normalizeSearchIndex.js",

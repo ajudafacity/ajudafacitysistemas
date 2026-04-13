@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const { convert } = require('html-to-text');
 
-const endpoint = 'https://blog.facity.com.br/graphql';
+const endpoint = 'https://manual.facity.com.br/graphql';
 const client = new GraphQLClient(endpoint);
 
 const query = gql`

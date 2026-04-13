@@ -154,8 +154,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                href: 'https://blog.facity.com.br',
+                label: 'Manual',
+                href: 'https://manual.facity.com.br',
               },
               // {
               //   label: 'GitHub',
