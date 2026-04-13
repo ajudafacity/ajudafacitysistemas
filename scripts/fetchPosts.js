@@ -64,7 +64,8 @@ async function fetchPosts() {
 
         // O WhatsApp monta prévia usando `meta name="description"` / `og:description`.
         // Como os MDX começam com `dangerouslySetInnerHTML`, precisamos garantir um resumo em TEXTO PURO.
-        const descriptionRaw = removeHtmlAndNormalize(post.content);
+        const normalizedContent = normalizeContentHtml(post.content);
+        const descriptionRaw = removeHtmlAndNormalize(normalizedContent);
         const description = descriptionRaw.length > 160 ? `${descriptionRaw.slice(0, 157)}...` : descriptionRaw;
         const descriptionEscaped = escapeYamlDoubleQuotes(description);
 
@@ -77,9 +78,7 @@ description: "${descriptionEscaped}"
 
 <>
   <div dangerouslySetInnerHTML={{ __html: \`
-    ${post.content
-      .replace(/<img /g, '<img style="max-width: 100%; height: auto;" ')
-      .replace(/<iframe /g, '<iframe style="width: 100%; height: auto; aspect-ratio: 16/9;" ')}
+    ${normalizedContent}
   \` }} />
 </>`;
 
@@ -115,6 +114,46 @@ function escapeYamlDoubleQuotes(value) {
     .replace(/\r?\n/g, ' ')
     .replace(/\\/g, '\\\\')
     .replace(/"/g, '\\"');
+}
+
+function addOrMergeStyle(tag, requiredStyle) {
+  if (/style\s*=/i.test(tag)) {
+    return tag.replace(/style\s*=\s*"([^"]*)"/i, (m, styleContent) => {
+      const trimmed = String(styleContent || '').trim();
+      const requiredTokens = requiredStyle
+        .split(';')
+        .map((token) => token.trim())
+        .filter(Boolean);
+      const hasAllRequired = requiredTokens.every((token) => trimmed.includes(token));
+      if (hasAllRequired) {
+        return m;
+      }
+      const sep = trimmed.length > 0 && !trimmed.endsWith(';') ? '; ' : '';
+      return `style="${trimmed}${sep}${requiredStyle}"`;
+    });
+  }
+  return tag.replace(/<([a-z0-9-]+)/i, `<$1 style="${requiredStyle}"`);
+}
+
+function normalizeContentHtml(html) {
+  let normalized = String(html || '');
+
+  // Segurança de migração: evita voltar ao domínio antigo ao sincronizar com WP.
+  normalized = normalized.replace(/https?:\/\/blog\.facity\.com\.br/gi, 'https://manual.facity.com.br');
+
+  // Compatibilidade com plugins de lazy-load do WP que trocam src/srcset por data-src/data-srcset.
+  normalized = normalized
+    .replace(/\sdata-srcset=/gi, ' srcset=')
+    .replace(/\sdata-src=/gi, ' src=');
+
+  normalized = normalized.replace(/<img\b[^>]*>/gi, (imgTag) =>
+    addOrMergeStyle(imgTag, 'max-width: 100%; height: auto;')
+  );
+  normalized = normalized.replace(/<iframe\b[^>]*>/gi, (iframeTag) =>
+    addOrMergeStyle(iframeTag, 'width: 100%; height: auto; aspect-ratio: 16/9;')
+  );
+
+  return normalized;
 }
 
 fetchPosts();
