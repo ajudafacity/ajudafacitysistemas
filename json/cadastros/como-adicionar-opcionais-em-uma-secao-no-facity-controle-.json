@@ -1,0 +1,7 @@
+{
+  "title": "Como Adicionar Opcionais em uma Seção no Facity Controle?",
+  "content": "PASSO 1: LOGIN NO SISTEMA\n\nAbra o Facity Controle no computador e faça o login.\n\n> 💡 Atenção: O nome da empresa, login e senha devem ser digitados totalmente em letras minúsculas.\n\n\nPASSO 2: ACESSE AS CATEGORIAS\n\nNo menu principal, clique em Seções/Categorias.\n\n\nPASSO 3: ESCOLHA A SEÇÃO DESEJADA\n\nLocalize a categoria que deseja alterar (ex: Hambúrgueres) e clique no botão verde (Editar) ao lado dela.\n\n\nPASSO 4: ACESSE A ÁREA DE OPCIONAIS\n\nDentro da tela de edição da seção, clique na aba Grupos de Opc.\n\nPasso 5: Crie o Grupo de Opcionais\n\n 1. Clique no botão Novo.\n 2. Digite o nome do grupo (Ex: Escolha o Molho ou Adicionais do Hambúrguer).\n 3. Se necessário, ajuste as quantidades mínima e máxima permitidas para o cliente escolher e salve.\n\n\nPASSO 6: ADICIONE OS ITENS AO GRUPO\n\n 1. Com o grupo que você acabou de criar selecionado, clique no botão Opções.\n\n2. Clique em Novo Opcional.\n\n3. Preencha o Nome do adicional e o Valor (deixe R$ 0,00 se for gratuito). Clique em OK para salvar.\n\n> 🔄 Dica: Repita o Passo 6 para cada um dos adicionais que deseja incluir nesse grupo.\n> \n> 🔄 Dica: Caso o opcional já esteja cadastrado, clique em Buscar Adicional.\n\n",
+  "categories": [
+    "Cadastros"
+  ]
+}
